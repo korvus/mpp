@@ -1,6 +1,7 @@
 import React, { Fragment, useContext } from 'react';
 import boulangeries from '../datas/datas.json';
-import { PinContext } from '../store';
+import { PinContext, Text } from '../store';
+
 
 const listDate = Object.keys(boulangeries);
 
@@ -33,9 +34,9 @@ const Col = () => {
 
   return (
     <div className="pannel">
-      <h1>Meilleures Baguettes de Paris</h1>
+      <h1><Text tid="titre" /></h1>
       <ul>
-        <li className={pins === 0 ? "active" : ""} onClick={() => setPins(0)}>Tous</li>
+        <li className={pins === 0 ? "active" : ""} onClick={() => setPins(0)}><Text tid="tous" /></li>
         <ListByYears actions={[pins, setPins]} />
       </ul>
     </div>

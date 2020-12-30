@@ -1,9 +1,10 @@
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, useMap, useMapEvent, Marker, Popup } from 'react-leaflet';
 import React, { Fragment, useContext, useEffect } from 'react';
 import coords from '../datas/datas.json';
 import { IconGold, IconSilver, IconDefault } from '../components/icon.js';
 import { PinContext } from '../store';
 import Modalcontent from './modal.js';
+import Warningcontent from './warning.js';
 
 const listDate = Object.keys(coords);
 
@@ -51,17 +52,10 @@ function loopForOneMarker(boulangeries, year){
     return boulangeries;
 }
 
-function ListMarkers(props) {
-
-    let boulangeries = {};
-    if(props.list === 0){
-        boulangeries = loopOnAllMarkers(boulangeries);
-    } else {
-        boulangeries = loopForOneMarker(boulangeries, props.list);
-    }
-  
+function constructJsx(boulangeries, map){
     const jsxElements = [];
     let i = 0;
+    let shouldBeOneAtLeast = 0;
     for (var boulangerie in boulangeries) {
   
       const trophies = [];
@@ -76,6 +70,9 @@ function ListMarkers(props) {
         let toppest = boulangeries[boulangerie].rank;
         if(toppest === 0) icone = IconGold
         if(toppest === 1) icone = IconSilver
+
+        if(map.getBounds().contains(boulangeries[boulangerie].coords)){shouldBeOneAtLeast++};
+
         jsxElements.push(
           <Marker 
             key={i}
@@ -99,21 +96,55 @@ function ListMarkers(props) {
       }
       i++;
     }
+    return [jsxElements, shouldBeOneAtLeast]
+}
+
+function ListMarkers(props) {
+
+    const map = useMap();
+    const setWarn = props.warning;
+
+    let boulangeries = {};
+    if(props.list === 0){
+        boulangeries = loopOnAllMarkers(boulangeries);
+    } else {
+        boulangeries = loopForOneMarker(boulangeries, props.list);
+    }
   
+    let arrBoulangeries = constructJsx(boulangeries, map);
+  
+    useEffect(() => {
+        if(arrBoulangeries[1] === 0){
+            setWarn(true);
+        } else {
+            setWarn(false);
+        }
+    });
+
+    useMapEvent('drag', () => {
+        let arrBoulangeries = constructJsx(boulangeries, map);
+        if(arrBoulangeries[1] === 0){
+            props.warning(true);
+        } else {
+            props.warning(false);
+        }
+    })
+
     return (
       <Fragment>
-        {jsxElements}
+        {arrBoulangeries[0]}
       </Fragment>
     )
 }
 
 const Map = () => {
-    const {pins, dm, setDm} = useContext(PinContext);
+    const {pins, dm, setDm, warning, setWarning} = useContext(PinContext);
 
     function escFunction(event){
         if(event.keyCode === 27) {
             if(dm){
                 setDm(false);
+                setWarning(false);
             }
         }
     }
@@ -129,6 +160,11 @@ const Map = () => {
                 <Modalcontent />
             </div>
         }
+        {warning === true &&
+            <div className={"warning"}>
+                <Warningcontent />
+            </div>
+        }
         <div
             className={"about"}
             title={"En savoir plus"}
@@ -136,12 +172,12 @@ const Map = () => {
         >
             <span>?</span>
         </div>
-        <MapContainer center={Paris} zoom={13} scrollWheelZoom={false}>
+        <MapContainer center={Paris} zoom={13} scrollWheelZoom={false}> 
             <TileLayer
                 attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <ListMarkers list={pins} />
+            <ListMarkers list={pins} warning={setWarning} />
         </MapContainer>
     </div>
     )

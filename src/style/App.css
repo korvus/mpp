@@ -46,6 +46,32 @@ a {
   font-size: 1.6rem;
 }
 
+.warning {
+  position: absolute;
+  z-index: 10000;
+  left: 4rem;
+  top: 4rem;
+  background: rgba(250, 50, 50, 0.9);
+  width: calc(100% - 10rem);
+  padding: 1rem;
+  overflow: auto;
+  color: #fff;
+  box-shadow: 0 0 5px #999;
+  font-size: 1.6rem;
+}
+
+.modal .langues span{
+  cursor: pointer;
+  color: #bbb;
+  margin-right: 1rem;
+  text-decoration: underline;
+}
+
+.modal .langues span.active {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .modal .close {
   position: absolute;
   right: 1rem;
@@ -194,6 +220,7 @@ a {
   #root{height: 100%;flex-direction: column-reverse;}
   #root .pannel {width: 100%;box-sizing: border-box;}
   #root .pannel ul{ grid-template-columns: repeat(6, 1fr); }
+  .pannel li{border-bottom: none;border-top: 1px solid #bbb;}
   #root .pannel ul li sup{display: none;}
   .App {width: 100%;height: 100%}
 }
