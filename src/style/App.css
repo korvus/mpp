@@ -106,7 +106,7 @@ a {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 8rem);
   grid-gap: 0;
 }
 
@@ -116,8 +116,14 @@ a {
   cursor: pointer;
   font-size: 1.8rem;
   border-bottom: 1px solid #bbb;
-  padding: 1rem;
+  padding: 1rem 0;
 }
+
+.pannel li:hover {
+  border-bottom: 1px solid #000;
+  background: #eee;
+}
+
 
 .pannel sup.small {
   color: #999;
@@ -132,10 +138,6 @@ a {
 }
 
 .pannel li.active {
-  font-weight: bold;
-}
-
-.pannel li:hover {
   font-weight: bold;
 }
 

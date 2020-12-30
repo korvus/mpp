@@ -19,7 +19,7 @@ const Modalcontent = () => {
             <div title="Echap" onClick={() => setDm(false)} className="close"></div>
             <h2>Qu'est ce que c'est</h2>
             <p>
-                Ce site répertorie les 10 premiers lauréats et le gagnant de chaque année du <a href="https://fr.wikipedia.org/wiki/Concours_de_la_meilleure_baguette_de_Paris">concours de la meilleurs baguette de Paris</a>, de ses débuts (1994) à aujourd'hui (2020).
+                Ce site répertorie les 10 premiers lauréats et le gagnant de chaque année du <a href="https://fr.wikipedia.org/wiki/Concours_de_la_meilleure_baguette_de_Paris">concours de la meilleure baguette de Paris</a>, de ses débuts (1994) à aujourd'hui (2020).
             </p>
             <h2>Sources</h2>
             <p>

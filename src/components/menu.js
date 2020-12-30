@@ -33,7 +33,7 @@ const Col = () => {
 
   return (
     <div className="pannel">
-      <h1>Meilleurs Baguettes de Paris</h1>
+      <h1>Meilleures Baguettes de Paris</h1>
       <ul>
         <li className={pins === 0 ? "active" : ""} onClick={() => setPins(0)}>Tous</li>
         <ListByYears actions={[pins, setPins]} />
