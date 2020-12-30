@@ -90,7 +90,7 @@ function ListMarkers(props) {
                         rel="noreferrer"
                         target="_blank"
                         href={`https://www.google.fr/maps/place/${forUrl}`}>
-                            {boulangeries[boulangerie].adresse}$
+                            {boulangeries[boulangerie].adresse}
                     </a>
                 </address>  
             </Popup>
