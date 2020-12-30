@@ -1,4 +1,7 @@
-# Projet créé avec React Create App
+# Qu'est ce que c'est
+
+Juste une carte avec les boulangeries ayant réussit à se hisser dans le classement des meilleurs baguettes de Paris.
+[https://meilleursbaguetteparis.vercel.app](https://meilleursbaguetteparis.vercel.app/)
 
 # Pourquoi ce projet
 
