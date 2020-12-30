@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
+import React from 'react';
+import Col from './components/menu.js';
+import Map from './components/map.js';
+import { PinContextProvider } from './store';
+
+// Get coords : https://getlatlong.net/
+// 2008 https://www.paris-bistro.com/cuisine/produits/ile-de-france/grand-prix-de-la-baguette-de-la-ville-de-paris-2008
+// 2009
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PinContextProvider>
+      <Col />
+      <Map />
+    </PinContextProvider>
   );
 }
 
