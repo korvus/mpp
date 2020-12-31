@@ -130,6 +130,15 @@ function ListMarkers(props) {
         }
     })
 
+    useMapEvent('zoomend', () => {
+        let arrBoulangeries = constructJsx(boulangeries, map);
+        if(arrBoulangeries[1] === 0){
+            props.warning(true);
+        } else {
+            props.warning(false);
+        }
+    })
+
     return (
       <Fragment>
         {arrBoulangeries[0]}
