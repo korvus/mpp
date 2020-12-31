@@ -34,7 +34,7 @@ a {
 
 .modal {
   position: absolute;
-  z-index: 10000;
+  z-index: 10001;
   left: 4rem;
   top: 4rem;
   background: #fff;
