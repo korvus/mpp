@@ -181,7 +181,12 @@ const Map = () => {
         >
             <span>?</span>
         </div>
-        <MapContainer center={Paris} zoom={13} scrollWheelZoom={false}> 
+        <MapContainer
+            center={Paris}
+            zoom={13}
+            scrollWheelZoom={false}
+            tap={false}
+        > 
             <TileLayer
                 attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
