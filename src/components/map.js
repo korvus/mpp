@@ -1,7 +1,36 @@
 import { MapContainer, TileLayer, useMap, useMapEvent, Marker, Popup } from 'react-leaflet';
 import React, { Fragment, useContext, useEffect } from 'react';
 import coords from '../datas/datas.json';
-import { IconGold, IconSilver, IconDefault } from '../components/icon.js';
+import { 
+    IconDefault,
+    IconPavlova,
+    IconViennoiserie,
+    IconTartes,
+    IconStHonore,
+    IconParisBrest,
+    IconMedovic,
+    IconMacaron,
+    IconGalette,
+    IconEclairs,
+    IconCookies,
+    IconChurros,
+    IconChoux,
+    IconKouignaman,
+    IconChausson,
+    IconMontBlanc,
+    IconMadeleine,
+    IconPainChocolat,
+    IconCinnamon,
+    IconBrioche,
+    IconBabka,
+    IconCheesecake,
+    IconMerveilleux,
+    IconOriental,
+    IconFlan,
+    IconMillefeuilles,
+    IconGlace,
+    IconAutres
+} from '../components/icon.js';
 import { PinContext } from '../store';
 import Modalcontent from './modal.js';
 import Warningcontent from './warning.js';
@@ -20,9 +49,9 @@ function loopOnAllMarkers(boulangeries){
     for (const [index, value] of listDate.entries()) {
         for(let a=0; a<coords[listDate[index]].length; a++){
             let idCoords = JSON.stringify(coords[listDate[index]][a].coords);
-            let titre = a === 0 ? [`Meilleurs baguette ${value}`] : [`Finaliste année ${value}`];
+            let titre = value === "Autre" ? "" : `Conseillé pour : ${value}`;
             if(!boulangeries.hasOwnProperty(idCoords)){
-                boulangeries[idCoords] = {"popup": [titre], "rank": a, "name": coords[listDate[index]][a].name, "adresse": coords[listDate[index]][a].adresse, "coords": coords[listDate[index]][a].coords}
+                boulangeries[idCoords] = {"popup": [titre], "icon": listDate[index], "rank": a, "name": coords[listDate[index]][a].name, "adresse": coords[listDate[index]][a].adresse, "coords": coords[listDate[index]][a].coords}
             } else {
                 boulangeries[idCoords].popup.push(titre);
                 if(a < boulangeries[idCoords].rank){
@@ -38,9 +67,9 @@ function loopForOneMarker(boulangeries, year){
     // for (const [index, value] of listDate.entries()) {
         for(let a=0; a<coords[year].length; a++){
             let idCoords = JSON.stringify(coords[year][a].coords);
-            let titre = a === 0 ? [`Meilleurs baguette ${year}`] : [`Finaliste année ${year}`];
+            let titre = year === "Autre" ? "" : `Conseillé pour : ${year}`;
             if(!boulangeries.hasOwnProperty(idCoords)){
-                boulangeries[idCoords] = {"popup": [titre], "rank": a, "name": coords[year][a].name, "adresse": coords[year][a].adresse, "coords": coords[year][a].coords}
+                boulangeries[idCoords] = {"popup": [titre], "icon": year ,"rank": a, "name": coords[year][a].name, "adresse": coords[year][a].adresse, "coords": coords[year][a].coords}
             } else {
                 boulangeries[idCoords].popup.push(titre);
                 if(a < boulangeries[idCoords].rank){
@@ -67,9 +96,34 @@ function constructJsx(boulangeries, map){
   
       if(boulangeries.hasOwnProperty(boulangerie)){
         let icone = IconDefault;
-        let toppest = boulangeries[boulangerie].rank;
-        if(toppest === 0) icone = IconGold
-        if(toppest === 1) icone = IconSilver
+        let icon = boulangeries[boulangerie].icon;
+        if(icon === "pavlova") icone = IconPavlova;
+        if(icon === "macarons") icone = IconMacaron;
+        if(icon === "tartes") icone = IconTartes;
+        if(icon === "viennoiseries") icone = IconViennoiserie
+        if(icon === "Saint-honoré") icone = IconStHonore
+        if(icon === "Paris-Brest") icone = IconParisBrest
+        if(icon === "médovik") icone = IconMedovic
+        if(icon === "Cinnamon roll") icone = IconCinnamon
+        if(icon === "Madeleine") icone = IconMadeleine
+        if(icon === "Pain au chocolat") icone = IconPainChocolat
+        if(icon === "éclairs") icone = IconEclairs
+        if(icon === "galettes des rois") icone = IconGalette
+        if(icon === "cookies") icone = IconCookies
+        if(icon === "Kouign amann") icone = IconKouignaman
+        if(icon === "Mont blanc") icone = IconMontBlanc
+        if(icon === "Chausson aux pommes") icone = IconChausson
+        if(icon === "Cheesecake") icone = IconCheesecake
+        if(icon === "churros") icone = IconChurros
+        if(icon === "choux à la crème") icone = IconChoux
+        if(icon === "brioche") icone = IconBrioche
+        if(icon === "babka") icone = IconBabka
+        if(icon === "merveilleux") icone = IconMerveilleux
+        if(icon === "oriental") icone = IconOriental
+        if(icon === "flan") icone = IconFlan
+        if(icon === "mille-feuilles") icone = IconMillefeuilles
+        if(icon === "glaçe") icone = IconGlace
+        if(icon === "Autre") icone = IconAutres
 
         if(map.getBounds().contains(boulangeries[boulangerie].coords)){shouldBeOneAtLeast++};
 

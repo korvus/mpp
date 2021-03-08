@@ -132,26 +132,33 @@ a {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(3, 8rem);
-  grid-gap: 0;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+  grid-auto-rows: minmax(50px, auto);
+  grid-auto-columns: minmax(50px, auto);
 }
 
 .pannel li {
+  position: relative;
   list-style: none;
   text-align: center;
   cursor: pointer;
   font-size: 1.8rem;
-  border-bottom: 1px solid #bbb;
-  padding: 1rem 0;
+  padding: 0 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pannel li:hover {
-  border-bottom: 1px solid #000;
   background: #eee;
 }
 
-
 .pannel sup.small {
+  position: absolute;
+  right: 0rem;
+  top: 0;
   color: #999;
   font-size: 1.2rem;
 }
@@ -160,11 +167,12 @@ a {
 .pannel sup.small:after{content:")"}
 
 .pannel li:first-child{
-  background-color: #E8D94D;
+  font-weight: bold;
 }
 
 .pannel li.active {
-  font-weight: bold;
+  background-color: #E8D94D;
+  
 }
 
 .leaflet-container{

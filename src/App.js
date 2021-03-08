@@ -5,7 +5,7 @@ import Map from './components/map.js';
 import { PinContextProvider } from './store';
 
 // Get coords : https://getlatlong.net/
-// 2008 https://www.paris-bistro.com/cuisine/produits/ile-de-france/grand-prix-de-la-baguette-de-la-ville-de-paris-2008
+// 2008 https://www.facebook.com/groups/collectif20/permalink/1328297430863868/?comment_id=1328494804177464&reply_comment_id=1328537437506534
 // 2009
 
 function App() {
