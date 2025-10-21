@@ -1,0 +1,9 @@
+{
+    "redirects": [
+        {
+            "source": "/(.*)",
+            "destination": "https://boulangerieparisbio.200.work",
+            "permanent": true
+        }
+    ]
+}
