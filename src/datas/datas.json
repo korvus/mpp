@@ -1,183 +1,673 @@
 {
-    "pavlova": [
-        {"name": "O’gâteau", "comments": "pavlova, galette des rois", "adresse": "135 Rue des Pyrénées, 75020", "coords": [48.857980, 2.403340]},
-        {"name": "La goutte d'or", "comments": "Pavlovas, pain au chocolat, tarte à la vanille, mousse au chocolat, Paris Brest, Gianduja", "adresse": "183 rue Marcadet, 75018", "coords": [48.8914863, 2.3332946]}
+    "Utopie": [
+        {
+            "name": "Boulangerie Utopie",
+            "insta": "/boulangerieutopie/",
+            "comments": "",
+            "adresse": "20 rue Jean-Pierre Timbaud, 75011 Paris",
+            "coords": [
+                48.8637242,
+                2.3645223
+            ]
+        }
     ],
-    "viennoiseries": [
-        {"name":"Du pain et des idées", "comments": "viennoiseries", "adresse": "34 Rue Yves Toudic, 75010", "coords": [48.871200,2.362900]}
+    "Boulangerie moderne": [
+        {
+            "name": "boulangerie moderne",
+            "insta": "/boulangerie_moderne_/",
+            "comments": "",
+            "adresse": "16 Rue des Fossés Saint-Jacques, 75005 Paris",
+            "coords": [
+                48.8449322,
+                2.3413373
+            ]
+        }
     ],
-    "Cinnamon roll": [
-        {"name":"Atelier P1", "comments": "Tarte brisée, pain au chocolat praliné, cinnamon roll", "adresse": "157 Rue Marcadet, 75018", "coords": [48.8912604,2.3357132]},
-        {"name":"Mamiche", "comments": "Beignes, Babka, cinnamone roll, cookies fleur de sel", "adresse": "45 rue condorcet 75009", "coords": [48.8800692,2.3413184]},
-        {"name":"Mamiche", "comments": "Beignes, Babka, cinnamone roll, cookies fleur de sel", "adresse": "32 rue du chateau d'eau 75010", "coords": [48.8706365,2.3575269]}
+    "Maison Landemaine": [
+        {
+            "name": "Maison Landemaine Charonne",
+            "insta": "/maisonlandemaine/",
+            "comments": "",
+            "adresse": "121 rue de Charonne, 75011 Paris",
+            "coords": [
+                48.8548698,
+                2.3838677
+            ]
+        },
+        {
+            "name": "Maison Landemaine Gambetta",
+            "insta": "/maisonlandemaine/",
+            "comments": "",
+            "adresse": "210 rue des Pyrénées, 75020 Paris",
+            "coords": [
+                48.8655019,
+                2.3959788
+            ]
+        },
+        {
+            "name": "Maison Landemaine Jules Joffrin",
+            "insta": "/maisonlandemaine/",
+            "comments": "",
+            "adresse": "4 rue du Poteau, 75018 Paris",
+            "coords": [
+                48.8928058,
+                2.3418444
+            ]
+        },
+        {
+            "name": "Maison Landemaine Clichy",
+            "insta": "/maisonlandemaine/",
+            "comments": "",
+            "adresse": "56 rue de Clichy, 75009 Paris",
+            "coords": [
+                48.8808828,
+                2.3265638
+            ]
+        },
+        {
+            "name": "Maison Landemaine Beaumarchais",
+            "insta": "/maisonlandemaine/",
+            "comments": "",
+            "adresse": "28 Boulevard Beaumarchais, 75011 Paris",
+            "coords": [
+                48.8559552,
+                2.3665597
+            ]
+        },
+        {
+            "name": "Maison Landemaine Cambronne",
+            "insta": "/maisonlandemaine/",
+            "comments": "",
+            "adresse": "7 place Cambronne, 75015 Paris",
+            "coords": [
+                48.8474818,
+                2.2999613
+            ]
+        }
     ],
-    "macarons": [
-        {"name":"Carette", "comments": "macarons", "adresse": "4 Place du Trocadéro et du 11 Novembre, 75016", "coords": [48.863706,2.287276]},
-        {"name":"Carette", "comments": "macarons", "adresse": "25 Place des Vosges, 75003", "coords": [48.85633,2.365566]}
+    "Mamiche": [
+        {
+            "name": "Mamiche condorcet",
+            "insta": "/boulangeriemamiche/",
+            "comments": "",
+            "adresse": "45 rue Condorcet, 75009 Paris",
+            "coords": [
+                48.8800657,
+                2.3413131
+            ]
+        },
+        {
+            "name": "Mamiche château",
+            "insta": "/boulangeriemamiche/",
+            "comments": "",
+            "adresse": "32 rue du château d'eau, 75010 Paris",
+            "coords": [
+                48.870633,
+                2.3575216
+            ]
+        }
     ],
-    "éclairs": [
-        {"name":"Utopie !", "comments": "éclair sésame, roulés, tarte cacahuète", "adresse": "20 rue jean-pierre timbaud, 75011", "coords": [48.865275,2.368684]},
-        {"name":"Yann Couvreur", "comments": "Galette des rois, l'éclair au chocolat, Paris-Brest", "adresse": "137 Avenue Parmentier, 75010", "coords": [48.8701,2.370781]},
-        {"name":"Yann Couvreur", "comments": "Galette des rois, l'éclair au chocolat, Paris-Brest", "adresse": "35 Boulevard Haussmann, 75009", "coords": [48.873154,2.330405]},
-        {"name":"Yann Couvreur", "comments": "Galette des rois, l'éclair au chocolat, Paris-Brest", "adresse": "23 bis Rue des Rosiers, 75004", "coords": [48.857507,2.358768]},
-        {"name":"Yann Couvreur", "comments": "Galette des rois, l'éclair au chocolat, Paris-Brest", "adresse":"25 rue Legendre 75017", "coords": [48.8834246,2.3113782]},
-        {"name":"Pâtisserie Aoki", "comments": "Meilleurs choux vanille, éclair au thé vert, mille feuilles", "adresse": "35 rue de Vaugirard 75006", "coords": [48.8479211,2.3281699]},
-        {"name":"Vieilles France", "comments": "Eclairs", "adresse": "5 avenue de Laumière, 75019", "coords": [48.882963,2.3788858]},
-        {"name":"Les belles envies", "comments": "Eclairs passion/framboise", "adresse": "3 rue Monge, 75005", "coords": [48.8495091,2.3473521]},
-        {"name":"Carl Marletti", "comments": "Marie-Antoinette, tarte au citron, éclair au caramel beurre salé, flan", "adresse": "51 rue Censier, 75005", "coords": [48.8393306,2.3483076]}
+    "Chapel": [
+        {
+            "name": "Chapel",
+            "insta": "/chapel.paris/",
+            "comments": "",
+            "adresse": "25 rue de la Forge Royale; 75011 Paris",
+            "coords": [
+                48.8517897,
+                2.3803406
+            ]
+        }
     ],
-    "choux à la crème": [
-        {"name":"La tapisserie", "comments": "Les choux et les tartes", "adresse": "65 Rue de Charonne, 75011", "coords": [48.853671,2.379977]},
-        {"name":"Sébastien Gaudard", "comments": "Choux caramel ou crème, baba au rhum, tropézienne, St-Honoré", "adresse": "20 Boulevard des Filles du Calvaire, 75011", "coords": [48.861959,2.367282]},
-        {"name":"Pâtisserie Aoki", "comments": "Meilleurs choux vanille, éclair au thé vert, mille feuilles", "adresse": "35 rue de Vaugirard 75006", "coords": [48.8479211,2.3281699]}
+    "Sain": [
+        {
+            "name": "Sain Bulangerie",
+            "insta": "/sain_boulangerie/",
+            "comments": "",
+            "adresse": "15 rue Marie et Louise, 75010 Paris",
+            "coords": [
+                48.8718575,
+                2.3639712
+            ]
+        }
     ],
-    "Kouign amann": [
-        {"name":"Boulom", "comments": "Kouign amann, chausson au pommes", "adresse": "181 rue Ordener, 75018", "coords": [48.8935911,2.3334564]}
+    "Du pain": [
+        {
+            "name": "Du pain Paris",
+            "insta": "/dupainparis/",
+            "comments": "",
+            "adresse": "20 boulevard de Filles du Calvaire, 75011 Paris",
+            "coords": [
+                48.8607591,
+                2.359056
+            ]
+        }
     ],
-    "Chausson aux pommes": [
-        {"name":"Boulom", "comments": "Kouign amann, chausson au pommes", "adresse": "181 rue Ordener, 75018", "coords": [48.8935911,2.3334564]}
+    "Urban bakery": [
+        {
+            "name": "Urban bakery - HeadQuarters",
+            "insta": "/urbanbakeryfamily/",
+            "comments": "",
+            "adresse": "401 Rue des Pyrénées, 75020 Paris",
+            "coords": [
+                48.8714198,
+                2.3626261
+            ]
+        },
+        {
+            "name": "Urban bakery - Goncourt",
+            "insta": "/urbanbakeryfamily/",
+            "comments": "",
+            "adresse": "67 Rue du Faubourg du Temple, 75010 Paris",
+            "coords": [
+                48.8700061,
+                2.3685726
+            ]
+        },
+        {
+            "name": "Urban bakery - Villiers",
+            "insta": "/urbanbakeryfamily/",
+            "comments": "",
+            "adresse": "1 Boulevard de Courcelles, 75008 Paris",
+            "coords": [
+                48.8810031,
+                2.3143287
+            ]
+        },
+        {
+            "name": "Urban bakery - Belleville",
+            "insta": "/urbanbakeryfamily/",
+            "comments": "",
+            "adresse": "112 rue de Belleville, 75020 Paris",
+            "coords": [
+                48.8746007,
+                2.3851727
+            ]
+        }
     ],
-    "Mont blanc": [
-        {"name": "Jus", "comments": "Mont Blanc, Flan", "adresse": "50 bis rue de Douai 75009", "coords": [48.8832314,2.3287044]},
-        {"name":"Land&Monkeys", "comments": "Gâteau chocolat, le cookie, le petit kouglof, la galette des rois, le Mont-Blanc", "adresse":"86 boulevard Beaumarchais, 75011", "coords": [48.8593847,2.3657835]}
+    "Petite boulangerie": [
+        {
+            "name": "Petite boulangerie - Belleville",
+            "insta": "/petite.boulangerie.belleville/",
+            "comments": "",
+            "adresse": "120 rue de Belleville, 75020 Paris",
+            "coords": [
+                48.8746822,
+                2.38619
+            ]
+        }
     ],
-    "Cheesecake": [
-        {"name":"Patisserie du Ritz", "comments": "Cheese Cake aux mûres", "adresse": "15 place Vendome 75001", "coords": [48.8680987,2.3267045]}
+    "Union Boulangerie": [
+        {
+            "name": "Union Boulangerie",
+            "insta": "/union_boulangerie/",
+            "adresse": "2 Rue Bleue, 75009 Paris",
+            "coords": [
+                48.8759316,
+                2.3453215
+            ]
+        }
     ],
-    "tartes": [
-        {"name":"Atelier P1", "comments": "Tarte brisée, pain au chocolat praliné, cinnamon roll", "adresse": "157 Rue Marcadet, 75018", "coords": [48.8912604,2.3357132]},
-        {"name":"La tapisserie", "comments": "Les choux et les tartes", "adresse": "65 Rue de Charonne, 75011", "coords": [48.853671,2.379977]},
-        {"name": "Patisserie de l'église", "comments": "tartes aux marrons", "adresse": "10 Rue Du Jourdain, 75020", "coords": [48.875090, 2.389630]},
-        {"name":"Benoit Castel", "comments": "Les tartes à la crème", "adresse": "150 rue de Ménilmontant 75020", "coords": [48.870367,2.398176]},
-        {"name":"Benoit Castel", "comments": "Les tartes à la crème", "adresse": "72 rue Jean Pierre Timbaud 75011", "coords": [48.867147,2.375546]},
-        {"name":"Benoit Castel", "comments": "Les tartes à la crème", "adresse": "11 rue Sorbier 75020", "coords": [48.868048,2.390492]},
-        {"name":"Gilles Marchal", "comments": "Madeleine, pâtisseries au fruit de la passion & coco framboise, tarte au citron", "adresse": "9 rue Ravignan, 75018", "coords": [48.8856596,2.3355849]},
-        {"name":"Cyril Lignac", "comments": "l'équinoxe, la tarte au citron", "adresse": "133 rue de Sèvres, 75006", "coords": [48.847202,2.318042]},
-        {"name":"Cyril Lignac", "comments": "l'équinoxe, la tarte au citron", "adresse": "24 rue Paul Bert 75011", "coords": [48.852503,2.385001]},
-        {"name":"Cyril Lignac", "comments": "l'équinoxe, la tarte au citron", "adresse": "55 boulevard Pasteur, 75015", "coords": [48.84181,2.313942]},
-        {"name":"Cyril Lignac", "comments": "l'équinoxe, la tarte au citron", "adresse": "2 rue de Chaillot 75016", "coords": [48.866523,2.296832]},
-        {"name":"Cyril Lignac", "comments": "l'équinoxe, la tarte au citron", "adresse": "9 rue Bayen 75017", "coords": [48.878908,2.295321]},
-        {"name":"57 rue d'avron", "comments": "tartelettes citron et framboise", "adresse": "57 rue d'avron 75020", "coords": [48.852217,2.402708]},
-        {"name":"Boris Lumé", "comments": "Petites tartelettes, pâtisserie aux agrumes", "adresse": "48 rue Caulaincourt; 75018", "coords": [48.8889865,2.3326565]},
-        {"name":"Blé sucre", "comments": "La tarte au chocolat", "adresse": "7 Rue Antoine Vollon, 75012", "coords": [48.8506,2.376695]},
-        {"name":"Mulot", "comments": "Tarte à l'orange, fraisier", "adresse": "76 Rue de Seine, 75006", "coords": [48.852057,2.336925]},
-        {"name": "La goutte d'or", "comments": "Pavlovas, pain au chocolat, tarte à la vanille, mousse au chocolat, Paris Brest, Gianduja", "adresse": "183 rue Marcadet, 75018", "coords": [48.8914863, 2.3332946]},
-        {"name": "Madame Dupuis", "comments": "Tarte tatin", "adresse": "13 rue Cadet, 75009", "coords": [48.8754823, 2.3408835]},
-        {"name":"Les petits mitrons", "comments": "les tartes", "adresse": "26 Rue Lepic, 75018", "coords": [48.885256,2.334317]},
-        {"name":"Carl Marletti", "comments": "Marie-Antoinette, tarte au citron, éclair au caramel beurre salé, flan", "adresse": "51 rue Censier, 75005", "coords": [48.8393306,2.3483076]},
-        {"name":"Des gâteaux et du pain", "comments": "Tarte au citron et pâtisseries aux saveurs florales", "adresse": "89 rue du bac, 75007", "coords": [48.8538549,2.32176]}
+    "Elements": [
+        {
+            "name": "Elements",
+            "insta": "/elements_painsbioaulevain/",
+            "adresse": "3 rue Victor Letalle, 75020 Paris",
+            "coords": [
+                48.8672831,
+                2.3831079
+            ]
+        }
     ],
-    "Paris-Brest": [
-        {"name":"Nanan", "comments": "Paris Brest au sésame noir et thé Matcha", "adresse": "38 Rue Keller, 75011", "coords": [48.855689,2.37534]},
-        {"name":"Jacques Genin", "comments": "Paris-Brest disponible le w.e.", "adresse": "133 rue de turennes 75003, 75011", "coords": [48.864455,2.3623691]},
-        {"name": "La goutte d'or", "comments": "Pavlovas, pain au chocolat, tarte à la vanille, mousse au chocolat, Paris Brest, Gianduja", "adresse": "183 rue Marcadet, 75018", "coords": [48.8914863, 2.3332946]},
-        {"name":"Yann Couvreur", "comments": "Galette des rois, l'éclair au chocolat, Paris-Brest", "adresse": "137 Avenue Parmentier, 75010", "coords": [48.8701,2.370781]},
-        {"name":"Yann Couvreur", "comments": "Galette des rois, l'éclair au chocolat, Paris-Brest", "adresse": "35 Boulevard Haussmann, 75009", "coords": [48.873154,2.330405]},
-        {"name":"Yann Couvreur", "comments": "Galette des rois, l'éclair au chocolat, Paris-Brest", "adresse": "23 bis Rue des Rosiers, 75004", "coords": [48.857507,2.358768]},
-        {"name":"Yann Couvreur", "comments": "Galette des rois, l'éclair au chocolat, Paris-Brest", "adresse":"25 rue Legendre 75017", "coords": [48.8834246,2.3113782]},
-        {"name":"Philippe Conticini", "comments": "Galette des rois, Paris-brest, patisseries en général", "adresse": "31 rue de notre dame de nazareth 75003", "coords": [48.867309,2.35857]},
-        {"name":"Philippe Conticini", "comments": "Galette des rois, Paris-brest, patisseries en général", "adresse": "37 rue de varenne 75007", "coords": [48.854023,2.323075]},
-        {"name":"Philippe Conticini", "comments": "Galette des rois, Paris-brest, patisseries en général", "adresse": "42 rue de l'annonciation 75016", "coords": [48.857572,2.278114]},
-        {"name":"Cedric Grollet", "comments": "Flan à la vanille, gateaux, Paris Brest, Bogato", "adresse": "35 Avenue de l'Opera 75002", "coords": [48.8678764,2.3309134]}
+    "Liberté Paris": [
+        {
+            "name": "Liberté Paris - Paris 10",
+            "insta": "/liberte.paris/",
+            "adresse": "39 rue des vinaigriers, 75010 Paris",
+            "coords": [
+                48.873088,
+                2.3596753
+            ]
+        },
+        {
+            "name": "Liberté Paris - Paris 17",
+            "insta": "/liberte.paris/",
+            "adresse": "10 rue poncelet, 75017 Paris",
+            "coords": [
+                48.8789215,
+                2.294716
+            ]
+        },
+        {
+            "name": "Liberté Paris - Paris 6",
+            "insta": "/liberte.paris",
+            "adresse": "40 rue St-André-des-arts, 75006 Paris",
+            "coords": [
+                48.8534762,
+                2.3392047
+            ]
+        },
+        {
+            "name": "Liberté Paris - Paris 7",
+            "insta": "/liberte.paris",
+            "adresse": "58 rue St-Dominique, 75007 Paris",
+            "coords": [
+                48.8599476,
+                2.3068614
+            ]
+        }
     ],
-    "churros": [
-        {"name":"The French Bastards", "comments": "churros, cookie dough caramel beurre salé", "adresse": "61 Rue Oberkampf, 75011", "coords": [48.864843,2.372735]},
-        {"name":"The French Bastards", "comments": "churros, cookie dough caramel beurre salé", "adresse": "181 rue Saint-Denis, 75002", "coords": [48.865802,2.350573]}
+    "De belles manieres": [
+        {
+            "name": "De belles manieres",
+            "insta": "/debellesmanieres",
+            "adresse": "5 rue de Turbigo, 75001 Paris",
+            "coords": [
+                48.8637293,
+                2.3456187
+            ]
+        }
     ],
-    "cookies": [
-        {"name":"The French Bastards", "comments": "churros, cookie dough caramel beurre salé", "adresse": "61 Rue Oberkampf, 75011", "coords": [48.864843,2.372735]},
-        {"name":"The French Bastards", "comments": "churros, cookie dough caramel beurre salé", "adresse": "181 rue Saint-Denis, 75002", "coords": [48.865802,2.350573]},
-        {"name":"Mamiche", "comments": "Beignes, Babka, cinnamone roll, cookies fleur de sel", "adresse": "45 rue condorcet 75009", "coords": [48.8800692,2.3413184]},
-        {"name":"Mamiche", "comments": "Beignes, Babka, cinnamone roll, cookies fleur de sel", "adresse": "32 rue du chateau d'eau 75010", "coords": [48.8706365,2.3575269]},
-        {"name":"Land&Monkeys", "comments": "Gâteau chocolat, le cookie, le petit kouglof, la galette des rois, le Mont-Blanc", "adresse":"86 boulevard Beaumarchais, 75011", "coords": [48.8593847,2.3657835]}
+    "M. Jacques": [
+        {
+            "name": "M. Jacques",
+            "insta": "/patisseriemrjacques",
+            "adresse": "132 Rue Saint-Maur, 75011 Paris",
+            "coords": [
+                48.8637293,
+                2.3456187
+            ]
+        }
     ],
-    "galettes des rois": [
-        {"name":"Philippe Conticini", "comments": "Galette des rois, Paris-brest, patisseries en général", "adresse": "31 rue de notre dame de nazareth 75003", "coords": [48.867309,2.35857]},
-        {"name":"Philippe Conticini", "comments": "Galette des rois, Paris-brest, patisseries en général", "adresse": "37 rue de varenne 75007", "coords": [48.854023,2.323075]},
-        {"name":"Philippe Conticini", "comments": "Galette des rois, Paris-brest, patisseries en général", "adresse": "42 rue de l'annonciation 75016", "coords": [48.857572,2.278114]},
-        {"name":"Yann Couvreur", "comments": "Galette des rois, l'éclair au chocolat, Paris-Brest", "adresse": "137 Avenue Parmentier, 75010", "coords": [48.8701,2.370781]},
-        {"name":"Yann Couvreur", "comments": "Galette des rois, l'éclair au chocolat, Paris-Brest", "adresse": "35 Boulevard Haussmann, 75009", "coords": [48.873154,2.330405]},
-        {"name":"Yann Couvreur", "comments": "Galette des rois, l'éclair au chocolat, Paris-Brest", "adresse": "23 bis Rue des Rosiers, 75004", "coords": [48.857507,2.358768]},
-        {"name":"Yann Couvreur", "comments": "Galette des rois, l'éclair au chocolat, Paris-Brest", "adresse":"25 rue Legendre 75017", "coords": [48.8834246,2.3113782]},
-        {"name":"Land&Monkeys", "comments": "Gâteau chocolat, le cookie, le petit kouglof, la galette des rois, le Mont-Blanc", "adresse":"86 boulevard Beaumarchais, 75011", "coords": [48.8593847,2.3657835]}
+    "Boulangerie l'essentiel": [
+        {
+            "name": "Boulangerie l'essentiel Blanqui",
+            "insta": "/boulangerie_lessentiel",
+            "adresse": "73 boulevard auguste Blanqui, 75013 Paris",
+            "coords": [
+                48.8295228,
+                2.3458241
+            ]
+        },
+        {
+            "name": "Boulangerie l'essentiel Dausmenil",
+            "insta": "/boulangerie_lessentiel",
+            "adresse": "254 Avenue Daumesnil, 75012 Paris",
+            "coords": [
+                48.836658,
+                2.4007403
+            ]
+        },
+        {
+            "name": "Boulangerie l'essentiel Mouffetard",
+            "insta": "/boulangerie_lessentiel",
+            "adresse": "2 Rue Mouffetard, 75005 Paris",
+            "coords": [
+                48.844885,
+                2.3468631
+            ]
+        },
+        {
+            "name": "Boulangerie l'essentiel Olympiades",
+            "insta": "/boulangerie_lessentiel",
+            "adresse": "89 Rue de Tolbiac, 75013 Paris",
+            "coords": [
+                48.8269811,
+                2.3647757
+            ]
+        }
     ],
-    "brioche": [
-        {"name":"Pralus", "comments": "La praluline de Lyon", "adresse": "35, rue Rambuteau, 75004", "coords": [48.861014,2.353794]}
+    "Le Bricheton": [
+        {
+            "name": "Le Bricheton",
+            "insta": "/lebricheton",
+            "adresse": "50 Rue de la Réunion, 75020 Paris",
+            "coords": [
+                48.8548732,
+                2.3997742
+            ]
+        }
     ],
-    "médovik": [
-        {"name":"Le café Pouchkine", "comments": "Le médovik", "adresse": "64 Boulevard Haussmann, 75008", "coords": [48.873976,2.328055]}
+    "Victoire Boulangerie": [
+        {
+            "name": "Victoire Boulangerie",
+            "insta": "/victoire.boulangerie",
+            "adresse": "12 Rue Cadet, 75009 Paris",
+            "coords": [
+                48.8745249,
+                2.3411768
+            ]
+        }
     ],
-    "Saint-honoré": [
-        {"name":"L’osmanthe", "comments": "Pâtisseries fusions franco-asiatiques, saint-honoré au sésame noir, tartelette myrtille, éclair sésame noir", "adresse": "8 Rue Tourneux, 75012", "coords": [48.837630,2.398620]},
-        {"name":"Sébastien Gaudard", "comments": "Choux caramel ou crème, baba au rhum, tropézienne, St-Honoré", "adresse": "20 Boulevard des Filles du Calvaire, 75011", "coords": [48.861959,2.367282]}
+    "Emile & Jules": [
+        {
+            "name": "Emile et Jules",
+            "insta": "/emile_et_jules",
+            "adresse": "18 Rue de la Terrasse, 75017 Paris",
+            "coords": [
+                48.882263,
+                2.3122455
+            ]
+        },
+        {
+            "name": "Emile et Jules",
+            "insta": "/emile_et_jules",
+            "adresse": "2 Rue Vavin, 75006 Paris",
+            "coords": [
+                48.8448407,
+                2.3300562
+            ]
+        }
     ],
-    "babka": [
-        {"name":"babka zana", "comments": "Babka", "adresse": "65 Rue Condorcet, 75009", "coords": [48.880254,2.341312]},
-        {"name":"Mamiche", "comments": "Beignes, Babka, cinnamone roll, cookies fleur de sel", "adresse": "45 rue condorcet 75009", "coords": [48.8800692,2.3413184]},
-        {"name":"Mamiche", "comments": "Beignes, Babka, cinnamone roll, cookies fleur de sel", "adresse": "32 rue du chateau d'eau 75010", "coords": [48.8706365,2.3575269]}
+    "Le pain retrouvé": [
+        {
+            "name": "Le pain retrouvé",
+            "insta": "/le_pain_retrouve",
+            "adresse": "60 rue Duhesme, 75018 Paris",
+            "coords": [
+                48.8930897,
+                2.3402596
+            ]
+        }
     ],
-    "merveilleux": [
-        {"name":"aux merveilleux de Fred", "comments": "Les merveilleux, spécialité du nord", "adresse": "7 Rue de Tocqueville, 75017", "coords": [48.882331,2.313849]}
+    "Boulangerie Joseph": [
+        {
+            "name": "Boulangerie Joseph",
+            "insta": "/boulangeriejoseph",
+            "adresse": "42 rue des Petits Champs, 75002 Paris",
+            "coords": [
+                48.86749370807017,
+                2.3349343963561457
+            ]
+        },
+        {
+            "name": "Boulangerie Joseph",
+            "insta": "/boulangeriejoseph",
+            "adresse": "90, rue Montmartre, 75002 Paris",
+            "coords": [
+                48.86793699984097,
+                2.344418033728225
+            ]
+        },
+        {
+            "name": "Boulangerie Joseph",
+            "insta": "/boulangeriejoseph",
+            "adresse": "4 rue des petits carreaux, 75002 Paris",
+            "coords": [
+                48.866591635210966,
+                2.34738421169615
+            ]
+        }
     ],
-    "oriental": [
-        {"name":"la bague de Kenza", "comments": "Spécialité orientale", "adresse": "106 Rue Saint-Maur, 75011", "coords": [48.866367,2.376876]}
+    "Farinez vous Paris": [
+        {
+            "name": "Farinez vous Paris",
+            "insta": "/farinezvousparis",
+            "adresse": "9 rue Villiot, 75012 Paris",
+            "coords": [
+                48.84152924935129,
+                2.3747232675195313
+            ]
+        },
+        {
+            "name": "Farinez vous Paris",
+            "insta": "/farinezvousparis",
+            "adresse": "19 rue des Châteaux des Rentiers, 75013 Paris",
+            "coords": [
+                48.82382858809594,
+                2.370574321598229
+            ]
+        },
+        {
+            "name": "Farinez vous Paris",
+            "insta": "/farinezvousparis",
+            "adresse": " 74 rue Clisson, 75013 Paris",
+            "coords": [
+                48.8300672262096,
+                2.365578954023868
+            ]
+        }
     ],
-    "flan": [
-        {"name":"la fille du boulanger", "comments": "Flan", "adresse": "38 Rue des Batignolles, 75017", "coords": [48.885539,2.320153]},
-        {"name": "Yann Couvreur", "comments": "", "adresse":"25 rue Legendre 75017", "coords": [48.8834246,2.3113782]},
-        {"name":"Larher", "comments": "L'ivoire, desserts au chocolats, flanc à la vanille, mille-feuille", "adresse": "53 Rue de Caulaincourt, 75018", "coords": [48.8894226,2.3324722]},
-        {"name":"Cedric Grollet", "comments": "Flan à la vanille, gateaux, Paris Brest, Bogato", "adresse": "35 Avenue de l'Opera 75002", "coords": [48.8678764,2.3309134]},
-        {"name": "Jus", "comments": "Mont Blanc, Flan", "adresse": "50 bis rue de Douai 75009", "coords": [48.8832314,2.3287044]},
-        {"name":"Carl Marletti", "comments": "Marie-Antoinette, tarte au citron, éclair au caramel beurre salé, flan", "adresse": "51 rue Censier, 75005", "coords": [48.8393306,2.3483076]}
+    "Graine.Paris": [
+        {
+            "name": "Graine.Paris",
+            "insta": "/graine.paris",
+            "adresse": "54 rue Oberkampf, 75011 Paris",
+            "coords": [
+                48.864883517272986,
+                2.373241182861015
+            ]
+        },
+        {
+            "name": "Graine.Paris",
+            "insta": "/graine.paris",
+            "adresse": " 120 rue de Bagnolet, 75020 Paris",
+            "coords": [
+                48.86014661693925,
+                2.4040652675206777
+            ]
+        },
+        {
+            "name": "Graine.Paris",
+            "insta": "/graine.paris",
+            "adresse": "75 av. Gambetta, 75020 Paris",
+            "coords": [
+                48.8653926577004,
+                2.3971173251910294
+            ]
+        }
     ],
-    "mille-feuilles": [
-        {"name":"stohrer", "comments": "Le mille-feuille, éclairs, pièce montée", "adresse": "51 Rue Montorgueil, 75002", "coords": [48.865253,2.346722]},
-        {"name":"Pierre Herme", "comments": "Le 2000 feuille", "adresse": "43 rue Saint-Placide, 75006", "coords": [48.848003,2.326252]},
-        {"name":"Pierre Herme", "comments": "Le 2000 feuille", "adresse": "4 Rue Cambon, 75001", "coords": [48.866485,2.325595]},
-        {"name":"Pierre Herme", "comments": "Le 2000 feuille", "adresse": "39 avenue de l'Opéra, 75002", "coords": [48.868313,2.333085]},
-        {"name":"Pierre Herme", "comments": "Le 2000 feuille", "adresse": "4 rue de Bretagne, 75003", "coords": [48.862244,2.364071]},
-        {"name":"Pierre Herme", "comments": "Le 2000 feuille", "adresse": "72 rue Bonaparte, 75006", "coords": [48.851541,2.332817]},
-        {"name":"Pierre Herme", "comments": "Le 2000 feuille", "adresse": "18 Rue Sainte-Croix de la Bretonnerie, 75004", "coords": [48.858284,2.356556]},
-        {"name":"Pierre Herme", "comments": "Le 2000 feuille", "adresse": "89 Boulevard Malesherbes, 75008", "coords": [48.878224,2.315444]},
-        {"name":"Pierre Herme", "comments": "Le 2000 feuille", "adresse": "58 avenue Paul Doumer, 75016", "coords": [48.860175,2.280428]},
-        {"name":"Pierre Herme", "comments": "Le 2000 feuille", "adresse": "185 rue de Vaugirard, 75015", "coords": [48.842715,2.312158]},
-        {"name":"Pierre Herme", "comments": "Le 2000 feuille", "adresse": "26 Rue Lepic, 75018", "coords": [48.885256,2.334317]},
-        {"name":"Larher", "comments": "L'ivoire, desserts au chocolats, flanc à la vanille, mille-feuille", "adresse": "53 Rue de Caulaincourt, 75018", "coords": [48.8894226,2.3324722]},
-        {"name":"Pâtisserie Aoki", "comments": "Meilleurs choux vanille, éclair au thé vert, mille feuilles", "adresse": "35 rue de Vaugirard 75006", "coords": [48.8479211,2.3281699]}
+    "Gregoire Popincourt": [
+        {
+            "name": "Gregoire Popincourt",
+            "insta": "/gregoirepopincourt",
+            "adresse": "22 rue Popincourt,75011 Paris",
+            "coords": [
+                48.85817965545819,
+                2.3770351351078767
+            ]
+        }
     ],
-    "glaçe": [
-        {"name":"Sucré Cacao - James Bertier", "comments": "Glaçes, patisseries", "adresse": "89 Avenue Gambetta, 75020", "coords": [48.866062,2.399108]}
+    "Tartine and Co": [
+        {
+            "name": "Tartine and Co",
+            "insta": "/tartine_and_co",
+            "adresse": "6 rue jean jacques rousseau,75001 Paris",
+            "coords": [
+                48.86230066069805,
+                2.3401641116958953
+            ]
+        }
     ],
-    "Pain au chocolat": [
-        {"name": "La goutte d'or", "comments": "Pavlovas, pain au chocolat, tarte à la vanille, mousse au chocolat, Paris Brest, Gianduja", "adresse": "183 rue Marcadet, 75018", "coords": [48.8914863, 2.3332946]},
-        {"name":"Atelier P1", "comments": "Tarte brisée, pain au chocolat praliné, cinnamon roll", "adresse": "157 Rue Marcadet, 75018", "coords": [48.8912604,2.3357132]}
+    "Benoit Castel": [
+        {
+            "name": "Benoit Castel",
+            "insta": "/benoit_castel",
+            "comments": "",
+            "adresse": "150 Rue de Meénilmontant, 75020 Paris",
+            "coords": [
+                48.870499995345,
+                2.398133177443171
+            ]
+        },
+        {
+            "name": "Benoit Castel",
+            "insta": "/benoit_castel",
+            "comments": "",
+            "adresse": "72 Rue Jean Pierre Timbaud, 75011 Paris",
+            "coords": [
+                48.86730979370537,
+                2.375556225191171
+            ]
+        },
+        {
+            "name": "Benoit Castel",
+            "insta": "/benoit_castel",
+            "comments": "",
+            "adresse": "11 rue Sorbier, 75020 Paris",
+            "coords": [
+                48.868281431903455,
+                2.3905029723633233
+            ]
+        }
     ],
-    "Madeleine": [
-        {"name":"Gilles Marchal", "comments": "Madeleine, pâtisseries au fruit de la passion & coco framboise, tarte au citron", "adresse": "9 rue Ravignan, 75018", "coords": [48.8856596,2.3355849]}    
+    "Boulangerie Bacillus": [
+        {
+            "name": "Boulangerie Bacillus",
+            "insta": "/Boulangerie.Bacillus",
+            "comments": "",
+            "adresse": "100 Rue des Dames, 75017 Paris",
+            "coords": [
+                48.883016781845505,
+                2.3171229062836014
+            ]
+        },
+        {
+            "name": "Boulangerie Bacillus",
+            "insta": "/Boulangerie.Bacillus",
+            "comments": "",
+            "adresse": "Marché Couv. Batignolles, 75017 Paris",
+            "coords": [
+                48.88944636750577,
+                2.3197005675224807
+            ]
+        },
+        {
+            "name": "Boulangerie Bacillus",
+            "insta": "/Boulangerie.Bacillus",
+            "comments": "",
+            "adresse": "49 Rue de la Jonquière, 75017 Paris",
+            "coords": [
+                48.89366056958358,
+                2.3227536963577604
+            ]
+        }
     ],
-    "Autre": [
-        {"name":"Chez Bontemps", "comments": "Gâteau du moment, tartelettes", "adresse": "57 Rue de Bretagne, 75003", "coords": [48.863900,2.360600]},
-        {"name":"La cave à dessert", "comments": "", "adresse": "35 Rue Popincourt, 75011", "coords": [48.858713,2.376143]},
-        {"name":"Pain de sucre", "comments": "", "adresse": "14 Rue Rambuteau, 75003", "coords": [48.860682,2.355499]},
-        {"name":"Michalak", "comments": "", "adresse": "8, rue du vieux colombier, 75008", "coords": [48.851498,2.332123]},
-        {"name":"Michalak", "comments": "", "adresse": "16 rue de la verrerie, 75004", "coords": [48.857317,2.354916]},
-        {"name":"Maison Aleph", "comments": "Gateau Pistache", "adresse": "20 Rue de la Verrerie, 75004", "coords": [48.857394,2.354787]},
-        {"name":"Wonderland", "comments": "", "adresse": "208 Avenue du Maine, 75014", "coords": [48.829971,2.325738]},
-        {"name":"Desmoulin", "comments": "", "adresse": "6 Boulevard Voltaire, 75011", "coords": [48.866188,2.365743]},
-        {"name":"David Doualan", "comments": "", "adresse": "137 rue Mouffetard 75005", "coords": [48.839874,2.34991]},
-        {"name":"Pâtisserie Emma Duvéré", "comments": "", "adresse": "41 rue Sedaine, 75011", "coords": [48.856960,2.374540]},
-        {"name":"by KR", "comments": "", "adresse": "90 Boulevard Voltaire, 75011", "coords": [48.850087,2.393562]},
-        {"name":"La patisserie Végétale", "comments": "patisserie vegan", "adresse": "123 Boulevard Voltaire, 75011", "coords": [48.856933,2.382009]},
-        {"name":"Le jardin sucré", "comments": "", "adresse": "156 Rue de Courcelles, 75017", "coords": [48.882901,2.299611]},
-        {"name":"Hugo&Victor", "comments": "", "adresse": "40 Boulevard Raspail, 75007", "coords": [48.852474,2.32]},
-        {"name":"Patisserie Palace Bistro", "comments": "Marbré en forme de tasse", "adresse": "3 rue Blaise Desgoffe 75006", "coords": [48.8459818,2.3223873]},
-        {"name":"Fou de pâtisserie", "comments": "Assortiment de gâteaux des meilleurs pâtisseries de Paris", "adresse": "36 rue des martyrs 75009", "coords": [48.8788814,2.3377877]},
-        {"name":"Christophe Roussel", "comments": "Tout ce qui est chocolat", "adresse": "5 rue Tardieu, 75018", "coords": [48.8842395,2.3399106]},
-        {"name":"Aurore Capucine", "comments": "Cuisine de fleurs", "adresse": "3 rue Rochechouart, 75009", "coords": [48.8767447,2.3420933]},
-        {"name":"Pain pain", "comments": "Opéra Yuzu, Zephyr", "adresse": "88 rue des martyrs, 75018", "coords": [48.8834553,2.3377493]},
-        {"name":"Meringuai", "comments": "Gâteaux a base de meringue", "adresse": "21 rue de Lévis, 75017", "coords": [48.8821727,2.3132018]},
-        {"name":"Meringuai", "comments": "Gâteaux a base de meringue", "adresse": "35 rue des martyrs, 75009", "coords": [48.8791529,2.3376326]},
-        {"name":"Berko", "comments": "Cupcakes", "adresse": "23 rue de Rambuteau, 75004", "coords": [48.8607598,2.3522689]},
-        {"name":"Maison Larnicol", "comments": "Kougnettes", "adresse": "132 boulevard St Germain 75006", "coords": [48.8526223,2.3368819]}
+    "Leonie Bakery": [
+        {
+            "name": "Leonie Bakery",
+            "insta": "/leoniebakeryparis",
+            "comments": "",
+            "adresse": "2 Passage Emma Calvé, 75012 Paris",
+            "coords": [
+                48.848377535638214,
+                2.385895667519958
+            ]
+        },
+        {
+            "name": "Leonie Bakery",
+            "insta": "/leoniebakeryparis",
+            "comments": "",
+            "adresse": "18 avenue des Ternes, 75017 Paris",
+            "coords": [
+                48.878709589035616,
+                2.2954599135419858
+            ]
+        },
+        {
+            "name": "Leonie Bakery",
+            "insta": "/leoniebakeryparis",
+            "comments": "",
+            "adresse": "47 rue Erlanger, 75016 Paris",
+            "coords": [
+                48.845255825846266,
+                2.260621069364843
+            ]
+        },
+        {
+            "name": "Leonie Bakery",
+            "insta": "/leoniebakeryparis",
+            "comments": "",
+            "adresse": "94 rue d'Hauteville, 75010 Paris",
+            "coords": [
+                48.87731674905652,
+                2.3515670386867287
+            ]
+        },
+        {
+            "name": "Leonie Bakery",
+            "insta": "/leoniebakeryparis",
+            "comments": "",
+            "adresse": "15 Avenue Trudaine, 75009 Paris ",
+            "coords": [
+                48.88157406997501,
+                2.3449582945119016
+            ]
+        },
+        {
+            "name": "Leonie Bakery",
+            "insta": "/leoniebakeryparis/",
+            "comments": "",
+            "adresse": "96 rue de Lévis, 75017 Paris",
+            "coords": [
+                48.885289600288715,
+                2.3113903233471422
+            ]
+        }
+    ],
+    "La petite alsacienne": [
+        {
+            "name": "La petite alsacienne",
+            "insta": "/lapetitealsacienne14/",
+            "adresse": "45 rue Raymond Losserand, 75014 paris",
+            "coords": [
+                48.83513536377247,
+                2.320211265674031
+            ]
+        }
+    ],
+    "Arlette et Colette": [
+        {
+            "name": "Arlette et Colette",
+            "insta": "/arlette_et_colette",
+            "comments": "",
+            "adresse": "4, rue de la Jonquière, 75011 Paris",
+            "coords": [
+                48.89342738125505,
+                2.3269677486179647
+            ]
+        },
+        {
+            "name": "Arlette et Colette",
+            "insta": "/arlette_et_colette",
+            "comments": "",
+            "adresse": "13 rue Lebon, 75017 Paris",
+            "coords": [
+                48.88115852657791,
+                2.29174996752198
+            ]
+        },
+        {
+            "name": "Arlette et Colette",
+            "insta": "/arlette_et_colette",
+            "comments": "",
+            "adresse": "63 rue Voltaire, 92300 Levallois-Perret",
+            "coords": [
+                48.89325527107029,
+                2.2865888810176633
+            ]
+        }
+    ],
+    "Mie amor": [
+        {
+            "name": "Mie Amor",
+            "insta": "/boulangeriemieamorparis",
+            "adresse": "18 rue littré, 75006 Paris",
+            "coords": [
+                48.844967484200865,
+                2.323819723344664
+            ]
+        }
+    ],
+    "Boulanger de la tour": [
+        {
+            "name": "Boulanger de la tour",
+            "insta": "/leboulangerdelatour",
+            "adresse": "2, rue du Cardinal Lemoine, 75005 Paris",
+            "coords": [
+                48.8499681698536,
+                2.3546744116951146
+            ]
+        }
     ]
 }

@@ -1,0 +1,1045 @@
+. 2025-10-19 19:32:40.071 --------------------------------------------------------------------------
+. 2025-10-19 19:32:40.073 WinSCP Version 6.5.3 (Compilation 16364 2025-07-16) (OS 10.0.26100 – Windows 11 Famille)
+. 2025-10-19 19:32:40.073 Configuration: nul
+. 2025-10-19 19:32:40.073 Log level: Normal
+. 2025-10-19 19:32:40.073 Local account: DESKTOP-640VQ3D\ertel
+. 2025-10-19 19:32:40.073 Working directory: D:\sites\lepaindemonquartier
+. 2025-10-19 19:32:40.073 Process ID: 42608
+. 2025-10-19 19:32:40.122 Ancestor processes: WinSCP, make, make, cmd, Code, Code, explorer, ...
+. 2025-10-19 19:32:40.123 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.5.3 /consoleinstance=_40372_667 "/log=deploy.log" "/ini=nul" "/script=deploy.txt" 
+. 2025-10-19 19:32:40.123 Time zone: Current: GMT+2, Standard: GMT+1 (Paris, Madrid), DST: GMT+2 (Paris, Madrid (heure d’été)), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-10-19 19:32:40.123 Login time: dimanche 19 octobre 2025 19:32:40
+. 2025-10-19 19:32:40.123 --------------------------------------------------------------------------
+. 2025-10-19 19:32:40.123 Script: Retrospectively logging previous script records:
+> 2025-10-19 19:32:40.123 Script: option batch abort
+< 2025-10-19 19:32:40.123 Script: batch           abort     
+> 2025-10-19 19:32:40.123 Script: option confirm off
+< 2025-10-19 19:32:40.123 Script: confirm         off       
+> 2025-10-19 19:32:40.123 Script: option transfer binary
+< 2025-10-19 19:32:40.123 Script: transfer        binary    
+> 2025-10-19 19:32:40.123 Script: open sftp://u372623295:***@82.25.113.115:65002 -hostkey="ssh-ed25519 255 6bHxo1XFm32AoC4oFzVQSDR6jc+plhuWPr4a//ByGD4="
+. 2025-10-19 19:32:40.123 --------------------------------------------------------------------------
+. 2025-10-19 19:32:40.123 Session name: u372623295@82.25.113.115 (Ad-Hoc site)
+. 2025-10-19 19:32:40.123 Host name: 82.25.113.115 (Port: 65002)
+. 2025-10-19 19:32:40.123 User name: u372623295 (Password: Yes, Key file: No, Passphrase: No)
+. 2025-10-19 19:32:40.123 Tunnel: No
+. 2025-10-19 19:32:40.123 Transfer Protocol: SFTP
+. 2025-10-19 19:32:40.123 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-10-19 19:32:40.123 Disable Nagle: No
+. 2025-10-19 19:32:40.123 Proxy: None
+. 2025-10-19 19:32:40.123 Send buffer: 262144
+. 2025-10-19 19:32:40.123 Compression: No
+. 2025-10-19 19:32:40.123 Bypass authentication: No
+. 2025-10-19 19:32:40.123 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2025-10-19 19:32:40.123 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2025-10-19 19:32:40.123 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2025-10-19 19:32:40.123 KEX: ntru-curve25519,mlkem-curve25519,mlkem-nist,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2025-10-19 19:32:40.124 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2025-10-19 19:32:40.124 Simple channel: Yes
+. 2025-10-19 19:32:40.124 Return code variable: Autodetect; Lookup user groups: Auto
+. 2025-10-19 19:32:40.124 Shell: default
+. 2025-10-19 19:32:40.124 EOL: LF, UTF: Auto
+. 2025-10-19 19:32:40.124 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2025-10-19 19:32:40.124 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2025-10-19 19:32:40.124 SFTP Bugs: Auto,Auto
+. 2025-10-19 19:32:40.124 SFTP Server: default
+. 2025-10-19 19:32:40.124 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-10-19 19:32:40.124 Cache directory changes: Yes, Permanent: Yes
+. 2025-10-19 19:32:40.124 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-10-19 19:32:40.124 DST mode: Unix
+. 2025-10-19 19:32:40.124 --------------------------------------------------------------------------
+< 2025-10-19 19:32:40.124 Script: Recherche de l'hôte...
+. 2025-10-19 19:32:40.124 Looking up host "82.25.113.115" for SSH connection
+. 2025-10-19 19:32:40.129 Connecting to 82.25.113.115 port 65002
+. 2025-10-19 19:32:40.159 Connected to 82.25.113.115 (from 192.168.178.58:63215)
+< 2025-10-19 19:32:40.159 Script: Connexion à l'hôte...
+. 2025-10-19 19:32:40.159 We claim version: SSH-2.0-WinSCP_release_6.5.3
+. 2025-10-19 19:32:40.159 Connected to 82.25.113.115 (from 192.168.178.58:63215)
+. 2025-10-19 19:32:40.202 Remote version: SSH-2.0-OpenSSH_8.7
+. 2025-10-19 19:32:40.202 Using SSH protocol version 2
+. 2025-10-19 19:32:40.202 Have a known host key of type ssh-ed25519
+. 2025-10-19 19:32:40.231 Enabling strict key exchange semantics
+. 2025-10-19 19:32:40.232 Doing ECDH key exchange with curve Curve25519, using hash SHA-256
+. 2025-10-19 19:32:40.312 Server also has ecdsa-sha2-nistp256/rsa-sha2-512/rsa-sha2-256/ssh-rsa host keys, but we don't know any of them
+. 2025-10-19 19:32:40.313 Host key fingerprint is:
+. 2025-10-19 19:32:40.313 ssh-ed25519 255 SHA256:6bHxo1XFm32AoC4oFzVQSDR6jc+plhuWPr4a//ByGD4
+< 2025-10-19 19:32:40.313 Script: Authentification...
+. 2025-10-19 19:32:40.314 Host key matches configured key fingerprint
+. 2025-10-19 19:32:40.314 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] outbound encryption
+. 2025-10-19 19:32:40.314 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2025-10-19 19:32:40.314 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] inbound encryption
+. 2025-10-19 19:32:40.314 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2025-10-19 19:32:40.343 Using username "u372623295".
+< 2025-10-19 19:32:40.343 Script: Utilisation du nom d'utilisateur "u372623295".
+. 2025-10-19 19:32:40.380 Server offered these authentication methods: publickey,password
+. 2025-10-19 19:32:40.380 Prompt (password, "SSH password", <no instructions>, "Mot de passe :")
+. 2025-10-19 19:32:40.380 Using stored password.
+< 2025-10-19 19:32:40.380 Script: Authentification avec le mot de passe préentré.
+. 2025-10-19 19:32:40.380 Sent password
+. 2025-10-19 19:32:40.423 Access granted
+. 2025-10-19 19:32:40.424 Opening main session channel
+. 2025-10-19 19:32:40.531 Opened main channel
+. 2025-10-19 19:32:40.559 Started a shell/command
+< 2025-10-19 19:32:40.560 Script: Authentifié.
+. 2025-10-19 19:32:40.560 --------------------------------------------------------------------------
+. 2025-10-19 19:32:40.560 Using SFTP protocol.
+. 2025-10-19 19:32:40.560 Doing startup conversation with host.
+< 2025-10-19 19:32:40.560 Script: Démarrage de la session...
+. 2025-10-19 19:32:40.560 Well known server, allowing SFTP version 6.
+> 2025-10-19 19:32:40.560 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2025-10-19 19:32:40.590 Type: SSH_FXP_VERSION, Size: 238, Number: -1
+. 2025-10-19 19:32:40.590 SFTP version 3 negotiated.
+. 2025-10-19 19:32:40.590 Supports extension posix-rename@openssh.com="1"
+. 2025-10-19 19:32:40.590 Supports statvfs@openssh.com extension version 2
+. 2025-10-19 19:32:40.590 Unknown server extension fstatvfs@openssh.com="2"
+. 2025-10-19 19:32:40.590 Supports hardlink@openssh.com extension version 1
+. 2025-10-19 19:32:40.590 Unknown server extension fsync@openssh.com="1"
+. 2025-10-19 19:32:40.590 Unknown server extension lsetstat@openssh.com="1"
+. 2025-10-19 19:32:40.590 Supports limits@openssh.com extension version 1
+. 2025-10-19 19:32:40.590 Unknown server extension expand-path@openssh.com="1"
+. 2025-10-19 19:32:40.590 We believe the server has signed timestamps bug
+. 2025-10-19 19:32:40.590 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+> 2025-10-19 19:32:40.590 Type: SSH_FXP_EXTENDED, Size: 27, Number: 200
+< 2025-10-19 19:32:40.619 Type: SSH_FXP_EXTENDED_REPLY, Size: 37, Number: 200
+. 2025-10-19 19:32:40.619 Limiting packet size to server's limit of 262144 + 4 bytes
+. 2025-10-19 19:32:40.619 Getting current directory name.
+. 2025-10-19 19:32:40.619 Getting real path for '.'
+> 2025-10-19 19:32:40.619 Type: SSH_FXP_REALPATH, Size: 10, Number: 272
+< 2025-10-19 19:32:40.652 Type: SSH_FXP_NAME, Size: 53, Number: 272
+. 2025-10-19 19:32:40.652 Real path is '/home/u372623295'
+. 2025-10-19 19:32:40.652 Startup conversation with host finished.
+< 2025-10-19 19:32:40.652 Script: Session démarrée.
+< 2025-10-19 19:32:40.652 Script: Session active : [1] u372623295@82.25.113.115
+> 2025-10-19 19:32:40.652 Script: lcd build
+< 2025-10-19 19:32:40.653 Script: D:\sites\lepaindemonquartier\build
+> 2025-10-19 19:32:40.653 Script: lpwd
+< 2025-10-19 19:32:40.653 Script: D:\sites\lepaindemonquartier\build
+> 2025-10-19 19:32:40.653 Script: cd /home/u372623295/domains/200.work/public_html/boulangerieParisBio
+. 2025-10-19 19:32:40.653 Changing directory to "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+. 2025-10-19 19:32:40.653 Getting real path for '/home/u372623295/domains/200.work/public_html/boulangerieParisBio'
+> 2025-10-19 19:32:40.654 Type: SSH_FXP_REALPATH, Size: 74, Number: 528
+< 2025-10-19 19:32:40.682 Type: SSH_FXP_NAME, Size: 151, Number: 528
+. 2025-10-19 19:32:40.682 Real path is '/home/u372623295/domains/200.work/public_html/boulangerieParisBio'
+. 2025-10-19 19:32:40.682 Trying to open directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+> 2025-10-19 19:32:40.682 Type: SSH_FXP_LSTAT, Size: 74, Number: 775
+< 2025-10-19 19:32:40.710 Type: SSH_FXP_ATTRS, Size: 37, Number: 775
+. 2025-10-19 19:32:40.710 Getting current directory name.
+< 2025-10-19 19:32:40.710 Script: /home/u372623295/domains/200.work/public_html/boulangerieParisBio
+> 2025-10-19 19:32:40.710 Script: pwd
+< 2025-10-19 19:32:40.710 Script: /home/u372623295/domains/200.work/public_html/boulangerieParisBio
+> 2025-10-19 19:32:40.711 Script: ls
+. 2025-10-19 19:32:40.711 Listing directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+> 2025-10-19 19:32:40.711 Type: SSH_FXP_OPENDIR, Size: 74, Number: 1035
+< 2025-10-19 19:32:40.740 Type: SSH_FXP_HANDLE, Size: 13, Number: 1035
+> 2025-10-19 19:32:40.740 Type: SSH_FXP_READDIR, Size: 13, Number: 1292
+< 2025-10-19 19:32:40.773 Type: SSH_FXP_NAME, Size: 834, Number: 1292
+> 2025-10-19 19:32:40.773 Type: SSH_FXP_READDIR, Size: 13, Number: 1548
+< 2025-10-19 19:32:40.802 Type: SSH_FXP_STATUS, Size: 28, Number: 1548
+< 2025-10-19 19:32:40.802 Status code: 1
+> 2025-10-19 19:32:40.802 Type: SSH_FXP_CLOSE, Size: 13, Number: 1796
+. 2025-10-19 19:32:40.802 .;d;0;2025-10-19T17:30:59.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-19 19:32:40.802 logo192.png;-;3728;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:32:40.802 ..;d;0;2025-10-19T17:27:07.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-19 19:32:40.802 robots.txt;-;70;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:32:40.802 favicon.ico;-;10479;2021-05-30T18:46:33.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:32:40.802 logo512.png;-;13128;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:32:40.802 manifest.json;-;517;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+< 2025-10-19 19:32:40.802 Script: drwxr-xr-x   2 u372623295 o1008009824      4096 Oct 19 19:30:59 2025 .
+< 2025-10-19 19:32:40.802 Script: -rw-r--r--   1 u372623295 o1008009824      3728 May 26 19:08:32 2021 logo192.png
+< 2025-10-19 19:32:40.802 Script: drwxr-xr-x  11 u372623295 o1008009824      4096 Oct 19 19:27:07 2025 ..
+< 2025-10-19 19:32:40.802 Script: -rw-r--r--   1 u372623295 o1008009824        70 May 26 19:08:32 2021 robots.txt
+< 2025-10-19 19:32:40.803 Script: -rw-r--r--   1 u372623295 o1008009824     10479 May 30 20:46:33 2021 favicon.ico
+< 2025-10-19 19:32:40.803 Script: -rw-r--r--   1 u372623295 o1008009824     13128 May 26 19:08:32 2021 logo512.png
+< 2025-10-19 19:32:40.803 Script: -rw-r--r--   1 u372623295 o1008009824       517 May 26 19:08:32 2021 manifest.json
+> 2025-10-19 19:32:40.804 Script: synchronize remote -delete .
+< 2025-10-19 19:32:40.804 Script: Comparaison...
+. 2025-10-19 19:32:40.804 Collecting synchronization list for local directory '.' and remote directory '/home/u372623295/domains/200.work/public_html/boulangerieParisBio', mode = Remote, params = 0x3 (Delete, NoConfirmation), file mask = ''
+. 2025-10-19 19:32:40.804 Local file '.\.' [2025-10-19T17:30:30.657Z] [0] excluded from synchronization
+. 2025-10-19 19:32:40.804 Local file '.\..' [2025-10-19T17:30:58.157Z] [0] excluded from synchronization
+. 2025-10-19 19:32:40.804 Local file '.\favicon.ico' [2021-05-30T18:46:33.710Z] [10479] included to synchronization
+. 2025-10-19 19:32:40.804 Local file '.\logo192.png' [2021-05-26T17:08:32.675Z] [3728] included to synchronization
+. 2025-10-19 19:32:40.804 Local file '.\logo512.png' [2021-05-26T17:08:32.675Z] [13128] included to synchronization
+. 2025-10-19 19:32:40.804 Local file '.\manifest.json' [2021-05-26T17:08:32.676Z] [517] included to synchronization
+. 2025-10-19 19:32:40.804 Local file '.\robots.txt' [2021-05-26T17:08:32.676Z] [70] included to synchronization
+. 2025-10-19 19:32:40.804 Listing directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+> 2025-10-19 19:32:40.804 Type: SSH_FXP_OPENDIR, Size: 74, Number: 2059
+< 2025-10-19 19:32:40.830 Type: SSH_FXP_STATUS, Size: 24, Number: 1796
+. 2025-10-19 19:32:40.830 Discarding reserved response
+< 2025-10-19 19:32:40.858 Type: SSH_FXP_HANDLE, Size: 13, Number: 2059
+> 2025-10-19 19:32:40.858 Type: SSH_FXP_READDIR, Size: 13, Number: 2316
+< 2025-10-19 19:32:40.886 Type: SSH_FXP_NAME, Size: 834, Number: 2316
+> 2025-10-19 19:32:40.886 Type: SSH_FXP_READDIR, Size: 13, Number: 2572
+< 2025-10-19 19:32:40.914 Type: SSH_FXP_STATUS, Size: 28, Number: 2572
+< 2025-10-19 19:32:40.914 Status code: 1
+> 2025-10-19 19:32:40.914 Type: SSH_FXP_CLOSE, Size: 13, Number: 2820
+. 2025-10-19 19:32:40.914 .;d;0;2025-10-19T17:30:59.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-19 19:32:40.914 logo192.png;-;3728;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:32:40.914 ..;d;0;2025-10-19T17:27:07.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-19 19:32:40.914 robots.txt;-;70;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:32:40.914 favicon.ico;-;10479;2021-05-30T18:46:33.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:32:40.914 logo512.png;-;13128;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:32:40.914 manifest.json;-;517;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+< 2025-10-19 19:32:40.980 Script: Aucun fichier à synchroniser.
+> 2025-10-19 19:32:40.980 Script: exit
+. 2025-10-19 19:32:40.980 Script: Exit code: 0
+. 2025-10-19 19:32:40.980 Closing connection.
+. 2025-10-19 19:32:40.980 Sending special code: 1
+. 2025-10-19 19:32:41.034 Session sent command exit status 0
+. 2025-10-19 19:32:41.034 Main session channel closed
+. 2025-10-19 19:32:41.035 All channels closed
+. 2025-10-19 19:39:52.383 --------------------------------------------------------------------------
+. 2025-10-19 19:39:52.409 WinSCP Version 6.5.3 (Compilation 16364 2025-07-16) (OS 10.0.26100 – Windows 11 Famille)
+. 2025-10-19 19:39:52.409 Configuration: nul
+. 2025-10-19 19:39:52.409 Log level: Normal
+. 2025-10-19 19:39:52.409 Local account: DESKTOP-640VQ3D\ertel
+. 2025-10-19 19:39:52.409 Working directory: D:\sites\lepaindemonquartier
+. 2025-10-19 19:39:52.409 Process ID: 42752
+. 2025-10-19 19:39:52.452 Ancestor processes: WinSCP, make, make, cmd, Code, Code, explorer, ...
+. 2025-10-19 19:39:52.452 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.5.3 /consoleinstance=_32844_319 "/log=deploy.log" "/ini=nul" "/script=deploy.txt" 
+. 2025-10-19 19:39:52.452 Time zone: Current: GMT+2, Standard: GMT+1 (Paris, Madrid), DST: GMT+2 (Paris, Madrid (heure d’été)), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-10-19 19:39:52.452 Login time: dimanche 19 octobre 2025 19:39:52
+. 2025-10-19 19:39:52.452 --------------------------------------------------------------------------
+. 2025-10-19 19:39:52.452 Script: Retrospectively logging previous script records:
+> 2025-10-19 19:39:52.452 Script: option batch abort
+< 2025-10-19 19:39:52.452 Script: batch           abort     
+> 2025-10-19 19:39:52.452 Script: option confirm off
+< 2025-10-19 19:39:52.452 Script: confirm         off       
+> 2025-10-19 19:39:52.452 Script: option transfer binary
+< 2025-10-19 19:39:52.452 Script: transfer        binary    
+> 2025-10-19 19:39:52.452 Script: open sftp://u372623295:***@82.25.113.115:65002 -hostkey="ssh-ed25519 255 6bHxo1XFm32AoC4oFzVQSDR6jc+plhuWPr4a//ByGD4="
+. 2025-10-19 19:39:52.452 --------------------------------------------------------------------------
+. 2025-10-19 19:39:52.452 Session name: u372623295@82.25.113.115 (Ad-Hoc site)
+. 2025-10-19 19:39:52.452 Host name: 82.25.113.115 (Port: 65002)
+. 2025-10-19 19:39:52.452 User name: u372623295 (Password: Yes, Key file: No, Passphrase: No)
+. 2025-10-19 19:39:52.452 Tunnel: No
+. 2025-10-19 19:39:52.452 Transfer Protocol: SFTP
+. 2025-10-19 19:39:52.452 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-10-19 19:39:52.452 Disable Nagle: No
+. 2025-10-19 19:39:52.452 Proxy: None
+. 2025-10-19 19:39:52.452 Send buffer: 262144
+. 2025-10-19 19:39:52.452 Compression: No
+. 2025-10-19 19:39:52.452 Bypass authentication: No
+. 2025-10-19 19:39:52.452 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2025-10-19 19:39:52.453 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2025-10-19 19:39:52.453 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2025-10-19 19:39:52.453 KEX: ntru-curve25519,mlkem-curve25519,mlkem-nist,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2025-10-19 19:39:52.453 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2025-10-19 19:39:52.453 Simple channel: Yes
+. 2025-10-19 19:39:52.453 Return code variable: Autodetect; Lookup user groups: Auto
+. 2025-10-19 19:39:52.453 Shell: default
+. 2025-10-19 19:39:52.453 EOL: LF, UTF: Auto
+. 2025-10-19 19:39:52.453 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2025-10-19 19:39:52.453 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2025-10-19 19:39:52.453 SFTP Bugs: Auto,Auto
+. 2025-10-19 19:39:52.453 SFTP Server: default
+. 2025-10-19 19:39:52.453 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-10-19 19:39:52.453 Cache directory changes: Yes, Permanent: Yes
+. 2025-10-19 19:39:52.453 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-10-19 19:39:52.453 DST mode: Unix
+. 2025-10-19 19:39:52.453 --------------------------------------------------------------------------
+< 2025-10-19 19:39:52.453 Script: Recherche de l'hôte...
+. 2025-10-19 19:39:52.456 Looking up host "82.25.113.115" for SSH connection
+. 2025-10-19 19:39:52.458 Connecting to 82.25.113.115 port 65002
+. 2025-10-19 19:39:52.487 Connected to 82.25.113.115 (from 192.168.178.58:59900)
+< 2025-10-19 19:39:52.488 Script: Connexion à l'hôte...
+. 2025-10-19 19:39:52.488 We claim version: SSH-2.0-WinSCP_release_6.5.3
+. 2025-10-19 19:39:52.488 Connected to 82.25.113.115 (from 192.168.178.58:59900)
+. 2025-10-19 19:39:52.536 Remote version: SSH-2.0-OpenSSH_8.7
+. 2025-10-19 19:39:52.536 Using SSH protocol version 2
+. 2025-10-19 19:39:52.537 Have a known host key of type ssh-ed25519
+. 2025-10-19 19:39:52.567 Enabling strict key exchange semantics
+. 2025-10-19 19:39:52.569 Doing ECDH key exchange with curve Curve25519, using hash SHA-256
+. 2025-10-19 19:39:52.657 Server also has ecdsa-sha2-nistp256/rsa-sha2-512/rsa-sha2-256/ssh-rsa host keys, but we don't know any of them
+. 2025-10-19 19:39:52.657 Host key fingerprint is:
+. 2025-10-19 19:39:52.657 ssh-ed25519 255 SHA256:6bHxo1XFm32AoC4oFzVQSDR6jc+plhuWPr4a//ByGD4
+< 2025-10-19 19:39:52.658 Script: Authentification...
+. 2025-10-19 19:39:52.658 Host key matches configured key fingerprint
+. 2025-10-19 19:39:52.659 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] outbound encryption
+. 2025-10-19 19:39:52.659 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2025-10-19 19:39:52.659 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] inbound encryption
+. 2025-10-19 19:39:52.659 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2025-10-19 19:39:52.694 Using username "u372623295".
+< 2025-10-19 19:39:52.694 Script: Utilisation du nom d'utilisateur "u372623295".
+. 2025-10-19 19:39:52.724 Server offered these authentication methods: publickey,password
+. 2025-10-19 19:39:52.724 Prompt (password, "SSH password", <no instructions>, "Mot de passe :")
+. 2025-10-19 19:39:52.724 Using stored password.
+< 2025-10-19 19:39:52.724 Script: Authentification avec le mot de passe préentré.
+. 2025-10-19 19:39:52.724 Sent password
+. 2025-10-19 19:39:52.766 Access granted
+. 2025-10-19 19:39:52.766 Opening main session channel
+. 2025-10-19 19:39:52.892 Opened main channel
+. 2025-10-19 19:39:52.921 Started a shell/command
+< 2025-10-19 19:39:52.921 Script: Authentifié.
+. 2025-10-19 19:39:52.921 --------------------------------------------------------------------------
+. 2025-10-19 19:39:52.924 Using SFTP protocol.
+. 2025-10-19 19:39:52.924 Doing startup conversation with host.
+< 2025-10-19 19:39:52.924 Script: Démarrage de la session...
+. 2025-10-19 19:39:52.925 Well known server, allowing SFTP version 6.
+> 2025-10-19 19:39:52.925 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2025-10-19 19:39:52.955 Type: SSH_FXP_VERSION, Size: 238, Number: -1
+. 2025-10-19 19:39:52.955 SFTP version 3 negotiated.
+. 2025-10-19 19:39:52.955 Supports extension posix-rename@openssh.com="1"
+. 2025-10-19 19:39:52.955 Supports statvfs@openssh.com extension version 2
+. 2025-10-19 19:39:52.955 Unknown server extension fstatvfs@openssh.com="2"
+. 2025-10-19 19:39:52.955 Supports hardlink@openssh.com extension version 1
+. 2025-10-19 19:39:52.955 Unknown server extension fsync@openssh.com="1"
+. 2025-10-19 19:39:52.955 Unknown server extension lsetstat@openssh.com="1"
+. 2025-10-19 19:39:52.955 Supports limits@openssh.com extension version 1
+. 2025-10-19 19:39:52.955 Unknown server extension expand-path@openssh.com="1"
+. 2025-10-19 19:39:52.955 We believe the server has signed timestamps bug
+. 2025-10-19 19:39:52.955 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+> 2025-10-19 19:39:52.955 Type: SSH_FXP_EXTENDED, Size: 27, Number: 200
+< 2025-10-19 19:39:52.982 Type: SSH_FXP_EXTENDED_REPLY, Size: 37, Number: 200
+. 2025-10-19 19:39:52.983 Limiting packet size to server's limit of 262144 + 4 bytes
+. 2025-10-19 19:39:52.983 Getting current directory name.
+. 2025-10-19 19:39:52.983 Getting real path for '.'
+> 2025-10-19 19:39:52.983 Type: SSH_FXP_REALPATH, Size: 10, Number: 272
+< 2025-10-19 19:39:53.010 Type: SSH_FXP_NAME, Size: 53, Number: 272
+. 2025-10-19 19:39:53.010 Real path is '/home/u372623295'
+. 2025-10-19 19:39:53.010 Startup conversation with host finished.
+< 2025-10-19 19:39:53.010 Script: Session démarrée.
+< 2025-10-19 19:39:53.010 Script: Session active : [1] u372623295@82.25.113.115
+> 2025-10-19 19:39:53.012 Script: lcd build
+< 2025-10-19 19:39:53.012 Script: D:\sites\lepaindemonquartier\build
+> 2025-10-19 19:39:53.012 Script: lpwd
+< 2025-10-19 19:39:53.012 Script: D:\sites\lepaindemonquartier\build
+> 2025-10-19 19:39:53.013 Script: cd /home/u372623295/domains/200.work/public_html/boulangerieParisBio
+. 2025-10-19 19:39:53.013 Changing directory to "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+. 2025-10-19 19:39:53.013 Getting real path for '/home/u372623295/domains/200.work/public_html/boulangerieParisBio'
+> 2025-10-19 19:39:53.013 Type: SSH_FXP_REALPATH, Size: 74, Number: 528
+< 2025-10-19 19:39:53.045 Type: SSH_FXP_NAME, Size: 151, Number: 528
+. 2025-10-19 19:39:53.045 Real path is '/home/u372623295/domains/200.work/public_html/boulangerieParisBio'
+. 2025-10-19 19:39:53.045 Trying to open directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+> 2025-10-19 19:39:53.045 Type: SSH_FXP_LSTAT, Size: 74, Number: 775
+< 2025-10-19 19:39:53.073 Type: SSH_FXP_ATTRS, Size: 37, Number: 775
+. 2025-10-19 19:39:53.073 Getting current directory name.
+< 2025-10-19 19:39:53.073 Script: /home/u372623295/domains/200.work/public_html/boulangerieParisBio
+> 2025-10-19 19:39:53.073 Script: pwd
+< 2025-10-19 19:39:53.073 Script: /home/u372623295/domains/200.work/public_html/boulangerieParisBio
+> 2025-10-19 19:39:53.075 Script: ls
+. 2025-10-19 19:39:53.075 Listing directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+> 2025-10-19 19:39:53.075 Type: SSH_FXP_OPENDIR, Size: 74, Number: 1035
+< 2025-10-19 19:39:53.103 Type: SSH_FXP_HANDLE, Size: 13, Number: 1035
+> 2025-10-19 19:39:53.103 Type: SSH_FXP_READDIR, Size: 13, Number: 1292
+< 2025-10-19 19:39:53.137 Type: SSH_FXP_NAME, Size: 834, Number: 1292
+> 2025-10-19 19:39:53.137 Type: SSH_FXP_READDIR, Size: 13, Number: 1548
+< 2025-10-19 19:39:53.165 Type: SSH_FXP_STATUS, Size: 28, Number: 1548
+< 2025-10-19 19:39:53.165 Status code: 1
+> 2025-10-19 19:39:53.165 Type: SSH_FXP_CLOSE, Size: 13, Number: 1796
+. 2025-10-19 19:39:53.165 .;d;0;2025-10-19T17:30:59.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-19 19:39:53.165 logo192.png;-;3728;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:39:53.165 ..;d;0;2025-10-19T17:27:07.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-19 19:39:53.165 robots.txt;-;70;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:39:53.165 favicon.ico;-;10479;2021-05-30T18:46:33.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:39:53.165 logo512.png;-;13128;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:39:53.165 manifest.json;-;517;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+< 2025-10-19 19:39:53.165 Script: drwxr-xr-x   2 u372623295 o1008009824      4096 Oct 19 19:30:59 2025 .
+< 2025-10-19 19:39:53.165 Script: -rw-r--r--   1 u372623295 o1008009824      3728 May 26 19:08:32 2021 logo192.png
+< 2025-10-19 19:39:53.165 Script: drwxr-xr-x  11 u372623295 o1008009824      4096 Oct 19 19:27:07 2025 ..
+< 2025-10-19 19:39:53.165 Script: -rw-r--r--   1 u372623295 o1008009824        70 May 26 19:08:32 2021 robots.txt
+< 2025-10-19 19:39:53.165 Script: -rw-r--r--   1 u372623295 o1008009824     10479 May 30 20:46:33 2021 favicon.ico
+< 2025-10-19 19:39:53.165 Script: -rw-r--r--   1 u372623295 o1008009824     13128 May 26 19:08:32 2021 logo512.png
+< 2025-10-19 19:39:53.166 Script: -rw-r--r--   1 u372623295 o1008009824       517 May 26 19:08:32 2021 manifest.json
+> 2025-10-19 19:39:53.166 Script: synchronize remote -delete -criteria=none .
+< 2025-10-19 19:39:53.166 Script: Comparaison...
+. 2025-10-19 19:39:53.167 Collecting synchronization list for local directory '.' and remote directory '/home/u372623295/domains/200.work/public_html/boulangerieParisBio', mode = Remote, params = 0x203 (Delete, NoConfirmation, NotByTime), file mask = ''
+. 2025-10-19 19:39:53.167 Local file '.\.' [2025-10-19T17:30:30.657Z] [0] excluded from synchronization
+. 2025-10-19 19:39:53.167 Local file '.\..' [2025-10-19T17:30:58.157Z] [0] excluded from synchronization
+. 2025-10-19 19:39:53.168 Local file '.\favicon.ico' [2021-05-30T18:46:33.710Z] [10479] included to synchronization
+. 2025-10-19 19:39:53.168 Local file '.\logo192.png' [2021-05-26T17:08:32.675Z] [3728] included to synchronization
+. 2025-10-19 19:39:53.168 Local file '.\logo512.png' [2021-05-26T17:08:32.675Z] [13128] included to synchronization
+. 2025-10-19 19:39:53.168 Local file '.\manifest.json' [2021-05-26T17:08:32.676Z] [517] included to synchronization
+. 2025-10-19 19:39:53.168 Local file '.\robots.txt' [2021-05-26T17:08:32.676Z] [70] included to synchronization
+. 2025-10-19 19:39:53.168 Listing directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+> 2025-10-19 19:39:53.168 Type: SSH_FXP_OPENDIR, Size: 74, Number: 2059
+< 2025-10-19 19:39:53.195 Type: SSH_FXP_STATUS, Size: 24, Number: 1796
+. 2025-10-19 19:39:53.195 Discarding reserved response
+< 2025-10-19 19:39:53.227 Type: SSH_FXP_HANDLE, Size: 13, Number: 2059
+> 2025-10-19 19:39:53.227 Type: SSH_FXP_READDIR, Size: 13, Number: 2316
+< 2025-10-19 19:39:53.257 Type: SSH_FXP_NAME, Size: 834, Number: 2316
+> 2025-10-19 19:39:53.257 Type: SSH_FXP_READDIR, Size: 13, Number: 2572
+< 2025-10-19 19:39:53.285 Type: SSH_FXP_STATUS, Size: 28, Number: 2572
+< 2025-10-19 19:39:53.285 Status code: 1
+> 2025-10-19 19:39:53.285 Type: SSH_FXP_CLOSE, Size: 13, Number: 2820
+. 2025-10-19 19:39:53.285 .;d;0;2025-10-19T17:30:59.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-19 19:39:53.285 logo192.png;-;3728;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:39:53.285 ..;d;0;2025-10-19T17:27:07.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-19 19:39:53.285 robots.txt;-;70;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:39:53.285 favicon.ico;-;10479;2021-05-30T18:46:33.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:39:53.285 logo512.png;-;13128;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-19 19:39:53.285 manifest.json;-;517;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+< 2025-10-19 19:39:53.376 Script: Aucun fichier à synchroniser.
+> 2025-10-19 19:39:53.377 Script: exit
+. 2025-10-19 19:39:53.377 Script: Exit code: 0
+. 2025-10-19 19:39:53.377 Closing connection.
+. 2025-10-19 19:39:53.377 Sending special code: 1
+. 2025-10-19 19:39:53.436 Session sent command exit status 0
+. 2025-10-19 19:39:53.436 Main session channel closed
+. 2025-10-19 19:39:53.436 All channels closed
+. 2025-10-20 05:44:53.654 --------------------------------------------------------------------------
+. 2025-10-20 05:44:53.659 WinSCP Version 6.5.3 (Compilation 16364 2025-07-16) (OS 10.0.26100 – Windows 11 Famille)
+. 2025-10-20 05:44:53.659 Configuration: nul
+. 2025-10-20 05:44:53.659 Log level: Normal
+. 2025-10-20 05:44:53.659 Local account: DESKTOP-640VQ3D\ertel
+. 2025-10-20 05:44:53.659 Working directory: D:\sites\lepaindemonquartier
+. 2025-10-20 05:44:53.659 Process ID: 36276
+. 2025-10-20 05:44:53.716 Ancestor processes: WinSCP, make, make, cmd, Code, Code, explorer, ...
+. 2025-10-20 05:44:53.717 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.5.3 /consoleinstance=_41316_793 "/log=deploy.log" "/ini=nul" "/script=deploy.txt" 
+. 2025-10-20 05:44:53.717 Time zone: Current: GMT+2, Standard: GMT+1 (Paris, Madrid), DST: GMT+2 (Paris, Madrid (heure d’été)), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-10-20 05:44:53.717 Login time: lundi 20 octobre 2025 05:44:53
+. 2025-10-20 05:44:53.717 --------------------------------------------------------------------------
+. 2025-10-20 05:44:53.717 Script: Retrospectively logging previous script records:
+> 2025-10-20 05:44:53.717 Script: option batch abort
+< 2025-10-20 05:44:53.717 Script: batch           abort     
+> 2025-10-20 05:44:53.717 Script: option confirm off
+< 2025-10-20 05:44:53.717 Script: confirm         off       
+> 2025-10-20 05:44:53.717 Script: option transfer binary
+< 2025-10-20 05:44:53.717 Script: transfer        binary    
+> 2025-10-20 05:44:53.717 Script: open sftp://u372623295:***@82.25.113.115:65002 -hostkey="ssh-ed25519 255 6bHxo1XFm32AoC4oFzVQSDR6jc+plhuWPr4a//ByGD4="
+. 2025-10-20 05:44:53.717 --------------------------------------------------------------------------
+. 2025-10-20 05:44:53.717 Session name: u372623295@82.25.113.115 (Ad-Hoc site)
+. 2025-10-20 05:44:53.717 Host name: 82.25.113.115 (Port: 65002)
+. 2025-10-20 05:44:53.717 User name: u372623295 (Password: Yes, Key file: No, Passphrase: No)
+. 2025-10-20 05:44:53.717 Tunnel: No
+. 2025-10-20 05:44:53.717 Transfer Protocol: SFTP
+. 2025-10-20 05:44:53.717 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-10-20 05:44:53.717 Disable Nagle: No
+. 2025-10-20 05:44:53.717 Proxy: None
+. 2025-10-20 05:44:53.717 Send buffer: 262144
+. 2025-10-20 05:44:53.717 Compression: No
+. 2025-10-20 05:44:53.717 Bypass authentication: No
+. 2025-10-20 05:44:53.717 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2025-10-20 05:44:53.717 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2025-10-20 05:44:53.717 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2025-10-20 05:44:53.717 KEX: ntru-curve25519,mlkem-curve25519,mlkem-nist,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2025-10-20 05:44:53.717 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2025-10-20 05:44:53.717 Simple channel: Yes
+. 2025-10-20 05:44:53.718 Return code variable: Autodetect; Lookup user groups: Auto
+. 2025-10-20 05:44:53.718 Shell: default
+. 2025-10-20 05:44:53.718 EOL: LF, UTF: Auto
+. 2025-10-20 05:44:53.718 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2025-10-20 05:44:53.718 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2025-10-20 05:44:53.718 SFTP Bugs: Auto,Auto
+. 2025-10-20 05:44:53.718 SFTP Server: default
+. 2025-10-20 05:44:53.718 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-10-20 05:44:53.718 Cache directory changes: Yes, Permanent: Yes
+. 2025-10-20 05:44:53.718 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-10-20 05:44:53.718 DST mode: Unix
+. 2025-10-20 05:44:53.718 --------------------------------------------------------------------------
+< 2025-10-20 05:44:53.718 Script: Recherche de l'hôte...
+. 2025-10-20 05:44:53.719 Looking up host "82.25.113.115" for SSH connection
+. 2025-10-20 05:44:53.720 Connecting to 82.25.113.115 port 65002
+. 2025-10-20 05:44:53.755 Connected to 82.25.113.115 (from 192.168.178.58:65473)
+< 2025-10-20 05:44:53.756 Script: Connexion à l'hôte...
+. 2025-10-20 05:44:53.757 We claim version: SSH-2.0-WinSCP_release_6.5.3
+. 2025-10-20 05:44:53.757 Connected to 82.25.113.115 (from 192.168.178.58:65473)
+. 2025-10-20 05:44:53.803 Remote version: SSH-2.0-OpenSSH_8.7
+. 2025-10-20 05:44:53.803 Using SSH protocol version 2
+. 2025-10-20 05:44:53.804 Have a known host key of type ssh-ed25519
+. 2025-10-20 05:44:53.839 Enabling strict key exchange semantics
+. 2025-10-20 05:44:53.840 Doing ECDH key exchange with curve Curve25519, using hash SHA-256
+. 2025-10-20 05:44:53.935 Server also has ecdsa-sha2-nistp256/rsa-sha2-512/rsa-sha2-256/ssh-rsa host keys, but we don't know any of them
+. 2025-10-20 05:44:53.936 Host key fingerprint is:
+. 2025-10-20 05:44:53.936 ssh-ed25519 255 SHA256:6bHxo1XFm32AoC4oFzVQSDR6jc+plhuWPr4a//ByGD4
+< 2025-10-20 05:44:53.936 Script: Authentification...
+. 2025-10-20 05:44:53.936 Host key matches configured key fingerprint
+. 2025-10-20 05:44:53.937 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] outbound encryption
+. 2025-10-20 05:44:53.937 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2025-10-20 05:44:53.937 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] inbound encryption
+. 2025-10-20 05:44:53.937 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2025-10-20 05:44:53.972 Using username "u372623295".
+< 2025-10-20 05:44:53.972 Script: Utilisation du nom d'utilisateur "u372623295".
+. 2025-10-20 05:44:54.005 Server offered these authentication methods: publickey,password
+. 2025-10-20 05:44:54.006 Prompt (password, "SSH password", <no instructions>, "Mot de passe :")
+. 2025-10-20 05:44:54.006 Using stored password.
+< 2025-10-20 05:44:54.006 Script: Authentification avec le mot de passe préentré.
+. 2025-10-20 05:44:54.006 Sent password
+. 2025-10-20 05:44:54.052 Access granted
+. 2025-10-20 05:44:54.052 Opening main session channel
+. 2025-10-20 05:44:54.160 Opened main channel
+. 2025-10-20 05:44:54.195 Started a shell/command
+< 2025-10-20 05:44:54.195 Script: Authentifié.
+. 2025-10-20 05:44:54.195 --------------------------------------------------------------------------
+. 2025-10-20 05:44:54.195 Using SFTP protocol.
+. 2025-10-20 05:44:54.195 Doing startup conversation with host.
+< 2025-10-20 05:44:54.195 Script: Démarrage de la session...
+. 2025-10-20 05:44:54.195 Well known server, allowing SFTP version 6.
+> 2025-10-20 05:44:54.195 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2025-10-20 05:44:54.227 Type: SSH_FXP_VERSION, Size: 238, Number: -1
+. 2025-10-20 05:44:54.227 SFTP version 3 negotiated.
+. 2025-10-20 05:44:54.227 Supports extension posix-rename@openssh.com="1"
+. 2025-10-20 05:44:54.227 Supports statvfs@openssh.com extension version 2
+. 2025-10-20 05:44:54.227 Unknown server extension fstatvfs@openssh.com="2"
+. 2025-10-20 05:44:54.227 Supports hardlink@openssh.com extension version 1
+. 2025-10-20 05:44:54.227 Unknown server extension fsync@openssh.com="1"
+. 2025-10-20 05:44:54.227 Unknown server extension lsetstat@openssh.com="1"
+. 2025-10-20 05:44:54.227 Supports limits@openssh.com extension version 1
+. 2025-10-20 05:44:54.227 Unknown server extension expand-path@openssh.com="1"
+. 2025-10-20 05:44:54.227 We believe the server has signed timestamps bug
+. 2025-10-20 05:44:54.227 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+> 2025-10-20 05:44:54.227 Type: SSH_FXP_EXTENDED, Size: 27, Number: 200
+< 2025-10-20 05:44:54.259 Type: SSH_FXP_EXTENDED_REPLY, Size: 37, Number: 200
+. 2025-10-20 05:44:54.259 Limiting packet size to server's limit of 262144 + 4 bytes
+. 2025-10-20 05:44:54.259 Getting current directory name.
+. 2025-10-20 05:44:54.259 Getting real path for '.'
+> 2025-10-20 05:44:54.259 Type: SSH_FXP_REALPATH, Size: 10, Number: 272
+< 2025-10-20 05:44:54.291 Type: SSH_FXP_NAME, Size: 53, Number: 272
+. 2025-10-20 05:44:54.291 Real path is '/home/u372623295'
+. 2025-10-20 05:44:54.291 Startup conversation with host finished.
+< 2025-10-20 05:44:54.291 Script: Session démarrée.
+< 2025-10-20 05:44:54.292 Script: Session active : [1] u372623295@82.25.113.115
+> 2025-10-20 05:44:54.292 Script: lcd build
+< 2025-10-20 05:44:54.292 Script: D:\sites\lepaindemonquartier\build
+> 2025-10-20 05:44:54.293 Script: lpwd
+< 2025-10-20 05:44:54.293 Script: D:\sites\lepaindemonquartier\build
+> 2025-10-20 05:44:54.293 Script: cd /home/u372623295/domains/200.work/public_html/boulangerieParisBio
+. 2025-10-20 05:44:54.293 Changing directory to "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+. 2025-10-20 05:44:54.293 Getting real path for '/home/u372623295/domains/200.work/public_html/boulangerieParisBio'
+> 2025-10-20 05:44:54.293 Type: SSH_FXP_REALPATH, Size: 74, Number: 528
+< 2025-10-20 05:44:54.328 Type: SSH_FXP_NAME, Size: 151, Number: 528
+. 2025-10-20 05:44:54.328 Real path is '/home/u372623295/domains/200.work/public_html/boulangerieParisBio'
+. 2025-10-20 05:44:54.328 Trying to open directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+> 2025-10-20 05:44:54.328 Type: SSH_FXP_LSTAT, Size: 74, Number: 775
+< 2025-10-20 05:44:54.362 Type: SSH_FXP_ATTRS, Size: 37, Number: 775
+. 2025-10-20 05:44:54.362 Getting current directory name.
+< 2025-10-20 05:44:54.362 Script: /home/u372623295/domains/200.work/public_html/boulangerieParisBio
+> 2025-10-20 05:44:54.362 Script: pwd
+< 2025-10-20 05:44:54.363 Script: /home/u372623295/domains/200.work/public_html/boulangerieParisBio
+> 2025-10-20 05:44:54.363 Script: ls
+. 2025-10-20 05:44:54.364 Listing directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+> 2025-10-20 05:44:54.364 Type: SSH_FXP_OPENDIR, Size: 74, Number: 1035
+< 2025-10-20 05:44:54.396 Type: SSH_FXP_HANDLE, Size: 13, Number: 1035
+> 2025-10-20 05:44:54.396 Type: SSH_FXP_READDIR, Size: 13, Number: 1292
+< 2025-10-20 05:44:54.429 Type: SSH_FXP_NAME, Size: 834, Number: 1292
+> 2025-10-20 05:44:54.429 Type: SSH_FXP_READDIR, Size: 13, Number: 1548
+< 2025-10-20 05:44:54.460 Type: SSH_FXP_STATUS, Size: 28, Number: 1548
+< 2025-10-20 05:44:54.460 Status code: 1
+> 2025-10-20 05:44:54.460 Type: SSH_FXP_CLOSE, Size: 13, Number: 1796
+. 2025-10-20 05:44:54.461 .;d;0;2025-10-19T17:30:59.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-20 05:44:54.461 logo192.png;-;3728;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 05:44:54.461 ..;d;0;2025-10-19T17:27:07.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-20 05:44:54.461 robots.txt;-;70;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 05:44:54.461 favicon.ico;-;10479;2021-05-30T18:46:33.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 05:44:54.461 logo512.png;-;13128;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 05:44:54.461 manifest.json;-;517;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+< 2025-10-20 05:44:54.461 Script: drwxr-xr-x   2 u372623295 o1008009824      4096 Oct 19 19:30:59 2025 .
+< 2025-10-20 05:44:54.461 Script: -rw-r--r--   1 u372623295 o1008009824      3728 May 26 19:08:32 2021 logo192.png
+< 2025-10-20 05:44:54.461 Script: drwxr-xr-x  11 u372623295 o1008009824      4096 Oct 19 19:27:07 2025 ..
+< 2025-10-20 05:44:54.461 Script: -rw-r--r--   1 u372623295 o1008009824        70 May 26 19:08:32 2021 robots.txt
+< 2025-10-20 05:44:54.462 Script: -rw-r--r--   1 u372623295 o1008009824     10479 May 30 20:46:33 2021 favicon.ico
+< 2025-10-20 05:44:54.462 Script: -rw-r--r--   1 u372623295 o1008009824     13128 May 26 19:08:32 2021 logo512.png
+< 2025-10-20 05:44:54.462 Script: -rw-r--r--   1 u372623295 o1008009824       517 May 26 19:08:32 2021 manifest.json
+> 2025-10-20 05:44:54.463 Script: synchronize remote -delete .
+< 2025-10-20 05:44:54.463 Script: Comparaison...
+. 2025-10-20 05:44:54.464 Collecting synchronization list for local directory '.' and remote directory '/home/u372623295/domains/200.work/public_html/boulangerieParisBio', mode = Remote, params = 0x3 (Delete, NoConfirmation), file mask = ''
+. 2025-10-20 05:44:54.465 Local file '.\.' [2025-10-20T03:44:21.584Z] [0] excluded from synchronization
+. 2025-10-20 05:44:54.465 Local file '.\..' [2025-10-19T18:14:50.065Z] [0] excluded from synchronization
+. 2025-10-20 05:44:54.465 Local file '.\favicon.ico' [2021-05-30T18:46:33.710Z] [10479] included to synchronization
+. 2025-10-20 05:44:54.465 Local file '.\logo192.png' [2021-05-26T17:08:32.675Z] [3728] included to synchronization
+. 2025-10-20 05:44:54.465 Local file '.\logo512.png' [2021-05-26T17:08:32.675Z] [13128] included to synchronization
+. 2025-10-20 05:44:54.465 Local file '.\manifest.json' [2021-05-26T17:08:32.676Z] [517] included to synchronization
+. 2025-10-20 05:44:54.465 Local file '.\robots.txt' [2021-05-26T17:08:32.676Z] [70] included to synchronization
+. 2025-10-20 05:44:54.465 Listing directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+> 2025-10-20 05:44:54.465 Type: SSH_FXP_OPENDIR, Size: 74, Number: 2059
+< 2025-10-20 05:44:54.494 Type: SSH_FXP_STATUS, Size: 24, Number: 1796
+. 2025-10-20 05:44:54.494 Discarding reserved response
+< 2025-10-20 05:44:54.524 Type: SSH_FXP_HANDLE, Size: 13, Number: 2059
+> 2025-10-20 05:44:54.524 Type: SSH_FXP_READDIR, Size: 13, Number: 2316
+< 2025-10-20 05:44:54.556 Type: SSH_FXP_NAME, Size: 834, Number: 2316
+> 2025-10-20 05:44:54.556 Type: SSH_FXP_READDIR, Size: 13, Number: 2572
+< 2025-10-20 05:44:54.588 Type: SSH_FXP_STATUS, Size: 28, Number: 2572
+< 2025-10-20 05:44:54.588 Status code: 1
+> 2025-10-20 05:44:54.588 Type: SSH_FXP_CLOSE, Size: 13, Number: 2820
+. 2025-10-20 05:44:54.588 .;d;0;2025-10-19T17:30:59.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-20 05:44:54.588 logo192.png;-;3728;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 05:44:54.588 ..;d;0;2025-10-19T17:27:07.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-20 05:44:54.588 robots.txt;-;70;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 05:44:54.588 favicon.ico;-;10479;2021-05-30T18:46:33.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 05:44:54.588 logo512.png;-;13128;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 05:44:54.588 manifest.json;-;517;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+< 2025-10-20 05:44:54.732 Script: Aucun fichier à synchroniser.
+> 2025-10-20 05:44:54.733 Script: exit
+. 2025-10-20 05:44:54.733 Script: Exit code: 0
+. 2025-10-20 05:44:54.733 Closing connection.
+. 2025-10-20 05:44:54.733 Sending special code: 1
+. 2025-10-20 05:44:54.797 Session sent command exit status 0
+. 2025-10-20 05:44:54.797 Main session channel closed
+. 2025-10-20 05:44:54.797 All channels closed
+. 2025-10-20 16:13:38.310 --------------------------------------------------------------------------
+. 2025-10-20 16:13:38.313 WinSCP Version 6.5.3 (Compilation 16364 2025-07-16) (OS 10.0.26100 – Windows 11 Famille)
+. 2025-10-20 16:13:38.313 Configuration: nul
+. 2025-10-20 16:13:38.314 Log level: Normal
+. 2025-10-20 16:13:38.314 Local account: DESKTOP-640VQ3D\ertel
+. 2025-10-20 16:13:38.314 Working directory: D:\sites\lepaindemonquartier
+. 2025-10-20 16:13:38.314 Process ID: 44456
+. 2025-10-20 16:13:38.398 Ancestor processes: WinSCP, make, make, cmd, Code, Code, explorer, ...
+. 2025-10-20 16:13:38.399 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.5.3 /consoleinstance=_40672_279 "/log=deploy.log" "/ini=nul" "/script=deploy.txt" 
+. 2025-10-20 16:13:38.399 Time zone: Current: GMT+2, Standard: GMT+1 (Paris, Madrid), DST: GMT+2 (Paris, Madrid (heure d’été)), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-10-20 16:13:38.399 Login time: lundi 20 octobre 2025 16:13:38
+. 2025-10-20 16:13:38.399 --------------------------------------------------------------------------
+. 2025-10-20 16:13:38.399 Script: Retrospectively logging previous script records:
+> 2025-10-20 16:13:38.399 Script: option batch abort
+< 2025-10-20 16:13:38.399 Script: batch           abort     
+> 2025-10-20 16:13:38.399 Script: option confirm off
+< 2025-10-20 16:13:38.399 Script: confirm         off       
+> 2025-10-20 16:13:38.399 Script: option transfer binary
+< 2025-10-20 16:13:38.399 Script: transfer        binary    
+> 2025-10-20 16:13:38.399 Script: open sftp://u372623295:***@82.25.113.115:65002 -hostkey="ssh-ed25519 255 6bHxo1XFm32AoC4oFzVQSDR6jc+plhuWPr4a//ByGD4="
+. 2025-10-20 16:13:38.399 --------------------------------------------------------------------------
+. 2025-10-20 16:13:38.400 Session name: u372623295@82.25.113.115 (Ad-Hoc site)
+. 2025-10-20 16:13:38.400 Host name: 82.25.113.115 (Port: 65002)
+. 2025-10-20 16:13:38.400 User name: u372623295 (Password: Yes, Key file: No, Passphrase: No)
+. 2025-10-20 16:13:38.400 Tunnel: No
+. 2025-10-20 16:13:38.400 Transfer Protocol: SFTP
+. 2025-10-20 16:13:38.400 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-10-20 16:13:38.400 Disable Nagle: No
+. 2025-10-20 16:13:38.400 Proxy: None
+. 2025-10-20 16:13:38.400 Send buffer: 262144
+. 2025-10-20 16:13:38.400 Compression: No
+. 2025-10-20 16:13:38.400 Bypass authentication: No
+. 2025-10-20 16:13:38.400 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2025-10-20 16:13:38.400 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2025-10-20 16:13:38.400 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2025-10-20 16:13:38.400 KEX: ntru-curve25519,mlkem-curve25519,mlkem-nist,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2025-10-20 16:13:38.400 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2025-10-20 16:13:38.400 Simple channel: Yes
+. 2025-10-20 16:13:38.400 Return code variable: Autodetect; Lookup user groups: Auto
+. 2025-10-20 16:13:38.400 Shell: default
+. 2025-10-20 16:13:38.400 EOL: LF, UTF: Auto
+. 2025-10-20 16:13:38.400 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2025-10-20 16:13:38.400 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2025-10-20 16:13:38.400 SFTP Bugs: Auto,Auto
+. 2025-10-20 16:13:38.400 SFTP Server: default
+. 2025-10-20 16:13:38.400 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-10-20 16:13:38.400 Cache directory changes: Yes, Permanent: Yes
+. 2025-10-20 16:13:38.400 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-10-20 16:13:38.400 DST mode: Unix
+. 2025-10-20 16:13:38.400 --------------------------------------------------------------------------
+< 2025-10-20 16:13:38.400 Script: Recherche de l'hôte...
+. 2025-10-20 16:13:38.401 Looking up host "82.25.113.115" for SSH connection
+. 2025-10-20 16:13:38.403 Connecting to 82.25.113.115 port 65002
+. 2025-10-20 16:13:38.439 Connected to 82.25.113.115 (from 192.168.178.58:57619)
+< 2025-10-20 16:13:38.440 Script: Connexion à l'hôte...
+. 2025-10-20 16:13:38.440 We claim version: SSH-2.0-WinSCP_release_6.5.3
+. 2025-10-20 16:13:38.440 Connected to 82.25.113.115 (from 192.168.178.58:57619)
+. 2025-10-20 16:13:38.491 Remote version: SSH-2.0-OpenSSH_8.7
+. 2025-10-20 16:13:38.492 Using SSH protocol version 2
+. 2025-10-20 16:13:38.493 Have a known host key of type ssh-ed25519
+. 2025-10-20 16:13:38.545 Enabling strict key exchange semantics
+. 2025-10-20 16:13:38.546 Doing ECDH key exchange with curve Curve25519, using hash SHA-256
+. 2025-10-20 16:13:38.663 Server also has ecdsa-sha2-nistp256/rsa-sha2-512/rsa-sha2-256/ssh-rsa host keys, but we don't know any of them
+. 2025-10-20 16:13:38.663 Host key fingerprint is:
+. 2025-10-20 16:13:38.663 ssh-ed25519 255 SHA256:6bHxo1XFm32AoC4oFzVQSDR6jc+plhuWPr4a//ByGD4
+< 2025-10-20 16:13:38.664 Script: Authentification...
+. 2025-10-20 16:13:38.664 Host key matches configured key fingerprint
+. 2025-10-20 16:13:38.666 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] outbound encryption
+. 2025-10-20 16:13:38.666 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2025-10-20 16:13:38.666 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] inbound encryption
+. 2025-10-20 16:13:38.666 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2025-10-20 16:13:38.701 Using username "u372623295".
+< 2025-10-20 16:13:38.701 Script: Utilisation du nom d'utilisateur "u372623295".
+. 2025-10-20 16:13:38.735 Server offered these authentication methods: publickey,password
+. 2025-10-20 16:13:38.735 Prompt (password, "SSH password", <no instructions>, "Mot de passe :")
+. 2025-10-20 16:13:38.735 Using stored password.
+< 2025-10-20 16:13:38.735 Script: Authentification avec le mot de passe préentré.
+. 2025-10-20 16:13:38.736 Sent password
+. 2025-10-20 16:13:38.785 Access granted
+. 2025-10-20 16:13:38.785 Opening main session channel
+. 2025-10-20 16:13:38.899 Opened main channel
+. 2025-10-20 16:13:38.939 Started a shell/command
+< 2025-10-20 16:13:38.939 Script: Authentifié.
+. 2025-10-20 16:13:38.942 --------------------------------------------------------------------------
+. 2025-10-20 16:13:38.942 Using SFTP protocol.
+. 2025-10-20 16:13:38.942 Doing startup conversation with host.
+< 2025-10-20 16:13:38.942 Script: Démarrage de la session...
+. 2025-10-20 16:13:38.943 Well known server, allowing SFTP version 6.
+> 2025-10-20 16:13:38.943 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2025-10-20 16:13:38.976 Type: SSH_FXP_VERSION, Size: 238, Number: -1
+. 2025-10-20 16:13:38.976 SFTP version 3 negotiated.
+. 2025-10-20 16:13:38.976 Supports extension posix-rename@openssh.com="1"
+. 2025-10-20 16:13:38.976 Supports statvfs@openssh.com extension version 2
+. 2025-10-20 16:13:38.976 Unknown server extension fstatvfs@openssh.com="2"
+. 2025-10-20 16:13:38.976 Supports hardlink@openssh.com extension version 1
+. 2025-10-20 16:13:38.976 Unknown server extension fsync@openssh.com="1"
+. 2025-10-20 16:13:38.976 Unknown server extension lsetstat@openssh.com="1"
+. 2025-10-20 16:13:38.976 Supports limits@openssh.com extension version 1
+. 2025-10-20 16:13:38.976 Unknown server extension expand-path@openssh.com="1"
+. 2025-10-20 16:13:38.976 We believe the server has signed timestamps bug
+. 2025-10-20 16:13:38.977 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+> 2025-10-20 16:13:38.977 Type: SSH_FXP_EXTENDED, Size: 27, Number: 200
+< 2025-10-20 16:13:39.010 Type: SSH_FXP_EXTENDED_REPLY, Size: 37, Number: 200
+. 2025-10-20 16:13:39.010 Limiting packet size to server's limit of 262144 + 4 bytes
+. 2025-10-20 16:13:39.010 Getting current directory name.
+. 2025-10-20 16:13:39.010 Getting real path for '.'
+> 2025-10-20 16:13:39.010 Type: SSH_FXP_REALPATH, Size: 10, Number: 272
+< 2025-10-20 16:13:39.045 Type: SSH_FXP_NAME, Size: 53, Number: 272
+. 2025-10-20 16:13:39.046 Real path is '/home/u372623295'
+. 2025-10-20 16:13:39.046 Startup conversation with host finished.
+< 2025-10-20 16:13:39.046 Script: Session démarrée.
+< 2025-10-20 16:13:39.046 Script: Session active : [1] u372623295@82.25.113.115
+> 2025-10-20 16:13:39.048 Script: lcd build
+< 2025-10-20 16:13:39.048 Script: D:\sites\lepaindemonquartier\build
+> 2025-10-20 16:13:39.048 Script: lpwd
+< 2025-10-20 16:13:39.048 Script: D:\sites\lepaindemonquartier\build
+> 2025-10-20 16:13:39.048 Script: cd /home/u372623295/domains/200.work/public_html/boulangerieParisBio
+. 2025-10-20 16:13:39.048 Changing directory to "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+. 2025-10-20 16:13:39.048 Getting real path for '/home/u372623295/domains/200.work/public_html/boulangerieParisBio'
+> 2025-10-20 16:13:39.048 Type: SSH_FXP_REALPATH, Size: 74, Number: 528
+< 2025-10-20 16:13:39.082 Type: SSH_FXP_NAME, Size: 151, Number: 528
+. 2025-10-20 16:13:39.082 Real path is '/home/u372623295/domains/200.work/public_html/boulangerieParisBio'
+. 2025-10-20 16:13:39.082 Trying to open directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+> 2025-10-20 16:13:39.082 Type: SSH_FXP_LSTAT, Size: 74, Number: 775
+< 2025-10-20 16:13:39.115 Type: SSH_FXP_ATTRS, Size: 37, Number: 775
+. 2025-10-20 16:13:39.115 Getting current directory name.
+< 2025-10-20 16:13:39.115 Script: /home/u372623295/domains/200.work/public_html/boulangerieParisBio
+> 2025-10-20 16:13:39.116 Script: pwd
+< 2025-10-20 16:13:39.116 Script: /home/u372623295/domains/200.work/public_html/boulangerieParisBio
+> 2025-10-20 16:13:39.116 Script: ls
+. 2025-10-20 16:13:39.117 Listing directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+> 2025-10-20 16:13:39.117 Type: SSH_FXP_OPENDIR, Size: 74, Number: 1035
+< 2025-10-20 16:13:39.152 Type: SSH_FXP_HANDLE, Size: 13, Number: 1035
+> 2025-10-20 16:13:39.152 Type: SSH_FXP_READDIR, Size: 13, Number: 1292
+< 2025-10-20 16:13:39.185 Type: SSH_FXP_NAME, Size: 834, Number: 1292
+> 2025-10-20 16:13:39.185 Type: SSH_FXP_READDIR, Size: 13, Number: 1548
+< 2025-10-20 16:13:39.218 Type: SSH_FXP_STATUS, Size: 28, Number: 1548
+< 2025-10-20 16:13:39.219 Status code: 1
+> 2025-10-20 16:13:39.219 Type: SSH_FXP_CLOSE, Size: 13, Number: 1796
+. 2025-10-20 16:13:39.219 .;d;0;2025-10-19T17:30:59.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-20 16:13:39.219 logo192.png;-;3728;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 16:13:39.219 ..;d;0;2025-10-19T17:27:07.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-20 16:13:39.219 robots.txt;-;70;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 16:13:39.219 favicon.ico;-;10479;2021-05-30T18:46:33.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 16:13:39.219 logo512.png;-;13128;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 16:13:39.219 manifest.json;-;517;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+< 2025-10-20 16:13:39.219 Script: drwxr-xr-x   2 u372623295 o1008009824      4096 Oct 19 19:30:59 2025 .
+< 2025-10-20 16:13:39.219 Script: -rw-r--r--   1 u372623295 o1008009824      3728 May 26 19:08:32 2021 logo192.png
+< 2025-10-20 16:13:39.219 Script: drwxr-xr-x  11 u372623295 o1008009824      4096 Oct 19 19:27:07 2025 ..
+< 2025-10-20 16:13:39.220 Script: -rw-r--r--   1 u372623295 o1008009824        70 May 26 19:08:32 2021 robots.txt
+< 2025-10-20 16:13:39.220 Script: -rw-r--r--   1 u372623295 o1008009824     10479 May 30 20:46:33 2021 favicon.ico
+< 2025-10-20 16:13:39.220 Script: -rw-r--r--   1 u372623295 o1008009824     13128 May 26 19:08:32 2021 logo512.png
+< 2025-10-20 16:13:39.220 Script: -rw-r--r--   1 u372623295 o1008009824       517 May 26 19:08:32 2021 manifest.json
+> 2025-10-20 16:13:39.221 Script: synchronize remote -delete .
+< 2025-10-20 16:13:39.222 Script: Comparaison...
+. 2025-10-20 16:13:39.223 Collecting synchronization list for local directory '.' and remote directory '/home/u372623295/domains/200.work/public_html/boulangerieParisBio', mode = Remote, params = 0x3 (Delete, NoConfirmation), file mask = ''
+. 2025-10-20 16:13:39.224 Local file '.\.' [2025-10-20T03:45:34.171Z] [0] excluded from synchronization
+. 2025-10-20 16:13:39.224 Local file '.\..' [2025-10-20T14:02:28.361Z] [0] excluded from synchronization
+. 2025-10-20 16:13:39.224 Local file '.\asset-manifest.json' [2025-10-20T03:45:34.172Z] [689] included to synchronization
+. 2025-10-20 16:13:39.224 Local file '.\favicon.ico' [2021-05-30T18:46:33.710Z] [10479] included to synchronization
+. 2025-10-20 16:13:39.224 Local file '.\index.html' [2025-10-20T03:45:34.171Z] [1026] included to synchronization
+. 2025-10-20 16:13:39.224 Local file '.\logo192.png' [2021-05-26T17:08:32.675Z] [3728] included to synchronization
+. 2025-10-20 16:13:39.224 Local file '.\logo512.png' [2021-05-26T17:08:32.675Z] [13128] included to synchronization
+. 2025-10-20 16:13:39.224 Local file '.\manifest.json' [2021-05-26T17:08:32.676Z] [517] included to synchronization
+. 2025-10-20 16:13:39.224 Local file '.\robots.txt' [2021-05-26T17:08:32.676Z] [70] included to synchronization
+. 2025-10-20 16:13:39.224 Local file '.\static' [2025-10-20T03:45:34.172Z] [0] included to synchronization
+. 2025-10-20 16:13:39.224 Listing directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio".
+> 2025-10-20 16:13:39.224 Type: SSH_FXP_OPENDIR, Size: 74, Number: 2059
+< 2025-10-20 16:13:39.254 Type: SSH_FXP_STATUS, Size: 24, Number: 1796
+. 2025-10-20 16:13:39.254 Discarding reserved response
+< 2025-10-20 16:13:39.288 Type: SSH_FXP_HANDLE, Size: 13, Number: 2059
+> 2025-10-20 16:13:39.288 Type: SSH_FXP_READDIR, Size: 13, Number: 2316
+< 2025-10-20 16:13:39.323 Type: SSH_FXP_NAME, Size: 834, Number: 2316
+> 2025-10-20 16:13:39.323 Type: SSH_FXP_READDIR, Size: 13, Number: 2572
+< 2025-10-20 16:13:39.356 Type: SSH_FXP_STATUS, Size: 28, Number: 2572
+< 2025-10-20 16:13:39.356 Status code: 1
+> 2025-10-20 16:13:39.356 Type: SSH_FXP_CLOSE, Size: 13, Number: 2820
+. 2025-10-20 16:13:39.356 .;d;0;2025-10-19T17:30:59.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-20 16:13:39.356 logo192.png;-;3728;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 16:13:39.356 ..;d;0;2025-10-19T17:27:07.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rwxr-xr-x;0
+. 2025-10-20 16:13:39.356 robots.txt;-;70;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 16:13:39.356 favicon.ico;-;10479;2021-05-30T18:46:33.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 16:13:39.356 logo512.png;-;13128;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 16:13:39.356 manifest.json;-;517;2021-05-26T17:08:32.000Z;4;"u372623295" [372623295];"o1008009824" [2008009824];rw-r--r--;0
+. 2025-10-20 16:13:39.486 Local file '.\asset-manifest.json' [2025-10-20T03:45:34.172Z] [689] is new
+. 2025-10-20 16:13:39.486 Local file '.\index.html' [2025-10-20T03:45:34.171Z] [1026] is new
+. 2025-10-20 16:13:39.486 Local file '.\static' [2025-10-20T03:45:34.172Z] [0] is new
+< 2025-10-20 16:13:39.486 Script: Synchronisation...
+. 2025-10-20 16:13:39.487 Synchronizing local directory '.\' with remote directory '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/', params = 0x3 (Delete, NoConfirmation)
+. 2025-10-20 16:13:39.488 Copying 1 files/directories to remote directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/" - total size: 689
+. 2025-10-20 16:13:39.488   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0001; Resume: S (102400); CalcS: No; Mask: *.*
+. 2025-10-20 16:13:39.488   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-10-20 16:13:39.488   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-10-20 16:13:39.490 File: '.\asset-manifest.json' [2025-10-20T03:45:34.172Z] [689]
+< 2025-10-20 16:13:39.504 Script: Local '.' => Distant '/home/u372623295/domains/200.work/public_html/boulangerieParisBio'
+. 2025-10-20 16:13:39.504 Copying ".\asset-manifest.json" to remote directory started.
+. 2025-10-20 16:13:39.504 Binary transfer mode selected.
+. 2025-10-20 16:13:39.504 Opening remote file.
+> 2025-10-20 16:13:39.505 Type: SSH_FXP_OPEN, Size: 110, Number: 3075
+< 2025-10-20 16:13:39.538 Type: SSH_FXP_STATUS, Size: 24, Number: 2820
+. 2025-10-20 16:13:39.538 Discarding reserved response
+< 2025-10-20 16:13:39.539 Type: SSH_FXP_HANDLE, Size: 13, Number: 3075
+> 2025-10-20 16:13:39.540 Type: SSH_FXP_WRITE, Size: 714, Number: 3590
+> 2025-10-20 16:13:39.541 Type: SSH_FXP_CLOSE, Size: 13, Number: 3844
+> 2025-10-20 16:13:39.541 Type: SSH_FXP_SETSTAT, Size: 106, Number: 3337
+< 2025-10-20 16:13:39.577 Type: SSH_FXP_STATUS, Size: 24, Number: 3590
+< 2025-10-20 16:13:39.577 Status code: 0
+< 2025-10-20 16:13:39.577 Type: SSH_FXP_STATUS, Size: 24, Number: 3844
+< 2025-10-20 16:13:39.577 Status code: 0
+. 2025-10-20 16:13:39.577 Preserving timestamp [2025-10-20T03:45:34.000Z]
+< 2025-10-20 16:13:39.610 Type: SSH_FXP_STATUS, Size: 24, Number: 3337
+< 2025-10-20 16:13:39.611 Status code: 0
+. 2025-10-20 16:13:39.611 Transfer done: '.\asset-manifest.json' => '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/asset-manifest.json' [689]
+. 2025-10-20 16:13:39.611 Copying finished: Transferred: 689, Elapsed: 0:00:00, CPS: 5 556/s
+. 2025-10-20 16:13:39.611 Copying 1 files/directories to remote directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/" - total size: 1 026
+. 2025-10-20 16:13:39.611   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0001; Resume: S (102400); CalcS: No; Mask: *.*
+. 2025-10-20 16:13:39.611   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-10-20 16:13:39.611   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-10-20 16:13:39.611 File: '.\index.html' [2025-10-20T03:45:34.171Z] [1026]
+. 2025-10-20 16:13:39.639 Copying ".\index.html" to remote directory started.
+. 2025-10-20 16:13:39.639 Binary transfer mode selected.
+. 2025-10-20 16:13:39.639 Opening remote file.
+> 2025-10-20 16:13:39.639 Type: SSH_FXP_OPEN, Size: 101, Number: 4099
+< 2025-10-20 16:13:39.673 Type: SSH_FXP_HANDLE, Size: 13, Number: 4099
+> 2025-10-20 16:13:39.673 Type: SSH_FXP_WRITE, Size: 1051, Number: 4614
+> 2025-10-20 16:13:39.674 Type: SSH_FXP_CLOSE, Size: 13, Number: 4868
+> 2025-10-20 16:13:39.674 Type: SSH_FXP_SETSTAT, Size: 97, Number: 4361
+< 2025-10-20 16:13:39.710 Type: SSH_FXP_STATUS, Size: 24, Number: 4614
+< 2025-10-20 16:13:39.711 Status code: 0
+< 2025-10-20 16:13:39.711 Type: SSH_FXP_STATUS, Size: 24, Number: 4868
+< 2025-10-20 16:13:39.711 Status code: 0
+. 2025-10-20 16:13:39.711 Preserving timestamp [2025-10-20T03:45:34.000Z]
+< 2025-10-20 16:13:39.750 Type: SSH_FXP_STATUS, Size: 24, Number: 4361
+< 2025-10-20 16:13:39.750 Status code: 0
+. 2025-10-20 16:13:39.750 Transfer done: '.\index.html' => '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/index.html' [1026]
+. 2025-10-20 16:13:39.751 Copying finished: Transferred: 1 715, Elapsed: 0:00:00, CPS: 6 496/s
+. 2025-10-20 16:13:39.751 Copying 1 files/directories to remote directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/"
+. 2025-10-20 16:13:39.751   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0001; Resume: S (102400); CalcS: No; Mask: *.*
+. 2025-10-20 16:13:39.751   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-10-20 16:13:39.751   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-10-20 16:13:39.751 File: '.\static' [2025-10-20T03:45:34.172Z] [0]
+. 2025-10-20 16:13:39.752 Listing file "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static".
+> 2025-10-20 16:13:39.752 Type: SSH_FXP_LSTAT, Size: 81, Number: 5127
+< 2025-10-20 16:13:39.784 Type: SSH_FXP_STATUS, Size: 29, Number: 5127
+< 2025-10-20 16:13:39.784 Status code: 2, Message: 5127, Server: No such file, Language:  
+. 2025-10-20 16:13:39.797 Creating directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static".
+. 2025-10-20 16:13:39.797 Canonifying: "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static"
+. 2025-10-20 16:13:39.797 Getting real path for '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static'
+> 2025-10-20 16:13:39.797 Type: SSH_FXP_REALPATH, Size: 81, Number: 5648
+< 2025-10-20 16:13:39.831 Type: SSH_FXP_NAME, Size: 165, Number: 5648
+. 2025-10-20 16:13:39.831 Real path is '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static'
+. 2025-10-20 16:13:39.831 Canonified: "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static"
+> 2025-10-20 16:13:39.831 Type: SSH_FXP_MKDIR, Size: 85, Number: 5390
+< 2025-10-20 16:13:39.864 Type: SSH_FXP_STATUS, Size: 24, Number: 5390
+< 2025-10-20 16:13:39.864 Status code: 0
+. 2025-10-20 16:13:39.864 File: '.\static\css' [2025-10-20T03:45:34.176Z] [0]
+. 2025-10-20 16:13:39.865 Listing file "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/css".
+> 2025-10-20 16:13:39.865 Type: SSH_FXP_LSTAT, Size: 85, Number: 5895
+< 2025-10-20 16:13:39.899 Type: SSH_FXP_STATUS, Size: 29, Number: 5895
+< 2025-10-20 16:13:39.899 Status code: 2, Message: 5895, Server: No such file, Language:  
+. 2025-10-20 16:13:39.908 Creating directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/css".
+. 2025-10-20 16:13:39.908 Canonifying: "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/css"
+. 2025-10-20 16:13:39.908 Getting real path for '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/css'
+> 2025-10-20 16:13:39.908 Type: SSH_FXP_REALPATH, Size: 85, Number: 6416
+< 2025-10-20 16:13:39.942 Type: SSH_FXP_NAME, Size: 173, Number: 6416
+. 2025-10-20 16:13:39.942 Real path is '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/css'
+. 2025-10-20 16:13:39.942 Canonified: "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/css"
+> 2025-10-20 16:13:39.942 Type: SSH_FXP_MKDIR, Size: 89, Number: 6158
+< 2025-10-20 16:13:39.975 Type: SSH_FXP_STATUS, Size: 24, Number: 6158
+< 2025-10-20 16:13:39.975 Status code: 0
+. 2025-10-20 16:13:39.976 File: '.\static\css\main.36bab112.css' [2025-10-20T03:45:34.174Z] [3389]
+. 2025-10-20 16:13:39.990 Copying ".\static\css\main.36bab112.css" to remote directory started.
+. 2025-10-20 16:13:39.990 Binary transfer mode selected.
+. 2025-10-20 16:13:39.990 Opening remote file.
+> 2025-10-20 16:13:39.990 Type: SSH_FXP_OPEN, Size: 119, Number: 6659
+< 2025-10-20 16:13:40.028 Type: SSH_FXP_HANDLE, Size: 13, Number: 6659
+> 2025-10-20 16:13:40.028 Type: SSH_FXP_WRITE, Size: 3414, Number: 7174
+> 2025-10-20 16:13:40.028 Type: SSH_FXP_CLOSE, Size: 13, Number: 7428
+> 2025-10-20 16:13:40.028 Type: SSH_FXP_SETSTAT, Size: 115, Number: 6921
+< 2025-10-20 16:13:40.065 Type: SSH_FXP_STATUS, Size: 24, Number: 7174
+< 2025-10-20 16:13:40.065 Status code: 0
+< 2025-10-20 16:13:40.065 Type: SSH_FXP_STATUS, Size: 24, Number: 7428
+< 2025-10-20 16:13:40.065 Status code: 0
+. 2025-10-20 16:13:40.065 Preserving timestamp [2025-10-20T03:45:34.000Z]
+< 2025-10-20 16:13:40.101 Type: SSH_FXP_STATUS, Size: 24, Number: 6921
+< 2025-10-20 16:13:40.101 Status code: 0
+. 2025-10-20 16:13:40.101 Transfer done: '.\static\css\main.36bab112.css' => '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/css/main.36bab112.css' [3389]
+. 2025-10-20 16:13:40.101 File: '.\static\css\main.36bab112.css.map' [2025-10-20T03:45:34.176Z] [7325]
+. 2025-10-20 16:13:40.123 Copying ".\static\css\main.36bab112.css.map" to remote directory started.
+. 2025-10-20 16:13:40.123 Binary transfer mode selected.
+. 2025-10-20 16:13:40.123 Opening remote file.
+> 2025-10-20 16:13:40.123 Type: SSH_FXP_OPEN, Size: 123, Number: 7683
+< 2025-10-20 16:13:40.164 Type: SSH_FXP_HANDLE, Size: 13, Number: 7683
+> 2025-10-20 16:13:40.165 Type: SSH_FXP_WRITE, Size: 7350, Number: 8198
+> 2025-10-20 16:13:40.165 Type: SSH_FXP_CLOSE, Size: 13, Number: 8452
+> 2025-10-20 16:13:40.165 Type: SSH_FXP_SETSTAT, Size: 119, Number: 7945
+< 2025-10-20 16:13:40.198 Type: SSH_FXP_STATUS, Size: 24, Number: 8198
+< 2025-10-20 16:13:40.198 Status code: 0
+< 2025-10-20 16:13:40.198 Type: SSH_FXP_STATUS, Size: 24, Number: 8452
+< 2025-10-20 16:13:40.198 Status code: 0
+. 2025-10-20 16:13:40.198 Preserving timestamp [2025-10-20T03:45:34.000Z]
+< 2025-10-20 16:13:40.230 Type: SSH_FXP_STATUS, Size: 24, Number: 7945
+< 2025-10-20 16:13:40.231 Status code: 0
+. 2025-10-20 16:13:40.231 Transfer done: '.\static\css\main.36bab112.css.map' => '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/css/main.36bab112.css.map' [7325]
+. 2025-10-20 16:13:40.231 File: '.\static\js' [2025-10-20T03:45:34.176Z] [0]
+. 2025-10-20 16:13:40.231 Listing file "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/js".
+> 2025-10-20 16:13:40.232 Type: SSH_FXP_LSTAT, Size: 84, Number: 8711
+< 2025-10-20 16:13:40.265 Type: SSH_FXP_STATUS, Size: 29, Number: 8711
+< 2025-10-20 16:13:40.265 Status code: 2, Message: 8711, Server: No such file, Language:  
+. 2025-10-20 16:13:40.275 Creating directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/js".
+. 2025-10-20 16:13:40.275 Canonifying: "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/js"
+. 2025-10-20 16:13:40.275 Getting real path for '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/js'
+> 2025-10-20 16:13:40.275 Type: SSH_FXP_REALPATH, Size: 84, Number: 9232
+< 2025-10-20 16:13:40.310 Type: SSH_FXP_NAME, Size: 171, Number: 9232
+. 2025-10-20 16:13:40.310 Real path is '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/js'
+. 2025-10-20 16:13:40.310 Canonified: "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/js"
+> 2025-10-20 16:13:40.310 Type: SSH_FXP_MKDIR, Size: 88, Number: 8974
+< 2025-10-20 16:13:40.344 Type: SSH_FXP_STATUS, Size: 24, Number: 8974
+< 2025-10-20 16:13:40.344 Status code: 0
+. 2025-10-20 16:13:40.345 File: '.\static\js\422.8413c406.chunk.js' [2025-10-20T03:45:34.176Z] [3338]
+. 2025-10-20 16:13:40.379 Copying ".\static\js\422.8413c406.chunk.js" to remote directory started.
+. 2025-10-20 16:13:40.379 Binary transfer mode selected.
+. 2025-10-20 16:13:40.379 Opening remote file.
+> 2025-10-20 16:13:40.379 Type: SSH_FXP_OPEN, Size: 122, Number: 9475
+< 2025-10-20 16:13:40.414 Type: SSH_FXP_HANDLE, Size: 13, Number: 9475
+> 2025-10-20 16:13:40.414 Type: SSH_FXP_WRITE, Size: 3363, Number: 9990
+> 2025-10-20 16:13:40.414 Type: SSH_FXP_CLOSE, Size: 13, Number: 10244
+> 2025-10-20 16:13:40.414 Type: SSH_FXP_SETSTAT, Size: 118, Number: 9737
+< 2025-10-20 16:13:40.448 Type: SSH_FXP_STATUS, Size: 24, Number: 9990
+< 2025-10-20 16:13:40.448 Status code: 0
+< 2025-10-20 16:13:40.449 Type: SSH_FXP_STATUS, Size: 24, Number: 10244
+< 2025-10-20 16:13:40.449 Status code: 0
+. 2025-10-20 16:13:40.449 Preserving timestamp [2025-10-20T03:45:34.000Z]
+< 2025-10-20 16:13:40.480 Type: SSH_FXP_STATUS, Size: 24, Number: 9737
+< 2025-10-20 16:13:40.480 Status code: 0
+. 2025-10-20 16:13:40.480 Transfer done: '.\static\js\422.8413c406.chunk.js' => '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/js/422.8413c406.chunk.js' [3338]
+. 2025-10-20 16:13:40.480 File: '.\static\js\422.8413c406.chunk.js.map' [2025-10-20T03:45:34.176Z] [7839]
+. 2025-10-20 16:13:40.514 Copying ".\static\js\422.8413c406.chunk.js.map" to remote directory started.
+. 2025-10-20 16:13:40.514 Binary transfer mode selected.
+. 2025-10-20 16:13:40.514 Opening remote file.
+> 2025-10-20 16:13:40.514 Type: SSH_FXP_OPEN, Size: 126, Number: 10499
+< 2025-10-20 16:13:40.547 Type: SSH_FXP_HANDLE, Size: 13, Number: 10499
+> 2025-10-20 16:13:40.548 Type: SSH_FXP_WRITE, Size: 7864, Number: 11014
+> 2025-10-20 16:13:40.548 Type: SSH_FXP_CLOSE, Size: 13, Number: 11268
+> 2025-10-20 16:13:40.548 Type: SSH_FXP_SETSTAT, Size: 122, Number: 10761
+< 2025-10-20 16:13:40.581 Type: SSH_FXP_STATUS, Size: 24, Number: 11014
+< 2025-10-20 16:13:40.581 Status code: 0
+< 2025-10-20 16:13:40.581 Type: SSH_FXP_STATUS, Size: 24, Number: 11268
+< 2025-10-20 16:13:40.581 Status code: 0
+. 2025-10-20 16:13:40.581 Preserving timestamp [2025-10-20T03:45:34.000Z]
+< 2025-10-20 16:13:40.613 Type: SSH_FXP_STATUS, Size: 24, Number: 10761
+< 2025-10-20 16:13:40.613 Status code: 0
+. 2025-10-20 16:13:40.613 Transfer done: '.\static\js\422.8413c406.chunk.js.map' => '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/js/422.8413c406.chunk.js.map' [7839]
+. 2025-10-20 16:13:40.613 File: '.\static\js\main.0f03324d.js' [2025-10-20T03:45:34.174Z] [321232]
+. 2025-10-20 16:13:40.815 Copying ".\static\js\main.0f03324d.js" to remote directory started.
+. 2025-10-20 16:13:40.816 Binary transfer mode selected.
+. 2025-10-20 16:13:40.816 Opening remote file.
+> 2025-10-20 16:13:40.816 Type: SSH_FXP_OPEN, Size: 126, Number: 11523
+< 2025-10-20 16:13:40.847 Type: SSH_FXP_HANDLE, Size: 13, Number: 11523
+> 2025-10-20 16:13:40.848 Type: SSH_FXP_WRITE, Size: 32761, Number: 12038
+. 2025-10-20 16:13:40.850 Skipped 9 SSH_FXP_WRITE packets
+> 2025-10-20 16:13:40.850 Type: SSH_FXP_CLOSE, Size: 13, Number: 14596
+< 2025-10-20 16:13:40.918 Type: SSH_FXP_STATUS, Size: 24, Number: 12038
+< 2025-10-20 16:13:40.918 Status code: 0
+. 2025-10-20 16:13:41.036 Skipped 9 SSH_FXP_STATUS packets
+< 2025-10-20 16:13:41.036 Type: SSH_FXP_STATUS, Size: 24, Number: 14596
+< 2025-10-20 16:13:41.036 Status code: 0
+> 2025-10-20 16:13:41.040 Type: SSH_FXP_RENAME, Size: 206, Number: 14866
+< 2025-10-20 16:13:41.073 Type: SSH_FXP_STATUS, Size: 24, Number: 14866
+< 2025-10-20 16:13:41.073 Status code: 0
+. 2025-10-20 16:13:41.073 Preserving timestamp [2025-10-20T03:45:34.000Z]
+> 2025-10-20 16:13:41.073 Type: SSH_FXP_SETSTAT, Size: 113, Number: 11785
+< 2025-10-20 16:13:41.106 Type: SSH_FXP_STATUS, Size: 24, Number: 11785
+< 2025-10-20 16:13:41.106 Status code: 0
+. 2025-10-20 16:13:41.106 Transfer done: '.\static\js\main.0f03324d.js' => '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/js/main.0f03324d.js' [321232]
+. 2025-10-20 16:13:41.106 File: '.\static\js\main.0f03324d.js.LICENSE.txt' [2025-10-20T03:45:34.174Z] [1196]
+. 2025-10-20 16:13:41.122 Copying ".\static\js\main.0f03324d.js.LICENSE.txt" to remote directory started.
+. 2025-10-20 16:13:41.122 Binary transfer mode selected.
+. 2025-10-20 16:13:41.122 Opening remote file.
+> 2025-10-20 16:13:41.122 Type: SSH_FXP_OPEN, Size: 129, Number: 15107
+< 2025-10-20 16:13:41.156 Type: SSH_FXP_HANDLE, Size: 13, Number: 15107
+> 2025-10-20 16:13:41.156 Type: SSH_FXP_WRITE, Size: 1221, Number: 15622
+> 2025-10-20 16:13:41.156 Type: SSH_FXP_CLOSE, Size: 13, Number: 15876
+> 2025-10-20 16:13:41.156 Type: SSH_FXP_SETSTAT, Size: 125, Number: 15369
+< 2025-10-20 16:13:41.192 Type: SSH_FXP_STATUS, Size: 24, Number: 15622
+< 2025-10-20 16:13:41.192 Status code: 0
+< 2025-10-20 16:13:41.192 Type: SSH_FXP_STATUS, Size: 24, Number: 15876
+< 2025-10-20 16:13:41.192 Status code: 0
+. 2025-10-20 16:13:41.192 Preserving timestamp [2025-10-20T03:45:34.000Z]
+< 2025-10-20 16:13:41.227 Type: SSH_FXP_STATUS, Size: 24, Number: 15369
+< 2025-10-20 16:13:41.227 Status code: 0
+. 2025-10-20 16:13:41.227 Transfer done: '.\static\js\main.0f03324d.js.LICENSE.txt' => '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/js/main.0f03324d.js.LICENSE.txt' [1196]
+. 2025-10-20 16:13:41.227 File: '.\static\js\main.0f03324d.js.map' [2025-10-20T03:45:34.177Z] [1056118]
+. 2025-10-20 16:13:41.247 Copying ".\static\js\main.0f03324d.js.map" to remote directory started.
+. 2025-10-20 16:13:41.247 Binary transfer mode selected.
+. 2025-10-20 16:13:41.247 Opening remote file.
+> 2025-10-20 16:13:41.247 Type: SSH_FXP_OPEN, Size: 130, Number: 16131
+< 2025-10-20 16:13:41.283 Type: SSH_FXP_HANDLE, Size: 13, Number: 16131
+> 2025-10-20 16:13:41.283 Type: SSH_FXP_WRITE, Size: 32761, Number: 16646
+. 2025-10-20 16:13:41.319 Skipped 14 SSH_FXP_WRITE packets
+< 2025-10-20 16:13:41.319 Type: SSH_FXP_STATUS, Size: 24, Number: 16646
+< 2025-10-20 16:13:41.319 Status code: 0
+. 2025-10-20 16:13:41.389 Skipped 18 SSH_FXP_WRITE and 13 SSH_FXP_STATUS packets
+> 2025-10-20 16:13:41.389 Type: SSH_FXP_CLOSE, Size: 13, Number: 25092
+. 2025-10-20 16:13:41.463 Skipped 19 SSH_FXP_STATUS packets
+< 2025-10-20 16:13:41.463 Type: SSH_FXP_STATUS, Size: 24, Number: 25092
+< 2025-10-20 16:13:41.463 Status code: 0
+> 2025-10-20 16:13:41.463 Type: SSH_FXP_RENAME, Size: 214, Number: 25362
+< 2025-10-20 16:13:41.495 Type: SSH_FXP_STATUS, Size: 24, Number: 25362
+< 2025-10-20 16:13:41.495 Status code: 0
+. 2025-10-20 16:13:41.495 Preserving timestamp [2025-10-20T03:45:34.000Z]
+> 2025-10-20 16:13:41.495 Type: SSH_FXP_SETSTAT, Size: 117, Number: 16393
+. 2025-10-20 16:13:41.553 Increasing send buffer from 262144 to 524288
+< 2025-10-20 16:13:41.553 Type: SSH_FXP_STATUS, Size: 24, Number: 16393
+< 2025-10-20 16:13:41.553 Status code: 0
+. 2025-10-20 16:13:41.553 Transfer done: '.\static\js\main.0f03324d.js.map' => '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/js/main.0f03324d.js.map' [1056118]
+. 2025-10-20 16:13:41.554 File: '.\static\media' [2025-10-20T03:45:34.172Z] [0]
+. 2025-10-20 16:13:41.554 Listing file "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/media".
+> 2025-10-20 16:13:41.554 Type: SSH_FXP_LSTAT, Size: 87, Number: 25607
+< 2025-10-20 16:13:41.588 Type: SSH_FXP_STATUS, Size: 29, Number: 25607
+< 2025-10-20 16:13:41.588 Status code: 2, Message: 25607, Server: No such file, Language:  
+. 2025-10-20 16:13:41.595 Creating directory "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/media".
+. 2025-10-20 16:13:41.595 Canonifying: "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/media"
+. 2025-10-20 16:13:41.595 Getting real path for '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/media'
+> 2025-10-20 16:13:41.595 Type: SSH_FXP_REALPATH, Size: 87, Number: 26128
+< 2025-10-20 16:13:41.627 Type: SSH_FXP_NAME, Size: 177, Number: 26128
+. 2025-10-20 16:13:41.627 Real path is '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/media'
+. 2025-10-20 16:13:41.627 Canonified: "/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/media"
+> 2025-10-20 16:13:41.627 Type: SSH_FXP_MKDIR, Size: 91, Number: 25870
+< 2025-10-20 16:13:41.659 Type: SSH_FXP_STATUS, Size: 24, Number: 25870
+< 2025-10-20 16:13:41.659 Status code: 0
+. 2025-10-20 16:13:41.659 File: '.\static\media\instagram.482d4132535cae9555c2.svg' [2025-10-20T03:45:34.173Z] [2874]
+. 2025-10-20 16:13:41.673 Copying ".\static\media\instagram.482d4132535cae9555c2.svg" to remote directory started.
+. 2025-10-20 16:13:41.673 Binary transfer mode selected.
+. 2025-10-20 16:13:41.673 Opening remote file.
+> 2025-10-20 16:13:41.673 Type: SSH_FXP_OPEN, Size: 138, Number: 26371
+< 2025-10-20 16:13:41.705 Type: SSH_FXP_HANDLE, Size: 13, Number: 26371
+> 2025-10-20 16:13:41.706 Type: SSH_FXP_WRITE, Size: 2899, Number: 26886
+> 2025-10-20 16:13:41.706 Type: SSH_FXP_CLOSE, Size: 13, Number: 27140
+> 2025-10-20 16:13:41.706 Type: SSH_FXP_SETSTAT, Size: 134, Number: 26633
+< 2025-10-20 16:13:41.739 Type: SSH_FXP_STATUS, Size: 24, Number: 26886
+< 2025-10-20 16:13:41.739 Status code: 0
+< 2025-10-20 16:13:41.739 Type: SSH_FXP_STATUS, Size: 24, Number: 27140
+< 2025-10-20 16:13:41.739 Status code: 0
+. 2025-10-20 16:13:41.739 Preserving timestamp [2025-10-20T03:45:34.000Z]
+< 2025-10-20 16:13:41.771 Type: SSH_FXP_STATUS, Size: 24, Number: 26633
+< 2025-10-20 16:13:41.772 Status code: 0
+. 2025-10-20 16:13:41.772 Transfer done: '.\static\media\instagram.482d4132535cae9555c2.svg' => '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/media/instagram.482d4132535cae9555c2.svg' [2874]
+. 2025-10-20 16:13:41.772 File: '.\static\media\quicksand.7dd2a729c26ea6122bbc.ttf' [2025-10-20T03:45:34.174Z] [124884]
+. 2025-10-20 16:13:41.786 Copying ".\static\media\quicksand.7dd2a729c26ea6122bbc.ttf" to remote directory started.
+. 2025-10-20 16:13:41.786 Binary transfer mode selected.
+. 2025-10-20 16:13:41.786 Opening remote file.
+> 2025-10-20 16:13:41.786 Type: SSH_FXP_OPEN, Size: 147, Number: 27395
+< 2025-10-20 16:13:41.819 Type: SSH_FXP_HANDLE, Size: 13, Number: 27395
+> 2025-10-20 16:13:41.819 Type: SSH_FXP_WRITE, Size: 32761, Number: 27910
+. 2025-10-20 16:13:41.821 Skipped 3 SSH_FXP_WRITE packets
+> 2025-10-20 16:13:41.821 Type: SSH_FXP_CLOSE, Size: 13, Number: 28932
+< 2025-10-20 16:13:41.856 Type: SSH_FXP_STATUS, Size: 24, Number: 27910
+< 2025-10-20 16:13:41.857 Status code: 0
+. 2025-10-20 16:13:41.889 Skipped 3 SSH_FXP_STATUS packets
+< 2025-10-20 16:13:41.889 Type: SSH_FXP_STATUS, Size: 24, Number: 28932
+< 2025-10-20 16:13:41.889 Status code: 0
+> 2025-10-20 16:13:41.890 Type: SSH_FXP_RENAME, Size: 248, Number: 29202
+< 2025-10-20 16:13:41.923 Type: SSH_FXP_STATUS, Size: 24, Number: 29202
+< 2025-10-20 16:13:41.923 Status code: 0
+. 2025-10-20 16:13:41.923 Preserving timestamp [2025-10-20T03:45:34.000Z]
+> 2025-10-20 16:13:41.923 Type: SSH_FXP_SETSTAT, Size: 134, Number: 27657
+< 2025-10-20 16:13:41.956 Type: SSH_FXP_STATUS, Size: 24, Number: 27657
+< 2025-10-20 16:13:41.956 Status code: 0
+. 2025-10-20 16:13:41.956 Transfer done: '.\static\media\quicksand.7dd2a729c26ea6122bbc.ttf' => '/home/u372623295/domains/200.work/public_html/boulangerieParisBio/static/media/quicksand.7dd2a729c26ea6122bbc.ttf' [124884]
+. 2025-10-20 16:13:41.957 Copying finished: Transferred: 1 529 910, Elapsed: 0:00:02, CPS: 619 396/s
+> 2025-10-20 16:13:41.957 Script: exit
+. 2025-10-20 16:13:41.957 Script: Exit code: 0
+. 2025-10-20 16:13:41.957 Closing connection.
+. 2025-10-20 16:13:41.957 Sending special code: 1
+. 2025-10-20 16:13:41.990 Session sent command exit status 0
+. 2025-10-20 16:13:41.990 Main session channel closed
+. 2025-10-20 16:13:41.991 All channels closed

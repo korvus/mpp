@@ -1,14 +1,19 @@
 {
-    "titre": "Les bonnes patîsseries de Paris",
+    "titre": "Les boulangeries bio de Paris",
     "tous": "Tous",
-    "About": "Qu'est ce que c'est",
-    "goalContent": "Ce site répertorie des pâtisseries Parisienne conseillées par des parisiens.",
-    "contestwikipedia": "Les références ont été glannées via Facebook.",
-    "goalContentEnd": " Le post date de 2020.",
-    "writeMe": "Vous pouvez m'écrire directement a",
+    "About": "Qu'est-ce que c'est",
+    "goalContent": "Ce site répertorie les boulangeries bio et transparentes de Paris.",
+    "contestwikipedia": "Les favoris ont été recueillis sur Facebook.",
+    "writeMe": "Vous pouvez m'écrire directement à",
     "ici": "ici",
     "divers": "divers",
     "app": "développé",
-    "noBakery": "Il n'y a pas de patisserie sur cette surface. Déplacer la fenêtre ou dézoomer pour en trouver une.",
-    "autre": "Autres"
+    "noBakery": "Il n'y a pas de boulangeries référencées sur cette zone. Déplacez la carte ou dézoomez pour en trouver.",
+    "autre": "Autres",
+    "learnMore": "En savoir plus",
+    "aboutIntro": "Toutes les boulangeries présentes ici ont été explorées par",
+    "aboutAccountLabel": "le compte Instagram \"Le pain de mon quartier\"",
+    "aboutDisclaimer": "Cette sélection est subjective et ouverte à la discussion : elle repose sur les coups de coeur d'une seule personne.",
+    "countTooltip": "Nombre de boulangeries référencées dans le palmarès",
+    "baguetteCta": "Envie d'une baguette primée ?"
 }
