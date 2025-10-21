@@ -15,5 +15,7 @@
     "aboutAccountLabel": "la cuenta de Instagram \"Le pain de mon quartier\"",
     "aboutDisclaimer": "Esta seleccion es subjetiva y abierta al debate porque refleja el gusto de una sola persona.",
     "countTooltip": "Numero de panaderias en este listado",
-    "baguetteCta": "¿Se te antoja una baguette premiada?"
+    "baguetteCta": "¿Se te antoja una baguette premiada?",
+    "closeHint": "Cerrar el panel (Esc)",
+    "viewMapCTA": "Ver el mapa"
 }

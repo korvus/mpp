@@ -1,673 +1,673 @@
 {
-    "Utopie": [
+    "Arlette et Colette": [
         {
-            "name": "Boulangerie Utopie",
-            "insta": "/boulangerieutopie/",
+            "adresse": "4, rue de la Jonquière, 75011 Paris",
             "comments": "",
-            "adresse": "20 rue Jean-Pierre Timbaud, 75011 Paris",
             "coords": [
-                48.8637242,
-                2.3645223
-            ]
-        }
-    ],
-    "Boulangerie moderne": [
+                48.89342738125505,
+                2.3269677486179647
+            ],
+            "insta": "/arlette_et_colette",
+            "name": "Arlette et Colette"
+        },
         {
-            "name": "boulangerie moderne",
-            "insta": "/boulangerie_moderne_/",
+            "adresse": "13 rue Lebon, 75017 Paris",
             "comments": "",
-            "adresse": "16 Rue des Fossés Saint-Jacques, 75005 Paris",
             "coords": [
-                48.8449322,
-                2.3413373
-            ]
-        }
-    ],
-    "Maison Landemaine": [
+                48.88115852657791,
+                2.29174996752198
+            ],
+            "insta": "/arlette_et_colette",
+            "name": "Arlette et Colette"
+        },
         {
-            "name": "Maison Landemaine Charonne",
-            "insta": "/maisonlandemaine/",
+            "adresse": "63 rue Voltaire, 92300 Levallois-Perret",
             "comments": "",
-            "adresse": "121 rue de Charonne, 75011 Paris",
             "coords": [
-                48.8548698,
-                2.3838677
-            ]
-        },
-        {
-            "name": "Maison Landemaine Gambetta",
-            "insta": "/maisonlandemaine/",
-            "comments": "",
-            "adresse": "210 rue des Pyrénées, 75020 Paris",
-            "coords": [
-                48.8655019,
-                2.3959788
-            ]
-        },
-        {
-            "name": "Maison Landemaine Jules Joffrin",
-            "insta": "/maisonlandemaine/",
-            "comments": "",
-            "adresse": "4 rue du Poteau, 75018 Paris",
-            "coords": [
-                48.8928058,
-                2.3418444
-            ]
-        },
-        {
-            "name": "Maison Landemaine Clichy",
-            "insta": "/maisonlandemaine/",
-            "comments": "",
-            "adresse": "56 rue de Clichy, 75009 Paris",
-            "coords": [
-                48.8808828,
-                2.3265638
-            ]
-        },
-        {
-            "name": "Maison Landemaine Beaumarchais",
-            "insta": "/maisonlandemaine/",
-            "comments": "",
-            "adresse": "28 Boulevard Beaumarchais, 75011 Paris",
-            "coords": [
-                48.8559552,
-                2.3665597
-            ]
-        },
-        {
-            "name": "Maison Landemaine Cambronne",
-            "insta": "/maisonlandemaine/",
-            "comments": "",
-            "adresse": "7 place Cambronne, 75015 Paris",
-            "coords": [
-                48.8474818,
-                2.2999613
-            ]
-        }
-    ],
-    "Mamiche": [
-        {
-            "name": "Mamiche condorcet",
-            "insta": "/boulangeriemamiche/",
-            "comments": "",
-            "adresse": "45 rue Condorcet, 75009 Paris",
-            "coords": [
-                48.8800657,
-                2.3413131
-            ]
-        },
-        {
-            "name": "Mamiche château",
-            "insta": "/boulangeriemamiche/",
-            "comments": "",
-            "adresse": "32 rue du château d'eau, 75010 Paris",
-            "coords": [
-                48.870633,
-                2.3575216
-            ]
-        }
-    ],
-    "Chapel": [
-        {
-            "name": "Chapel",
-            "insta": "/chapel.paris/",
-            "comments": "",
-            "adresse": "25 rue de la Forge Royale; 75011 Paris",
-            "coords": [
-                48.8517897,
-                2.3803406
-            ]
-        }
-    ],
-    "Sain": [
-        {
-            "name": "Sain Bulangerie",
-            "insta": "/sain_boulangerie/",
-            "comments": "",
-            "adresse": "15 rue Marie et Louise, 75010 Paris",
-            "coords": [
-                48.8718575,
-                2.3639712
-            ]
-        }
-    ],
-    "Du pain": [
-        {
-            "name": "Du pain Paris",
-            "insta": "/dupainparis/",
-            "comments": "",
-            "adresse": "20 boulevard de Filles du Calvaire, 75011 Paris",
-            "coords": [
-                48.8607591,
-                2.359056
-            ]
-        }
-    ],
-    "Urban bakery": [
-        {
-            "name": "Urban bakery - HeadQuarters",
-            "insta": "/urbanbakeryfamily/",
-            "comments": "",
-            "adresse": "401 Rue des Pyrénées, 75020 Paris",
-            "coords": [
-                48.8714198,
-                2.3626261
-            ]
-        },
-        {
-            "name": "Urban bakery - Goncourt",
-            "insta": "/urbanbakeryfamily/",
-            "comments": "",
-            "adresse": "67 Rue du Faubourg du Temple, 75010 Paris",
-            "coords": [
-                48.8700061,
-                2.3685726
-            ]
-        },
-        {
-            "name": "Urban bakery - Villiers",
-            "insta": "/urbanbakeryfamily/",
-            "comments": "",
-            "adresse": "1 Boulevard de Courcelles, 75008 Paris",
-            "coords": [
-                48.8810031,
-                2.3143287
-            ]
-        },
-        {
-            "name": "Urban bakery - Belleville",
-            "insta": "/urbanbakeryfamily/",
-            "comments": "",
-            "adresse": "112 rue de Belleville, 75020 Paris",
-            "coords": [
-                48.8746007,
-                2.3851727
-            ]
-        }
-    ],
-    "Petite boulangerie": [
-        {
-            "name": "Petite boulangerie - Belleville",
-            "insta": "/petite.boulangerie.belleville/",
-            "comments": "",
-            "adresse": "120 rue de Belleville, 75020 Paris",
-            "coords": [
-                48.8746822,
-                2.38619
-            ]
-        }
-    ],
-    "Union Boulangerie": [
-        {
-            "name": "Union Boulangerie",
-            "insta": "/union_boulangerie/",
-            "adresse": "2 Rue Bleue, 75009 Paris",
-            "coords": [
-                48.8759316,
-                2.3453215
-            ]
-        }
-    ],
-    "Elements": [
-        {
-            "name": "Elements",
-            "insta": "/elements_painsbioaulevain/",
-            "adresse": "3 rue Victor Letalle, 75020 Paris",
-            "coords": [
-                48.8672831,
-                2.3831079
-            ]
-        }
-    ],
-    "Liberté Paris": [
-        {
-            "name": "Liberté Paris - Paris 10",
-            "insta": "/liberte.paris/",
-            "adresse": "39 rue des vinaigriers, 75010 Paris",
-            "coords": [
-                48.873088,
-                2.3596753
-            ]
-        },
-        {
-            "name": "Liberté Paris - Paris 17",
-            "insta": "/liberte.paris/",
-            "adresse": "10 rue poncelet, 75017 Paris",
-            "coords": [
-                48.8789215,
-                2.294716
-            ]
-        },
-        {
-            "name": "Liberté Paris - Paris 6",
-            "insta": "/liberte.paris",
-            "adresse": "40 rue St-André-des-arts, 75006 Paris",
-            "coords": [
-                48.8534762,
-                2.3392047
-            ]
-        },
-        {
-            "name": "Liberté Paris - Paris 7",
-            "insta": "/liberte.paris",
-            "adresse": "58 rue St-Dominique, 75007 Paris",
-            "coords": [
-                48.8599476,
-                2.3068614
-            ]
-        }
-    ],
-    "De belles manieres": [
-        {
-            "name": "De belles manieres",
-            "insta": "/debellesmanieres",
-            "adresse": "5 rue de Turbigo, 75001 Paris",
-            "coords": [
-                48.8637293,
-                2.3456187
-            ]
-        }
-    ],
-    "M. Jacques": [
-        {
-            "name": "M. Jacques",
-            "insta": "/patisseriemrjacques",
-            "adresse": "132 Rue Saint-Maur, 75011 Paris",
-            "coords": [
-                48.8637293,
-                2.3456187
-            ]
-        }
-    ],
-    "Boulangerie l'essentiel": [
-        {
-            "name": "Boulangerie l'essentiel Blanqui",
-            "insta": "/boulangerie_lessentiel",
-            "adresse": "73 boulevard auguste Blanqui, 75013 Paris",
-            "coords": [
-                48.8295228,
-                2.3458241
-            ]
-        },
-        {
-            "name": "Boulangerie l'essentiel Dausmenil",
-            "insta": "/boulangerie_lessentiel",
-            "adresse": "254 Avenue Daumesnil, 75012 Paris",
-            "coords": [
-                48.836658,
-                2.4007403
-            ]
-        },
-        {
-            "name": "Boulangerie l'essentiel Mouffetard",
-            "insta": "/boulangerie_lessentiel",
-            "adresse": "2 Rue Mouffetard, 75005 Paris",
-            "coords": [
-                48.844885,
-                2.3468631
-            ]
-        },
-        {
-            "name": "Boulangerie l'essentiel Olympiades",
-            "insta": "/boulangerie_lessentiel",
-            "adresse": "89 Rue de Tolbiac, 75013 Paris",
-            "coords": [
-                48.8269811,
-                2.3647757
-            ]
-        }
-    ],
-    "Le Bricheton": [
-        {
-            "name": "Le Bricheton",
-            "insta": "/lebricheton",
-            "adresse": "50 Rue de la Réunion, 75020 Paris",
-            "coords": [
-                48.8548732,
-                2.3997742
-            ]
-        }
-    ],
-    "Victoire Boulangerie": [
-        {
-            "name": "Victoire Boulangerie",
-            "insta": "/victoire.boulangerie",
-            "adresse": "12 Rue Cadet, 75009 Paris",
-            "coords": [
-                48.8745249,
-                2.3411768
-            ]
-        }
-    ],
-    "Emile & Jules": [
-        {
-            "name": "Emile et Jules",
-            "insta": "/emile_et_jules",
-            "adresse": "18 Rue de la Terrasse, 75017 Paris",
-            "coords": [
-                48.882263,
-                2.3122455
-            ]
-        },
-        {
-            "name": "Emile et Jules",
-            "insta": "/emile_et_jules",
-            "adresse": "2 Rue Vavin, 75006 Paris",
-            "coords": [
-                48.8448407,
-                2.3300562
-            ]
-        }
-    ],
-    "Le pain retrouvé": [
-        {
-            "name": "Le pain retrouvé",
-            "insta": "/le_pain_retrouve",
-            "adresse": "60 rue Duhesme, 75018 Paris",
-            "coords": [
-                48.8930897,
-                2.3402596
-            ]
-        }
-    ],
-    "Boulangerie Joseph": [
-        {
-            "name": "Boulangerie Joseph",
-            "insta": "/boulangeriejoseph",
-            "adresse": "42 rue des Petits Champs, 75002 Paris",
-            "coords": [
-                48.86749370807017,
-                2.3349343963561457
-            ]
-        },
-        {
-            "name": "Boulangerie Joseph",
-            "insta": "/boulangeriejoseph",
-            "adresse": "90, rue Montmartre, 75002 Paris",
-            "coords": [
-                48.86793699984097,
-                2.344418033728225
-            ]
-        },
-        {
-            "name": "Boulangerie Joseph",
-            "insta": "/boulangeriejoseph",
-            "adresse": "4 rue des petits carreaux, 75002 Paris",
-            "coords": [
-                48.866591635210966,
-                2.34738421169615
-            ]
-        }
-    ],
-    "Farinez vous Paris": [
-        {
-            "name": "Farinez vous Paris",
-            "insta": "/farinezvousparis",
-            "adresse": "9 rue Villiot, 75012 Paris",
-            "coords": [
-                48.84152924935129,
-                2.3747232675195313
-            ]
-        },
-        {
-            "name": "Farinez vous Paris",
-            "insta": "/farinezvousparis",
-            "adresse": "19 rue des Châteaux des Rentiers, 75013 Paris",
-            "coords": [
-                48.82382858809594,
-                2.370574321598229
-            ]
-        },
-        {
-            "name": "Farinez vous Paris",
-            "insta": "/farinezvousparis",
-            "adresse": " 74 rue Clisson, 75013 Paris",
-            "coords": [
-                48.8300672262096,
-                2.365578954023868
-            ]
-        }
-    ],
-    "Graine.Paris": [
-        {
-            "name": "Graine.Paris",
-            "insta": "/graine.paris",
-            "adresse": "54 rue Oberkampf, 75011 Paris",
-            "coords": [
-                48.864883517272986,
-                2.373241182861015
-            ]
-        },
-        {
-            "name": "Graine.Paris",
-            "insta": "/graine.paris",
-            "adresse": " 120 rue de Bagnolet, 75020 Paris",
-            "coords": [
-                48.86014661693925,
-                2.4040652675206777
-            ]
-        },
-        {
-            "name": "Graine.Paris",
-            "insta": "/graine.paris",
-            "adresse": "75 av. Gambetta, 75020 Paris",
-            "coords": [
-                48.8653926577004,
-                2.3971173251910294
-            ]
-        }
-    ],
-    "Gregoire Popincourt": [
-        {
-            "name": "Gregoire Popincourt",
-            "insta": "/gregoirepopincourt",
-            "adresse": "22 rue Popincourt,75011 Paris",
-            "coords": [
-                48.85817965545819,
-                2.3770351351078767
-            ]
-        }
-    ],
-    "Tartine and Co": [
-        {
-            "name": "Tartine and Co",
-            "insta": "/tartine_and_co",
-            "adresse": "6 rue jean jacques rousseau,75001 Paris",
-            "coords": [
-                48.86230066069805,
-                2.3401641116958953
-            ]
+                48.89325527107029,
+                2.2865888810176633
+            ],
+            "insta": "/arlette_et_colette",
+            "name": "Arlette et Colette"
         }
     ],
     "Benoit Castel": [
         {
-            "name": "Benoit Castel",
-            "insta": "/benoit_castel",
-            "comments": "",
             "adresse": "150 Rue de Meénilmontant, 75020 Paris",
+            "comments": "",
             "coords": [
                 48.870499995345,
                 2.398133177443171
-            ]
+            ],
+            "insta": "/benoit_castel",
+            "name": "Benoit Castel"
         },
         {
-            "name": "Benoit Castel",
-            "insta": "/benoit_castel",
-            "comments": "",
             "adresse": "72 Rue Jean Pierre Timbaud, 75011 Paris",
+            "comments": "",
             "coords": [
                 48.86730979370537,
                 2.375556225191171
-            ]
+            ],
+            "insta": "/benoit_castel",
+            "name": "Benoit Castel"
         },
         {
-            "name": "Benoit Castel",
-            "insta": "/benoit_castel",
-            "comments": "",
             "adresse": "11 rue Sorbier, 75020 Paris",
+            "comments": "",
             "coords": [
                 48.868281431903455,
                 2.3905029723633233
-            ]
-        }
-    ],
-    "Boulangerie Bacillus": [
-        {
-            "name": "Boulangerie Bacillus",
-            "insta": "/Boulangerie.Bacillus",
-            "comments": "",
-            "adresse": "100 Rue des Dames, 75017 Paris",
-            "coords": [
-                48.883016781845505,
-                2.3171229062836014
-            ]
-        },
-        {
-            "name": "Boulangerie Bacillus",
-            "insta": "/Boulangerie.Bacillus",
-            "comments": "",
-            "adresse": "Marché Couv. Batignolles, 75017 Paris",
-            "coords": [
-                48.88944636750577,
-                2.3197005675224807
-            ]
-        },
-        {
-            "name": "Boulangerie Bacillus",
-            "insta": "/Boulangerie.Bacillus",
-            "comments": "",
-            "adresse": "49 Rue de la Jonquière, 75017 Paris",
-            "coords": [
-                48.89366056958358,
-                2.3227536963577604
-            ]
-        }
-    ],
-    "Leonie Bakery": [
-        {
-            "name": "Leonie Bakery",
-            "insta": "/leoniebakeryparis",
-            "comments": "",
-            "adresse": "2 Passage Emma Calvé, 75012 Paris",
-            "coords": [
-                48.848377535638214,
-                2.385895667519958
-            ]
-        },
-        {
-            "name": "Leonie Bakery",
-            "insta": "/leoniebakeryparis",
-            "comments": "",
-            "adresse": "18 avenue des Ternes, 75017 Paris",
-            "coords": [
-                48.878709589035616,
-                2.2954599135419858
-            ]
-        },
-        {
-            "name": "Leonie Bakery",
-            "insta": "/leoniebakeryparis",
-            "comments": "",
-            "adresse": "47 rue Erlanger, 75016 Paris",
-            "coords": [
-                48.845255825846266,
-                2.260621069364843
-            ]
-        },
-        {
-            "name": "Leonie Bakery",
-            "insta": "/leoniebakeryparis",
-            "comments": "",
-            "adresse": "94 rue d'Hauteville, 75010 Paris",
-            "coords": [
-                48.87731674905652,
-                2.3515670386867287
-            ]
-        },
-        {
-            "name": "Leonie Bakery",
-            "insta": "/leoniebakeryparis",
-            "comments": "",
-            "adresse": "15 Avenue Trudaine, 75009 Paris ",
-            "coords": [
-                48.88157406997501,
-                2.3449582945119016
-            ]
-        },
-        {
-            "name": "Leonie Bakery",
-            "insta": "/leoniebakeryparis/",
-            "comments": "",
-            "adresse": "96 rue de Lévis, 75017 Paris",
-            "coords": [
-                48.885289600288715,
-                2.3113903233471422
-            ]
-        }
-    ],
-    "La petite alsacienne": [
-        {
-            "name": "La petite alsacienne",
-            "insta": "/lapetitealsacienne14/",
-            "adresse": "45 rue Raymond Losserand, 75014 paris",
-            "coords": [
-                48.83513536377247,
-                2.320211265674031
-            ]
-        }
-    ],
-    "Arlette et Colette": [
-        {
-            "name": "Arlette et Colette",
-            "insta": "/arlette_et_colette",
-            "comments": "",
-            "adresse": "4, rue de la Jonquière, 75011 Paris",
-            "coords": [
-                48.89342738125505,
-                2.3269677486179647
-            ]
-        },
-        {
-            "name": "Arlette et Colette",
-            "insta": "/arlette_et_colette",
-            "comments": "",
-            "adresse": "13 rue Lebon, 75017 Paris",
-            "coords": [
-                48.88115852657791,
-                2.29174996752198
-            ]
-        },
-        {
-            "name": "Arlette et Colette",
-            "insta": "/arlette_et_colette",
-            "comments": "",
-            "adresse": "63 rue Voltaire, 92300 Levallois-Perret",
-            "coords": [
-                48.89325527107029,
-                2.2865888810176633
-            ]
-        }
-    ],
-    "Mie amor": [
-        {
-            "name": "Mie Amor",
-            "insta": "/boulangeriemieamorparis",
-            "adresse": "18 rue littré, 75006 Paris",
-            "coords": [
-                48.844967484200865,
-                2.323819723344664
-            ]
+            ],
+            "insta": "/benoit_castel",
+            "name": "Benoit Castel"
         }
     ],
     "Boulanger de la tour": [
         {
-            "name": "Boulanger de la tour",
-            "insta": "/leboulangerdelatour",
             "adresse": "2, rue du Cardinal Lemoine, 75005 Paris",
             "coords": [
                 48.8499681698536,
                 2.3546744116951146
-            ]
+            ],
+            "insta": "/leboulangerdelatour",
+            "name": "Boulanger de la tour"
+        }
+    ],
+    "Boulangerie Bacillus": [
+        {
+            "adresse": "100 Rue des Dames, 75017 Paris",
+            "comments": "",
+            "coords": [
+                48.883016781845505,
+                2.3171229062836014
+            ],
+            "insta": "/Boulangerie.Bacillus",
+            "name": "Boulangerie Bacillus"
+        },
+        {
+            "adresse": "Marché Couv. Batignolles, 75017 Paris",
+            "comments": "",
+            "coords": [
+                48.88944636750577,
+                2.3197005675224807
+            ],
+            "insta": "/Boulangerie.Bacillus",
+            "name": "Boulangerie Bacillus"
+        },
+        {
+            "adresse": "49 Rue de la Jonquière, 75017 Paris",
+            "comments": "",
+            "coords": [
+                48.89366056958358,
+                2.3227536963577604
+            ],
+            "insta": "/Boulangerie.Bacillus",
+            "name": "Boulangerie Bacillus"
+        }
+    ],
+    "Boulangerie Joseph": [
+        {
+            "adresse": "42 rue des Petits Champs, 75002 Paris",
+            "coords": [
+                48.86749370807017,
+                2.3349343963561457
+            ],
+            "insta": "/boulangeriejoseph",
+            "name": "Boulangerie Joseph"
+        },
+        {
+            "adresse": "90, rue Montmartre, 75002 Paris",
+            "coords": [
+                48.86793699984097,
+                2.344418033728225
+            ],
+            "insta": "/boulangeriejoseph",
+            "name": "Boulangerie Joseph"
+        },
+        {
+            "adresse": "4 rue des petits carreaux, 75002 Paris",
+            "coords": [
+                48.866591635210966,
+                2.34738421169615
+            ],
+            "insta": "/boulangeriejoseph",
+            "name": "Boulangerie Joseph"
+        }
+    ],
+    "Boulangerie l'essentiel": [
+        {
+            "adresse": "73 boulevard auguste Blanqui, 75013 Paris",
+            "coords": [
+                48.8295228,
+                2.3458241
+            ],
+            "insta": "/boulangerie_lessentiel",
+            "name": "Boulangerie l'essentiel Blanqui"
+        },
+        {
+            "adresse": "254 Avenue Daumesnil, 75012 Paris",
+            "coords": [
+                48.836658,
+                2.4007403
+            ],
+            "insta": "/boulangerie_lessentiel",
+            "name": "Boulangerie l'essentiel Dausmenil"
+        },
+        {
+            "adresse": "2 Rue Mouffetard, 75005 Paris",
+            "coords": [
+                48.844885,
+                2.3468631
+            ],
+            "insta": "/boulangerie_lessentiel",
+            "name": "Boulangerie l'essentiel Mouffetard"
+        },
+        {
+            "adresse": "89 Rue de Tolbiac, 75013 Paris",
+            "coords": [
+                48.8269811,
+                2.3647757
+            ],
+            "insta": "/boulangerie_lessentiel",
+            "name": "Boulangerie l'essentiel Olympiades"
+        }
+    ],
+    "Boulangerie moderne": [
+        {
+            "adresse": "16 Rue des Fossés Saint-Jacques, 75005 Paris",
+            "comments": "",
+            "coords": [
+                48.8449322,
+                2.3413373
+            ],
+            "insta": "/boulangerie_moderne_/",
+            "name": "boulangerie moderne"
+        }
+    ],
+    "Chapel": [
+        {
+            "adresse": "25 rue de la Forge Royale; 75011 Paris",
+            "comments": "",
+            "coords": [
+                48.8517897,
+                2.3803406
+            ],
+            "insta": "/chapel.paris/",
+            "name": "Chapel"
+        }
+    ],
+    "De belles manieres": [
+        {
+            "adresse": "5 rue de Turbigo, 75001 Paris",
+            "coords": [
+                48.8637293,
+                2.3456187
+            ],
+            "insta": "/debellesmanieres",
+            "name": "De belles manieres"
+        }
+    ],
+    "Du pain": [
+        {
+            "adresse": "20 boulevard de Filles du Calvaire, 75011 Paris",
+            "comments": "",
+            "coords": [
+                48.8607591,
+                2.359056
+            ],
+            "insta": "/dupainparis/",
+            "name": "Du pain Paris"
+        }
+    ],
+    "Elements": [
+        {
+            "adresse": "3 rue Victor Letalle, 75020 Paris",
+            "coords": [
+                48.8672831,
+                2.3831079
+            ],
+            "insta": "/elements_painsbioaulevain/",
+            "name": "Elements"
+        }
+    ],
+    "Emile & Jules": [
+        {
+            "adresse": "18 Rue de la Terrasse, 75017 Paris",
+            "coords": [
+                48.882263,
+                2.3122455
+            ],
+            "insta": "/emile_et_jules",
+            "name": "Emile et Jules"
+        },
+        {
+            "adresse": "2 Rue Vavin, 75006 Paris",
+            "coords": [
+                48.8448407,
+                2.3300562
+            ],
+            "insta": "/emile_et_jules",
+            "name": "Emile et Jules"
+        }
+    ],
+    "Farinez vous Paris": [
+        {
+            "adresse": "9 rue Villiot, 75012 Paris",
+            "coords": [
+                48.84152924935129,
+                2.3747232675195313
+            ],
+            "insta": "/farinezvousparis",
+            "name": "Farinez vous Paris"
+        },
+        {
+            "adresse": "19 rue des Châteaux des Rentiers, 75013 Paris",
+            "coords": [
+                48.82382858809594,
+                2.370574321598229
+            ],
+            "insta": "/farinezvousparis",
+            "name": "Farinez vous Paris"
+        },
+        {
+            "adresse": " 74 rue Clisson, 75013 Paris",
+            "coords": [
+                48.8300672262096,
+                2.365578954023868
+            ],
+            "insta": "/farinezvousparis",
+            "name": "Farinez vous Paris"
+        }
+    ],
+    "Graine.Paris": [
+        {
+            "adresse": "54 rue Oberkampf, 75011 Paris",
+            "coords": [
+                48.864883517272986,
+                2.373241182861015
+            ],
+            "insta": "/graine.paris",
+            "name": "Graine.Paris"
+        },
+        {
+            "adresse": " 120 rue de Bagnolet, 75020 Paris",
+            "coords": [
+                48.86014661693925,
+                2.4040652675206777
+            ],
+            "insta": "/graine.paris",
+            "name": "Graine.Paris"
+        },
+        {
+            "adresse": "75 av. Gambetta, 75020 Paris",
+            "coords": [
+                48.8653926577004,
+                2.3971173251910294
+            ],
+            "insta": "/graine.paris",
+            "name": "Graine.Paris"
+        }
+    ],
+    "Gregoire Popincourt": [
+        {
+            "adresse": "22 rue Popincourt,75011 Paris",
+            "coords": [
+                48.85817965545819,
+                2.3770351351078767
+            ],
+            "insta": "/gregoirepopincourt",
+            "name": "Gregoire Popincourt"
+        }
+    ],
+    "La petite alsacienne": [
+        {
+            "adresse": "45 rue Raymond Losserand, 75014 paris",
+            "coords": [
+                48.83513536377247,
+                2.320211265674031
+            ],
+            "insta": "/lapetitealsacienne14/",
+            "name": "La petite alsacienne"
+        }
+    ],
+    "Le Bricheton": [
+        {
+            "adresse": "50 Rue de la Réunion, 75020 Paris",
+            "coords": [
+                48.8548732,
+                2.3997742
+            ],
+            "insta": "/lebricheton",
+            "name": "Le Bricheton"
+        }
+    ],
+    "Le pain retrouvé": [
+        {
+            "adresse": "60 rue Duhesme, 75018 Paris",
+            "coords": [
+                48.8930897,
+                2.3402596
+            ],
+            "insta": "/le_pain_retrouve",
+            "name": "Le pain retrouvé"
+        }
+    ],
+    "Leonie Bakery": [
+        {
+            "adresse": "2 Passage Emma Calvé, 75012 Paris",
+            "comments": "",
+            "coords": [
+                48.848377535638214,
+                2.385895667519958
+            ],
+            "insta": "/leoniebakeryparis",
+            "name": "Leonie Bakery"
+        },
+        {
+            "adresse": "18 avenue des Ternes, 75017 Paris",
+            "comments": "",
+            "coords": [
+                48.878709589035616,
+                2.2954599135419858
+            ],
+            "insta": "/leoniebakeryparis",
+            "name": "Leonie Bakery"
+        },
+        {
+            "adresse": "47 rue Erlanger, 75016 Paris",
+            "comments": "",
+            "coords": [
+                48.845255825846266,
+                2.260621069364843
+            ],
+            "insta": "/leoniebakeryparis",
+            "name": "Leonie Bakery"
+        },
+        {
+            "adresse": "94 rue d'Hauteville, 75010 Paris",
+            "comments": "",
+            "coords": [
+                48.87731674905652,
+                2.3515670386867287
+            ],
+            "insta": "/leoniebakeryparis",
+            "name": "Leonie Bakery"
+        },
+        {
+            "adresse": "15 Avenue Trudaine, 75009 Paris ",
+            "comments": "",
+            "coords": [
+                48.88157406997501,
+                2.3449582945119016
+            ],
+            "insta": "/leoniebakeryparis",
+            "name": "Leonie Bakery"
+        },
+        {
+            "adresse": "96 rue de Lévis, 75017 Paris",
+            "comments": "",
+            "coords": [
+                48.885289600288715,
+                2.3113903233471422
+            ],
+            "insta": "/leoniebakeryparis/",
+            "name": "Leonie Bakery"
+        }
+    ],
+    "Liberté Paris": [
+        {
+            "adresse": "39 rue des vinaigriers, 75010 Paris",
+            "coords": [
+                48.873088,
+                2.3596753
+            ],
+            "insta": "/liberte.paris/",
+            "name": "Liberté Paris - Paris 10"
+        },
+        {
+            "adresse": "10 rue poncelet, 75017 Paris",
+            "coords": [
+                48.8789215,
+                2.294716
+            ],
+            "insta": "/liberte.paris/",
+            "name": "Liberté Paris - Paris 17"
+        },
+        {
+            "adresse": "40 rue St-André-des-arts, 75006 Paris",
+            "coords": [
+                48.8534762,
+                2.3392047
+            ],
+            "insta": "/liberte.paris",
+            "name": "Liberté Paris - Paris 6"
+        },
+        {
+            "adresse": "58 rue St-Dominique, 75007 Paris",
+            "coords": [
+                48.8599476,
+                2.3068614
+            ],
+            "insta": "/liberte.paris",
+            "name": "Liberté Paris - Paris 7"
+        }
+    ],
+    "M. Jacques": [
+        {
+            "adresse": "132 Rue Saint-Maur, 75011 Paris",
+            "coords": [
+                48.8637293,
+                2.3456187
+            ],
+            "insta": "/patisseriemrjacques",
+            "name": "M. Jacques"
+        }
+    ],
+    "Maison Landemaine": [
+        {
+            "adresse": "121 rue de Charonne, 75011 Paris",
+            "comments": "",
+            "coords": [
+                48.8548698,
+                2.3838677
+            ],
+            "insta": "/maisonlandemaine/",
+            "name": "Maison Landemaine Charonne"
+        },
+        {
+            "adresse": "210 rue des Pyrénées, 75020 Paris",
+            "comments": "",
+            "coords": [
+                48.8655019,
+                2.3959788
+            ],
+            "insta": "/maisonlandemaine/",
+            "name": "Maison Landemaine Gambetta"
+        },
+        {
+            "adresse": "4 rue du Poteau, 75018 Paris",
+            "comments": "",
+            "coords": [
+                48.8928058,
+                2.3418444
+            ],
+            "insta": "/maisonlandemaine/",
+            "name": "Maison Landemaine Jules Joffrin"
+        },
+        {
+            "adresse": "56 rue de Clichy, 75009 Paris",
+            "comments": "",
+            "coords": [
+                48.8808828,
+                2.3265638
+            ],
+            "insta": "/maisonlandemaine/",
+            "name": "Maison Landemaine Clichy"
+        },
+        {
+            "adresse": "28 Boulevard Beaumarchais, 75011 Paris",
+            "comments": "",
+            "coords": [
+                48.8559552,
+                2.3665597
+            ],
+            "insta": "/maisonlandemaine/",
+            "name": "Maison Landemaine Beaumarchais"
+        },
+        {
+            "adresse": "7 place Cambronne, 75015 Paris",
+            "comments": "",
+            "coords": [
+                48.8474818,
+                2.2999613
+            ],
+            "insta": "/maisonlandemaine/",
+            "name": "Maison Landemaine Cambronne"
+        }
+    ],
+    "Mamiche": [
+        {
+            "adresse": "45 rue Condorcet, 75009 Paris",
+            "comments": "",
+            "coords": [
+                48.8800657,
+                2.3413131
+            ],
+            "insta": "/boulangeriemamiche/",
+            "name": "Mamiche condorcet"
+        },
+        {
+            "adresse": "32 rue du château d'eau, 75010 Paris",
+            "comments": "",
+            "coords": [
+                48.870633,
+                2.3575216
+            ],
+            "insta": "/boulangeriemamiche/",
+            "name": "Mamiche château"
+        }
+    ],
+    "Mie amor": [
+        {
+            "adresse": "18 rue littré, 75006 Paris",
+            "coords": [
+                48.844967484200865,
+                2.323819723344664
+            ],
+            "insta": "/boulangeriemieamorparis",
+            "name": "Mie Amor"
+        }
+    ],
+    "Petite boulangerie": [
+        {
+            "adresse": "120 rue de Belleville, 75020 Paris",
+            "comments": "",
+            "coords": [
+                48.8746822,
+                2.38619
+            ],
+            "insta": "/petite.boulangerie.belleville/",
+            "name": "Petite boulangerie - Belleville"
+        }
+    ],
+    "Sain": [
+        {
+            "adresse": "15 rue Marie et Louise, 75010 Paris",
+            "comments": "",
+            "coords": [
+                48.8718575,
+                2.3639712
+            ],
+            "insta": "/sain_boulangerie/",
+            "name": "Sain Bulangerie"
+        }
+    ],
+    "Tartine and Co": [
+        {
+            "adresse": "6 rue jean jacques rousseau,75001 Paris",
+            "coords": [
+                48.86230066069805,
+                2.3401641116958953
+            ],
+            "insta": "/tartine_and_co",
+            "name": "Tartine and Co"
+        }
+    ],
+    "Union Boulangerie": [
+        {
+            "adresse": "2 Rue Bleue, 75009 Paris",
+            "coords": [
+                48.8759316,
+                2.3453215
+            ],
+            "insta": "/union_boulangerie/",
+            "name": "Union Boulangerie"
+        }
+    ],
+    "Urban bakery": [
+        {
+            "adresse": "401 Rue des Pyrénées, 75020 Paris",
+            "comments": "",
+            "coords": [
+                48.8714198,
+                2.3626261
+            ],
+            "insta": "/urbanbakeryfamily/",
+            "name": "Urban bakery - HeadQuarters"
+        },
+        {
+            "adresse": "67 Rue du Faubourg du Temple, 75010 Paris",
+            "comments": "",
+            "coords": [
+                48.8700061,
+                2.3685726
+            ],
+            "insta": "/urbanbakeryfamily/",
+            "name": "Urban bakery - Goncourt"
+        },
+        {
+            "adresse": "1 Boulevard de Courcelles, 75008 Paris",
+            "comments": "",
+            "coords": [
+                48.8810031,
+                2.3143287
+            ],
+            "insta": "/urbanbakeryfamily/",
+            "name": "Urban bakery - Villiers"
+        },
+        {
+            "adresse": "112 rue de Belleville, 75020 Paris",
+            "comments": "",
+            "coords": [
+                48.8746007,
+                2.3851727
+            ],
+            "insta": "/urbanbakeryfamily/",
+            "name": "Urban bakery - Belleville"
+        }
+    ],
+    "Utopie": [
+        {
+            "adresse": "20 rue Jean-Pierre Timbaud, 75011 Paris",
+            "comments": "",
+            "coords": [
+                48.8637242,
+                2.3645223
+            ],
+            "insta": "/boulangerieutopie/",
+            "name": "Boulangerie Utopie"
+        }
+    ],
+    "Victoire Boulangerie": [
+        {
+            "adresse": "12 Rue Cadet, 75009 Paris",
+            "coords": [
+                48.8745249,
+                2.3411768
+            ],
+            "insta": "/victoire.boulangerie",
+            "name": "Victoire Boulangerie"
         }
     ]
 }

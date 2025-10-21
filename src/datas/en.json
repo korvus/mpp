@@ -15,5 +15,7 @@
     "aboutAccountLabel": "the Instagram account \"Le pain de mon quartier\"",
     "aboutDisclaimer": "This selection is subjective and open to debate because it reflects the taste of a single person.",
     "countTooltip": "Number of bakeries in this ranking",
-    "baguetteCta": "Craving an award-winning baguette?"
+    "baguetteCta": "Craving an award-winning baguette?",
+    "closeHint": "Close the panel (Esc)",
+    "viewMapCTA": "View the map"
 }

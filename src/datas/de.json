@@ -15,5 +15,7 @@
     "aboutAccountLabel": "dem Instagram-Account \"Le pain de mon quartier\"",
     "aboutDisclaimer": "Diese Auswahl ist subjektiv und zur Diskussion offen, weil sie den Geschmack einer einzigen Person widerspiegelt.",
     "countTooltip": "Anzahl der Baeckereien in dieser Auswahl",
-    "baguetteCta": "Lust auf ein preisgekröntes Baguette?"
+    "baguetteCta": "Lust auf ein preisgekröntes Baguette?",
+    "closeHint": "Panel schlie�en (Esc)",
+    "viewMapCTA": "Karte anzeigen"
 }

@@ -9,11 +9,11 @@ import uk from './uk.json';
 export const dictionaryList = { en, fr, sl, it, es, de, uk };
 
 export const languageOptions = {
-  fr: 'Fr\u00E7ais',
+  fr: 'Français',
   en: 'English',
-  sl: 'Sloven\u0161\u010Dina',
+  sl: 'Slovenščina',
   it: 'Italiano',
-  es: 'Espa\u00F1ol',
+  es: 'Español',
   de: 'Deutsch',
-  uk: '\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430'
+  uk: 'Українська'
 };
