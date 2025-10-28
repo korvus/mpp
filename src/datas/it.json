@@ -1,0 +1,45 @@
+﻿{
+    "titre":  "Le migliori pasticcerie di Parigi",
+    "tous":  "Tutte",
+    "About":  "Che cos\u0027è",
+    "goalContent":  "Questa mappa collaborativa raccoglie le pasticcerie parigine consigliate dalla community locale.",
+    "contestwikipedia":  "Le raccomandazioni provengono da un cross-post su Facebook del 2020.",
+    "goalContentEnd":  "Considerala una capsula del tempo: alcuni locali potrebbero essere cambiati da allora.",
+    "capsuleDisclaimer":  "Post comunitario su Facebook del 2020 (%YEARS% anni dopo). Controlla le recensioni più recenti: gestione, ricette o orari potrebbero essere cambiati.",
+    "writeMe":  "Puoi scrivermi direttamente a",
+    "ici":  "qui",
+    "divers":  "Varie",
+    "app":  "sviluppato",
+    "noBakery":  "In quest\u0027area non ci sono pasticcerie. Sposta o riduci la mappa per trovarne altre.",
+    "autre":  "Altro",
+    "countTooltip":  "Numero di pasticcerie in questa categoria",
+    "languageGroupLabel":  "Cambia lingua",
+    "sidebarLabel":  "Filtra le pasticcerie per specialità",
+    "mapLabel":  "Mappa interattiva delle pasticcerie parigine",
+    "helpTooltip":  "Scopri di più",
+    "seoTitle":  "Le migliori pasticcerie di Parigi | Mappa collaborativa delle specialità",
+    "seoDescription":  "Mappa collaborativa delle migliori pasticcerie di Parigi: frutto di un post incrociato su Facebook del 2020 (%YEARS% anni dopo). Verifica le informazioni prima di andare: potrebbero essere cambiate.",
+    "seoKeywords":  "pasticceria parigi, dolci parigini, mappa pasticcerie, migliori pasticcerie parigi",
+    "ogTitle":  "Mappa delle migliori pasticcerie di Parigi",
+    "ogDescription":  "Una mappa curata dalla community per scoprire le pasticcerie più amate di Parigi: post Facebook del 2020 (%YEARS% anni dopo), da verificare prima della visita.",
+    "showMap":  "Mostra la mappa",
+    "promoTitle":  "Scopri anche",
+    "promoLinks":  [
+                       {
+                           "href":  "https://bestbaguettes.200.work",
+                           "label":  "Le migliori baguette di Parigi"
+                       },
+                       {
+                           "href":  "https://boulangerieparisbio.200.work",
+                           "label":  "Le panetterie bio di Parigi"
+                       },
+                       {
+                           "href":  "mailto:ecrivez.moi@simonertel.net",
+                           "label":  "Segnala un bug"
+                       },
+                       {
+                           "href":  "https://simon.gallery/shop",
+                           "label":  "T-shirt uniche nel mio shop"
+                       }
+                   ]
+}

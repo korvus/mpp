@@ -1,0 +1,45 @@
+﻿{
+    "titre":  "Najboljše pariške slaščice",
+    "tous":  "Vse",
+    "About":  "Kaj je to",
+    "goalContent":  "Ta sodelovalni zemljevid zbira pariške slaščičarne, ki jih priporoča lokalna skupnost.",
+    "contestwikipedia":  "Priporočila izvirajo iz navzkrižne objave na Facebooku iz leta 2020.",
+    "goalContentEnd":  "Zemljevid je časovna kapsula: mogoče je, da so se od takrat lokali spremenili.",
+    "capsuleDisclaimer":  "Skupna objava na Facebooku iz 2020 (%YEARS% let pozneje). Pred obiskom preverite najnovejše ocene – lastništvo, ponudba ali urnik se lahko spremenijo.",
+    "writeMe":  "Pišete mi lahko na",
+    "ici":  "tu",
+    "divers":  "Razno",
+    "app":  "razvil",
+    "noBakery":  "Na tem območju ni slaščičarne. Premaknite ali oddaljite zemljevid in poiščite nove točke.",
+    "autre":  "Drugo",
+    "countTooltip":  "Število slaščičarn v tej kategoriji",
+    "languageGroupLabel":  "Spremeni jezik",
+    "sidebarLabel":  "Filtriraj slaščičarne po specialiteti",
+    "mapLabel":  "Interaktivni zemljevid pariških slaščičarn",
+    "helpTooltip":  "Več informacij",
+    "seoTitle":  "Najboljše pariške slaščice | Sodelovalni interaktivni zemljevid",
+    "seoDescription":  "Sodelovalni zemljevid najboljših pariških slaščičarn: rezultat navzkrižne objave na Facebooku iz 2020 (%YEARS% let pozneje). Lokali so se lahko spremenili – preverite pred obiskom.",
+    "seoKeywords":  "pariške slaščice, zemljevid slaščic, najboljše slaščice pariz, francoske sladice",
+    "ogTitle":  "Zemljevid najboljših pariških slaščičarn",
+    "ogDescription":  "Skupnostni zemljevid za odkrivanje najljubših pariških slaščičarn: objava na Facebooku iz 2020 (%YEARS% let pozneje), zato pred obiskom preverite informacije.",
+    "showMap":  "Prikaži zemljevid",
+    "promoTitle":  "Odkrijte še",
+    "promoLinks":  [
+                       {
+                           "href":  "https://bestbaguettes.200.work",
+                           "label":  "Najboljše bagete v Parizu"
+                       },
+                       {
+                           "href":  "https://boulangerieparisbio.200.work",
+                           "label":  "Organske pekarne v Parizu"
+                       },
+                       {
+                           "href":  "mailto:ecrivez.moi@simonertel.net",
+                           "label":  "Prijavite napako"
+                       },
+                       {
+                           "href":  "https://simon.gallery/shop",
+                           "label":  "Unikatne majice v moji trgovini"
+                       }
+                   ]
+}

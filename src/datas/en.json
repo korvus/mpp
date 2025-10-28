@@ -1,15 +1,46 @@
-{
-    "titre": "Best parisian pastry",
-    "tous": "All",
-    "About": "About",
-    "goalContent": "This website list parisian pastry sorted by some parisians.",
-    "contestwikipedia": "references are from a Facebook post.",
-    "goalContentEnd": " This post date from 2020.",
-    "writeMe": "You can write me directly at",
-    "ici": "here",
-    "divers": "Others",
-    "introPatteFolle": "If you like baking, I also made this ",
-    "app": "app",
-    "noBakery": "There is no bakery in this area. drag the map or unzoom for trying to find one.",
-    "autre": "Others"
+﻿{
+    "titre":  "Best Parisian pastry",
+    "tous":  "All",
+    "About":  "About",
+    "goalContent":  "This collaborative map gathers the Paris pastry shops recommended by local communities.",
+    "contestwikipedia":  "The shortlist was crowdsourced from a cross-posted Facebook thread back in 2020.",
+    "goalContentEnd":  "Treat it as a time capsule: venues may have evolved since the original post.",
+    "capsuleDisclaimer":  "Crowdsourced Facebook post from 2020 (%YEARS% years later). Please double-check recent reviews—ownership, menus or schedules may have changed.",
+    "writeMe":  "You can write me directly at",
+    "ici":  "here",
+    "divers":  "Others",
+    "introPatteFolle":  "If you like baking, I also made this ",
+    "app":  "app",
+    "noBakery":  "There is no bakery in this area. Drag the map or zoom out to find one.",
+    "autre":  "Others",
+    "countTooltip":  "Number of bakeries listed for this specialty",
+    "languageGroupLabel":  "Change language",
+    "sidebarLabel":  "Filter bakeries by specialty",
+    "mapLabel":  "Interactive map of Parisian pastry shops",
+    "helpTooltip":  "Learn more",
+    "seoTitle":  "Best Paris pastries | Community-curated interactive map",
+    "seoDescription":  "Community map of the best pastry shops in Paris: results from a cross-posted Facebook thread (2020, %YEARS% years later). Venues may have changed—check before you go.",
+    "seoKeywords":  "paris pastries, paris dessert map, best pastries in paris, french desserts, pastry map",
+    "ogTitle":  "Interactive map of the best pastry shops in Paris",
+    "ogDescription":  "A community-driven map to discover the most beloved Paris pastry shops: sourced from a 2020 Facebook thread (%YEARS% years later), so double-check details before visiting.",
+    "showMap":  "Show the map",
+    "promoTitle":  "Discover more",
+    "promoLinks":  [
+                       {
+                           "href":  "https://bestbaguettes.200.work",
+                           "label":  "Best baguettes in Paris"
+                       },
+                       {
+                           "href":  "https://boulangerieparisbio.200.work",
+                           "label":  "Organic bakeries in Paris"
+                       },
+                       {
+                           "href":  "mailto:ecrivez.moi@simonertel.net",
+                           "label":  "Report a bug"
+                       },
+                       {
+                           "href":  "https://simon.gallery/shop",
+                           "label":  "Unique T-shirts in my shop"
+                       }
+                   ]
 }

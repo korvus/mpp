@@ -1,0 +1,19 @@
+option batch abort
+option confirm off
+option transfer binary
+# option exclude *.map   # optional
+
+open sftp://u372623295:Miza2025*@82.25.113.115:65002 -hostkey="ssh-ed25519 255 6bHxo1XFm32AoC4oFzVQSDR6jc+plhuWPr4a//ByGD4="
+
+lcd dist
+lpwd
+
+# Remote path (use absolute first; fall back to relative if needed)
+cd /home/u372623295/domains/200.work/public_html/patisseriesparis
+pwd
+ls
+
+# Sync dist -> remote folder (updates and prunes old files)
+synchronize remote -delete .
+
+exit

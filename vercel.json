@@ -1,0 +1,9 @@
+{
+    "redirects": [
+        {
+            "source": "/(.*)",
+            "destination": "https://patisseriesparis.200.work",
+            "permanent": true
+        }
+    ]
+}
